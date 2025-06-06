@@ -1,1 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Kavoon&family=Pixelify+Sans:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 
+
+h1 {
+    font-family: "kavoon";
+    font-size: 28px;
+}
+
+h2 {
+    font-family: "Plus Jakarta Sans";
+    font-size: 22px;
+}
+
+h3 {
+    font-family: "Plus Jakarta Sans";
+    font-size: 12px;
+}
+
+p {
+    font-family: "Plus Jakarta Sans";
+    font-size: 12px;
+}
+
+blockquote {
+    font-family: "plus jakarta sans";
+    font-size: 12px;
+}
+
+b, strong {
+    font-weight: 700;
+}
+
+em, i {
+    font-style: italic;
+}
+
+button.primary.active {
+  background-color: #D96C94; 
+  color: black;              
+  border: none;              
+  padding: 10px 20px; 
+  font-family: Kavoon;     
+  font-size: 16px;                 
+  cursor: pointer;          
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+button.primary.hover {
+  background-color: #A32654; 
+  color: black;              
+  border: none;              
+  padding: 10px 20px; 
+  font-family: Kavoon;     
+  font-size: 16px;                 
+  cursor: pointer;          
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+button.secondary.active {
+  background-color: #F3C16D; 
+  color: black;              
+  border: none;              
+  padding: 10px 20px; 
+  font-family: Kavoon;     
+  font-size: 16px;                 
+  cursor: pointer;          
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+button.secondary.hover {
+  background-color: #A87725; 
+  color: black;              
+  border: none;              
+  padding: 10px 20px; 
+  font-family: Kavoon;     
+  font-size: 16px;                 
+  cursor: pointer;          
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+
+text {
+    font-family: "Kavoon";
+}
+
+.button.Submit {
+    background-color: #A87725; 
+}
+
+.square {
+	width: 100px;
+	height: 100px;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.Colours {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	margin: 100;
+	background-color: #f4f4f4;
+}
+
+.grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 10px;
+}
+
+.square-1 {
+	background: #F3C16D;
+    font-size: 15px;
+}
+
+.square-2 {
+	background: #7CC0AE;
+	color: #000000;
+    font-size: 15px;
+}
+
+.square-3 {
+	background: #D96C94;
+    font-size: 15px;
+}
+
+.square-4 {
+	background: #F1CBBD;
+	color: #000000;
+    font-size: 15px;
+}
+
+.square-5 {
+	background: #489AD3;
+	color: #000000;
+    font-size: 15px;
+}
+
+.square-6 {
+	background: #EC9C4A;
+	color: #000000;
+    font-size: 15px;
+}
+
+.square-7 {
+	background: #FFCF2D;
+	color: #000000;
+    font-size: 15px;
+}
+
+.square-8 {
+	background: #BDACE2;
+	color: #000000;
+    font-size: 15px;
+}
+
+.square-9 {
+	background: #85CAC0;
+	color: #000000;
+    font-size: 15px;
+}
+
+.square-10 {
+	background: #F7D5AC;
+	color: #000000;
+    font-size: 15px;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+
+h1 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+form {
+  background-color: #D9D9D9;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 300px;
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+  color: #444;
+  font-weight: bold;
+  font-family: "Kavoon";
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+input[type="checkbox"],
+input[type="radio"] {
+  width: auto;
+  margin-right: 5px;
+  font-family: "Kavoon";
+}
+
+button[type="submit"] {
+  background-color: #7CC0AE;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: "Kavoon";
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #2F6657;
+}

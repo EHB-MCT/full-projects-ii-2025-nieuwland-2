@@ -4,7 +4,51 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
 
-/*Startpagina*/
+/*footer begin*/
+.footer {
+	padding: 5px 5px 5px 5px;
+	margin-top: 40px;
+	background-color: gray;
+}
+
+.footer p {
+	font-family: "Plus Jakarta Sans";
+	font-size: 8px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.footer-logo {
+	height: 30px;
+}
+
+.phone-icon {
+	height: 15px;
+}
+
+.mail-icon {
+	height: 15px;
+}
+
+.facebook-icon {
+	height: 15px;
+}
+
+.visie-footer,
+.bredeschool-footer,
+.klassen-footer,
+.inschrijven-footer,
+.contact-footer,
+.nieuws-footer,
+.praktischeinformatie-footer {
+	font-family: "Plus Jakarta Sans";
+	font-size: 8px;
+	text-decoration: none;
+	color: black;
+}
+/*footer einde*/
+
+/*Startpagina begin*/
 body {
 	margin-left: 17px;
 	margin-right: 17px;
@@ -32,10 +76,9 @@ body {
 	font-family: "kavoon";
 	font-size: 28px;
 	rotate: 25deg;
-	flex-direction: row;
 }
 
-h2 {
+.start-body h2 {
 	font-family: "Plus Jakarta Sans";
 	font-size: 18px;
 	font-weight: bold;
@@ -50,6 +93,35 @@ p {
 	font-family: "Plus Jakarta Sans";
 	font-size: 12px;
 }
+
+/*Startpagina einde*/
+
+/*Contactpagina begin*/
+.contact-body h1 {
+	font-family: "kavoon";
+	font-size: 28px;
+	text-align: center;
+	margin: 20px 20px 20px 20px;
+	background-color: yellow;
+}
+
+.contact-body h2 {
+	font-family: "Plus Jakarta Sans";
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.contact-title {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.contact-body p {
+	font-family: "Plus Jakarta Sans";
+	padding-top: 10px;
+	font-size: 12px;
+}
+/*Contactpagina einde*/
 
 /* blockquote {
 	font-family: "plus jakarta sans";

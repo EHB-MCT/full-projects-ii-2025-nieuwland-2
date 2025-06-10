@@ -1,6 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Kavoon&family=Pixelify+Sans:wght@400..700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
 
+body {
+	margin: 17px;
+}
+
+.navigation{
+	padding: 20px;
+}
+
 h1 {
 	font-family: "kavoon";
 	font-size: 28px;
@@ -231,3 +239,99 @@ button[type="submit"] {
 button[type="submit"]:hover {
 	background-color: #2f6657;
 }
+
+.PIalg {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
+
+.PIalg1 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.PIalg1 h2 {
+	padding: 5px;
+}
+
+.PISU {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
+
+.PISU2 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.PISU2 h2 {
+	padding: 5px;
+}
+
+.footerwrapper {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
+.footerwrapper div{
+	flex: 1;
+}
+
+.footer1 img {
+	width: 20%;
+}
+
+.footer1 {
+	flex-direction: column;
+	background-color: yellow;
+}
+
+.footer1 p {
+	padding-top: 6px;
+}
+
+.footer2 {
+	display: flex;
+	flex-direction: column;
+	background-color: grey;
+	
+}
+
+.footer2 p {
+	padding-top: 6px;
+}
+
+.footer3 {
+	display: flex;
+	flex-direction: column;
+	background-color: green;
+}
+
+.footer3 p {
+	padding-top: 6px;
+}
+
+.footer4 {
+	display: flex;
+	flex-direction: column;
+	background-color: red;
+}
+
+.footer4 p {
+	padding-top: 6px;
+
+}
+
+.footer4 img {
+	width: 100%
+}
+

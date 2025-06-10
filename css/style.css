@@ -16,7 +16,8 @@ body {
 }
 
 .start-body {
-	background-color: red;
+	/* background-image: url("ripped-paper-top-home"); */
+	background-color: beige;
 }
 
 /* .start-body header {
@@ -27,14 +28,11 @@ body {
 	height: 30px;
 }
 
-.title {
-	text-decoration: none;
-}
-
-h1 {
+.start-body h1 {
 	font-family: "kavoon";
 	font-size: 28px;
 	rotate: 25deg;
+	flex-direction: row;
 }
 
 h2 {

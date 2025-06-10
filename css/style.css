@@ -1,14 +1,46 @@
 @import url("https://fonts.googleapis.com/css2?family=Kavoon&family=Pixelify+Sans:wght@400..700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
+
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+/*Startpagina*/
+body {
+	margin-left: 17px;
+	margin-right: 17px;
+}
+
+.introduction p {
+	line-height: 15px;
+	/* rotate: -30deg; */
+}
+
+.start-body {
+	background-color: red;
+}
+
+/* .start-body header {
+	background-color: red;
+} */
+
+.logo {
+	height: 30px;
+}
+
+.title {
+	text-decoration: none;
+}
 
 h1 {
 	font-family: "kavoon";
 	font-size: 28px;
+	rotate: 25deg;
 }
 
 h2 {
 	font-family: "Plus Jakarta Sans";
-	font-size: 22px;
+	font-size: 18px;
+	font-weight: bold;
 }
 
 h3 {
@@ -21,7 +53,7 @@ p {
 	font-size: 12px;
 }
 
-blockquote {
+/* blockquote {
 	font-family: "plus jakarta sans";
 	font-size: 12px;
 }
@@ -230,4 +262,4 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
 	background-color: #2f6657;
-}
+} */

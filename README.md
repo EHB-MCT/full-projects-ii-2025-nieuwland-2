@@ -1,9 +1,13 @@
 # full-projects-starter
 
-
 ## structure
 
 index.html -> html code
-css/* -> styling
-js/* -> javascript code
-js/* -> javascript directory
+css/_ -> styling
+js/_ -> javascript code
+js/\* -> javascript directory
+
+# bronnen
+
+navigatie -> dropdownmenu
+https://www.w3schools.com/howto/howto_css_dropdown.asp

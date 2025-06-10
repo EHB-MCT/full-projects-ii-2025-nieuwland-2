@@ -4,34 +4,155 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
 
+/*navigatie begin*/
+.logo {
+	height: 30px;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+}
+
+.navigation {
+	padding: 8px 8px 40px 8px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.Nieuws,
+.Contact {
+	text-decoration: none;
+	font-size: 10px;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.Nieuws {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: purple; /* blauw */
+	color: white;
+}
+
+.Contact {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: blue; /* blauw */
+	color: white;
+}
+/*Dropdown button*/
+.dropbtn_1,
+.dropbtn_2 {
+	background-color: #04aa6d;
+	color: white;
+	padding: 10px;
+	font-size: 10px;
+	border: none;
+	border-radius: 10px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown_1,
+.dropdown_2 {
+	position: relative;
+	display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content_1,
+.dropdown-content_2 {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content_1 a,
+.dropdown-content_2 a {
+	color: black;
+	padding: 5px 5px 5px 5px;
+	text-decoration: none;
+	display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content_1 a:hover,
+.dropdown-content_2 a:hover {
+	background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown_1:hover .dropdown-content_1 {
+	display: block;
+}
+
+.dropdown_2:hover .dropdown-content_2 {
+	display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown_1:hover .dropbtn_1 {
+	background-color: #3e8e41;
+}
+
+.dropdown_2:hover .dropbtn_2 {
+	background-color: #3e8e41;
+}
+
+/*navigatie einde*/
+
 /*footer begin*/
 .footer {
-	padding: 5px 5px 5px 5px;
-	margin-top: 40px;
-	background-color: gray;
+	display: inline-block;
+	width: calc(100% - 120px);
+	background-color: #fdf6ec;
+	padding: 0 60px 30px 60px;
 }
 
 .footer p {
 	font-family: "Plus Jakarta Sans";
-	font-size: 8px;
-	padding-top: 4px;
-	padding-bottom: 4px;
+	font-size: 6px;
+	padding-top: 8px;
+	padding-bottom: 8px;
 }
 
 .footer-logo {
+	margin-top: 20px;
+	margin-bottom: 10px;
 	height: 30px;
 }
 
-.phone-icon {
-	height: 15px;
-}
-
-.mail-icon {
+.phone-icon,
+.mail-icon,
+.map-icon-footer {
 	height: 15px;
 }
 
 .facebook-icon {
-	height: 15px;
+	height: 20px;
+}
+
+.footer-line,
+.map-line-footer {
+	display: flex;
+	align-items: center;
+	/*ruimte tussen de iconen en de tekst*/
+	gap: 5px;
+}
+
+.map-line-footer {
+	margin: 0 auto;
+	max-width: 200px;
+}
+
+.kaart {
+	max-width: 250px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .visie-footer,
@@ -42,9 +163,23 @@
 .nieuws-footer,
 .praktischeinformatie-footer {
 	font-family: "Plus Jakarta Sans";
-	font-size: 8px;
+	font-size: 10px;
 	text-decoration: none;
 	color: black;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	text-decoration: underline;
+}
+
+.links-footer {
+	display: flex;
+	justify-content: space-between;
+}
+
+.item_row_1,
+.item_row_2 {
+	display: flex;
+	flex-direction: column;
 }
 /*footer einde*/
 
@@ -67,11 +202,6 @@ body {
 /* .start-body header {
 	background-color: red;
 } */
-
-.logo {
-	height: 30px;
-}
-
 .start-body h1 {
 	font-family: "kavoon";
 	font-size: 28px;
@@ -97,29 +227,63 @@ p {
 /*Startpagina einde*/
 
 /*Contactpagina begin*/
+.contact-body {
+	margin: 0;
+}
+
 .contact-body h1 {
 	font-family: "kavoon";
+	display: block;
+	margin: 0 auto;
+	max-width: 200px;
 	font-size: 28px;
 	text-align: center;
-	margin: 20px 20px 20px 20px;
+	padding: 10px 10px 10px 10px;
 	background-color: yellow;
 }
 
 .contact-body h2 {
 	font-family: "Plus Jakarta Sans";
+	margin-top: 10px;
+	margin-bottom: 10px;
 	font-size: 16px;
 	font-weight: bold;
 }
 
-.contact-title {
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-}
 .contact-body p {
 	font-family: "Plus Jakarta Sans";
 	padding-top: 10px;
 	font-size: 12px;
+}
+
+.contact-text {
+	/*maak dit element niet breder dan 350 pixels*/
+	max-width: 350px;
+	/*0 -> geen verticale marge & auto laat de browser automaticsh de linker- en rechtermarge berekenen*/
+	margin: 0 auto;
+	background-color: orange;
+	padding: 20px 20px 20px 20px;
+}
+
+.location-icon {
+	height: 15px;
+}
+
+.map-section p {
+	position: relative;
+	left: 40px;
+}
+
+.map {
+	margin-top: 50px;
+	margin-bottom: 40px;
+	width: 80%;
+}
+
+.map-line {
+	background-color: pink;
+	display: flex;
+	align-items: center;
 }
 /*Contactpagina einde*/
 

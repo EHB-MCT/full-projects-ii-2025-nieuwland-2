@@ -78,6 +78,107 @@ button.secondary.hover {
 	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
+text {
+	font-family: "Kavoon";
+}
+
+.button.Submit {
+	background-color: #a87725;
+}
+
+.square {
+	width: 100px;
+	height: 100px;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.Colours {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	margin: 100;
+	background-color: #f4f4f4;
+}
+
+.grid {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	gap: 10px;
+}
+
+.square-1 {
+	background: #f3c16d;
+	font-size: 15px;
+}
+
+.square-2 {
+	background: #7cc0ae;
+	color: #000000;
+	font-size: 15px;
+}
+
+.square-3 {
+	background: #d96c94;
+	font-size: 15px;
+}
+
+.square-4 {
+	background: #f1cbbd;
+	color: #000000;
+	font-size: 15px;
+}
+
+.square-5 {
+	background: #489ad3;
+	color: #000000;
+	font-size: 15px;
+}
+
+.square-6 {
+	background: #ec9c4a;
+	color: #000000;
+	font-size: 15px;
+}
+
+.square-7 {
+	background: #ffcf2d;
+	color: #000000;
+	font-size: 15px;
+}
+
+.square-8 {
+	background: #bdace2;
+	color: #000000;
+	font-size: 15px;
+}
+
+.square-9 {
+	background: #85cac0;
+	color: #000000;
+	font-size: 15px;
+}
+
+.square-10 {
+	background: #f7d5ac;
+	color: #000000;
+	font-size: 15px;
+}
+
+* {
+	box-sizing: border-box;
+	font-family: "Arial", sans-serif;
+}
+
+h1 {
+	font-size: 28px;
+	color: #333;
+}
 /*navigatie begin*/
 .logo {
 	height: 30px;
@@ -112,6 +213,120 @@ button.secondary.hover {
 	padding: 10px 20px;
 	background-color: #e28fb2;
 	color: white;
+}
+
+.footerwrapper {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
+.footerwrapper div{
+	flex: 1;
+}
+
+.footer1 img {
+	width: 20%;
+}
+
+.footer1 {
+	flex-direction: column;
+	background-color: yellow;
+}
+
+.footer1 p {
+	padding-top: 6px;
+}
+
+.footer2 {
+	display: flex;
+	flex-direction: column;
+	background-color: grey;
+	
+}
+
+.footer2 p {
+	padding-top: 6px;
+}
+
+.footer3 {
+	display: flex;
+	flex-direction: column;
+	background-color: green;
+}
+
+.footer3 p {
+	padding-top: 6px;
+}
+
+.footer4 {
+	display: flex;
+	flex-direction: column;
+	background-color: red;
+}
+
+.footer4 p {
+	padding-top: 6px;
+
+}
+
+.footer4 img {
+	width: 100%
+}
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*navigatie begin*/
+.logo {
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+ 
+.navigation {
+    padding: 8px 8px 40px 8px;
+    display: flex;
+    justify-content: space-between;
+}
+ 
+.Nieuws,
+.Contact {
+    text-decoration: none;
+    font-size: 10px;
+    padding: 10px;
+    font-family: "Plus Jakarta Sans";
+}
+ 
+.Nieuws {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ec9c4a;
+    color: white;
+}
+ 
+.Contact {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e28fb2;
+    color: white;
+}
+/*Dropdown button*/
+.dropbtn_1,
+.dropbtn_2 {
+    color: white;
+    padding: 10px;
+    font-size: 10px;
+    border: none;
+}
+ 
+.dropbtn_1 {
+    background-color: #f3c16d;
+}
+ 
+.dropbtn_2 {
+    background-color: #489ad3;
 }
 /*Dropdown button*/
 .dropbtn_1,
@@ -187,7 +402,7 @@ button.secondary.hover {
 /*footer begin*/
 .footer {
 	display: inline-block;
-	width: calc(100% - 120px);
+	width: 100%;
 	background-color: #fdf6ec;
 	padding: 0 60px 30px 60px;
 }
@@ -268,4 +483,3 @@ button.secondary.hover {
 	display: flex;
 	flex-direction: column;
 }
-/*footer einde*/

@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+/*Contactpagina begin*/
+.contact-body {
+	margin: 0;
+	background-image: url("/images/contact_background.png");
+}
+
+.contact-body h1 {
+	font-family: "Lexend";
+	display: block;
+	margin: 0 auto;
+	max-width: 200px;
+	font-size: 28px;
+	text-align: center;
+	padding: 10px 10px 10px 10px;
+	background-image: url("/images/tape_contact.png");
+}
+
+.contact-body h2 {
+	font-family: "Plus Jakarta Sans";
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 13px;
+}
+
+.contact-text p {
+	font-family: "Plus Jakarta Sans";
+	line-height: 13px;
+	font-size: 9px;
+}
+
+.contact-container {
+	/*parent*/
+	position: relative;
+	width: 100%;
+}
+
+.collage-contact {
+	width: 100%;
+	display: block;
+}
+
+.contact-text {
+	/*child*/
+	position: absolute;
+	top: 30%;
+	left: 25%;
+	/*0 -> geen verticale marge & auto laat de browser automaticsh de linker- en rechtermarge berekenen*/
+	margin: 0 auto;
+	/*maak dit element niet breder dan 350 pixels*/
+	max-width: 250px;
+	padding: 10px 10px 10px 10px;
+	background-image: url("/images/contactp_background.png");
+}
+
+.location-icon {
+	height: 15px;
+}
+
+.map-section {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.map {
+	margin-top: 30px;
+	margin-bottom: 40px;
+	width: 80%;
+}
+
+.map-line {
+	display: flex;
+	justify-content: center;
+}
+
+.icon-line-3 {
+	background-image: url("/images/purple_tape.png");
+}
+/*Contactpagina einde*/

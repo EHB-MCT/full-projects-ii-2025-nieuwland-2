@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Kavoon&family=Pixelify+Sans:wght@400..700&display=swap");
-
 @import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
@@ -142,7 +140,8 @@
 }
 
 .icon-line-1,
-.icon-line-2 {
+.icon-line-2,
+.icon-line-3 {
 	display: flex;
 	align-items: center;
 	/*ruimte tussen de iconen en de tekst*/
@@ -215,7 +214,7 @@ body {
 	background-color: red;
 } */
 .start-body h1 {
-	font-family: "kavoon";
+	font-family: "Lexend";
 	font-size: 28px;
 	rotate: 25deg;
 }
@@ -245,14 +244,14 @@ p {
 }
 
 .contact-body h1 {
-	font-family: "kavoon";
+	font-family: "Lexend";
 	display: block;
 	margin: 0 auto;
 	max-width: 200px;
 	font-size: 28px;
 	text-align: center;
 	padding: 10px 10px 10px 10px;
-	background-color: yellow;
+	background-image: url("/images/tape_contact.png");
 }
 
 .contact-body h2 {
@@ -261,29 +260,31 @@ p {
 	margin-bottom: 10px;
 	font-size: 12px;
 	font-weight: bold;
+	line-height: 13px;
 }
 
 .contact-text p {
 	font-family: "Plus Jakarta Sans";
-	line-height: 10px;
-	font-size: 8px;
+	line-height: 13px;
+	font-size: 9px;
 }
 
 .contact-container {
+	/*parent*/
 	position: relative;
 	width: 100%;
 }
 
 .collage-contact {
 	width: 100%;
-	/* display: block; */
-	position: relative;
+	display: block;
 }
 
 .contact-text {
+	/*child*/
 	position: absolute;
-	top: 0;
-	left: 0;
+	top: 30%;
+	left: 25%;
 	/*0 -> geen verticale marge & auto laat de browser automaticsh de linker- en rechtermarge berekenen*/
 	margin: 0 auto;
 	/*maak dit element niet breder dan 350 pixels*/
@@ -303,231 +304,17 @@ p {
 }
 
 .map {
-	margin-top: 50px;
+	margin-top: 30px;
 	margin-bottom: 40px;
 	width: 80%;
 }
 
 .map-line {
 	display: flex;
-	background-color: pink;
 	justify-content: center;
-	gap: 0px;
 }
 
-.location-icon {
-	display: flex;
-	justify-content: center;
+.icon-line-3 {
+	background-image: url("/images/purple_tape.png");
 }
 /*Contactpagina einde*/
-
-/* blockquote {
-	font-family: "plus jakarta sans";
-	font-size: 12px;
-}
-
-b,
-strong {
-	font-weight: 700;
-}
-
-em,
-i {
-	font-style: italic;
-}
-
-button.primary.active {
-	background-color: #d96c94;
-	color: black;
-	border: none;
-	padding: 10px 20px;
-	font-family: Kavoon;
-	font-size: 16px;
-	cursor: pointer;
-	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-}
-
-button.primary.hover {
-	background-color: #a32654;
-	color: black;
-	border: none;
-	padding: 10px 20px;
-	font-family: Kavoon;
-	font-size: 16px;
-	cursor: pointer;
-	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-}
-
-button.secondary.active {
-	background-color: #f3c16d;
-	color: black;
-	border: none;
-	padding: 10px 20px;
-	font-family: Kavoon;
-	font-size: 16px;
-	cursor: pointer;
-	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-}
-
-button.secondary.hover {
-	background-color: #a87725;
-	color: black;
-	border: none;
-	padding: 10px 20px;
-	font-family: Kavoon;
-	font-size: 16px;
-	cursor: pointer;
-	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-}
-
-text {
-	font-family: "Kavoon";
-}
-
-.button.Submit {
-	background-color: #a87725;
-}
-
-.square {
-	width: 100px;
-	height: 100px;
-	color: white;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-size: 24px;
-	font-weight: bold;
-}
-
-.Colours {
-	display: flex;
-	justify-content: start;
-	align-items: center;
-	margin: 100;
-	background-color: #f4f4f4;
-}
-
-.grid {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	gap: 10px;
-}
-
-.square-1 {
-	background: #f3c16d;
-	font-size: 15px;
-}
-
-.square-2 {
-	background: #7cc0ae;
-	color: #000000;
-	font-size: 15px;
-}
-
-.square-3 {
-	background: #d96c94;
-	font-size: 15px;
-}
-
-.square-4 {
-	background: #f1cbbd;
-	color: #000000;
-	font-size: 15px;
-}
-
-.square-5 {
-	background: #489ad3;
-	color: #000000;
-	font-size: 15px;
-}
-
-.square-6 {
-	background: #ec9c4a;
-	color: #000000;
-	font-size: 15px;
-}
-
-.square-7 {
-	background: #ffcf2d;
-	color: #000000;
-	font-size: 15px;
-}
-
-.square-8 {
-	background: #bdace2;
-	color: #000000;
-	font-size: 15px;
-}
-
-.square-9 {
-	background: #85cac0;
-	color: #000000;
-	font-size: 15px;
-}
-
-.square-10 {
-	background: #f7d5ac;
-	color: #000000;
-	font-size: 15px;
-}
-
-* {
-	box-sizing: border-box;
-	font-family: "Arial", sans-serif;
-}
-
-h1 {
-	font-size: 28px;
-	color: #333;
-	margin-bottom: 20px;
-}
-
-form {
-	background-color: #d9d9d9;
-	padding: 20px;
-	border: 1px solid #ddd;
-	border-radius: 8px;
-	width: 300px;
-}
-
-label {
-	display: block;
-	margin: 10px 0 5px;
-	color: #444;
-	font-weight: bold;
-	font-family: "Kavoon";
-}
-
-input[type="text"],
-input[type="email"],
-select,
-textarea {
-	width: 100%;
-	padding: 8px;
-	margin-bottom: 10px;
-	border: 1px solid #ccc;
-	border-radius: 4px;
-}
-
-input[type="checkbox"],
-input[type="radio"] {
-	width: auto;
-	margin-right: 5px;
-	font-family: "Kavoon";
-}
-
-button[type="submit"] {
-	background-color: #7cc0ae;
-	color: white;
-	border: none;
-	padding: 10px 15px;
-	border-radius: 4px;
-	font-size: 16px;
-	font-family: "Kavoon";
-	cursor: pointer;
-}
-
-button[type="submit"]:hover {
-	background-color: #2f6657;
-} */

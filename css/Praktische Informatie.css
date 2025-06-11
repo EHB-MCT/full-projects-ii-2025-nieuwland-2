@@ -1,3 +1,11 @@
+.bodyPU {
+  background-image: url("../images/wallpaper.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
 .PIalg {
 	display: flex;
 	align-items: center;
@@ -35,7 +43,75 @@
 }
 
 .PIoverlaytext2-1 {
+    padding-top: 10%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-image: url("../images/Pink_band.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;
+	background-size: 120%;
+}
+
+.PIbook-icon {
+    width: 30px;
+    height: auto;
+    padding-bottom: 5px;
+}
+
+.PIoverlaytext2-2 {
+	  padding-top: 10%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-image: url("../images/Yellow_band.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;
+	justify-content: space-around;
+}
+
+.PIcallendar-icon {
+	display: flex;
+  	width: 30px;
+  	height: auto;
+  	padding-bottom: 5px;
+  	align-items: flex-end;
+}
+
+.PIoverlaytext2-3 {
+	  padding-top: 10%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-image: url("../images/Blue_band.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;
+}
+
+.PIoverlaytext2-4 {
 	padding-top: 10%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-image: url("../images/Purple_band.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;
+}
+
+.PIFlyer-icon {
+	display: flex;
+  	width: 30px;
+  	height: auto;
+  	padding-bottom: 5px;
+  	align-items: flex-start;
 }
 
 .PIalg1 h2 {
@@ -54,6 +130,15 @@
 	display: flex;
 	align-items: center;
 	gap: 20px;
+	padding-top: 10%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-image: url("../images/Yellow_band.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;
 }
 
 .PISUtitle h1 {
@@ -97,3 +182,4 @@
   	padding-bottom: 5px;
   	align-items: flex-start;
 }
+

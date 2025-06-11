@@ -1,0 +1,99 @@
+.PIalg {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-bottom: 20px;
+	padding-top: 10px;
+}
+
+.PIalgTitle {
+	background-color: #C2B1E3;
+	padding-top: 10px;
+
+}
+
+.PIalg1 {
+  position: relative;
+  width: 100%;
+  height: 400px; /* adjust as needed */
+  background-image: url("../images/writtenpaperbg.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.PIoverlaytext2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.PIoverlaytext2-1 {
+	padding-top: 10%;
+}
+
+.PIalg1 h2 {
+	padding: 5px;
+}
+
+.PISU {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
+
+.PISUtitle {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.PISUtitle h1 {
+	display: flex;
+	align-items: flex-start;
+}
+
+.PISU2 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	display: inline-block;
+}
+
+.PISU2 img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.PIoverlaytext1 {
+	width: 100%;
+	position: absolute;
+  	top: 50%; 
+	left: 50%; 
+  	transform: translate(-50%, -50%); 
+  	padding: 10px 20px; 
+  	font-size: 20px; 
+  	text-align: center;
+}
+
+.PISU2 h2 {
+	padding: 5px;
+}
+
+.PIclock-icon {
+	display: flex;
+  	width: 30px;
+  	height: auto;
+  	padding-bottom: 5px;
+  	align-items: flex-start;
+}

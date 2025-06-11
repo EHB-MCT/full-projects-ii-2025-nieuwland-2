@@ -2,12 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
 
 body {
-	margin: 17px;
+	margin: 0px;
 }
 
-.navigation{
-	padding: 20px;
-}
 
 h1 {
 	font-family: "kavoon";
@@ -188,7 +185,6 @@ text {
 h1 {
 	font-size: 28px;
 	color: #333;
-	margin-bottom: 20px;
 }
 
 form {
@@ -238,42 +234,6 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
 	background-color: #2f6657;
-}
-
-.PIalg {
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-	padding-bottom: 20px;
-	padding-top: 10px;
-}
-
-.PIalg1 {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-.PIalg1 h2 {
-	padding: 5px;
-}
-
-.PISU {
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-	padding-bottom: 20px;
-	padding-top: 10px;
-}
-
-.PISU2 {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-.PISU2 h2 {
-	padding: 5px;
 }
 
 .footerwrapper {
@@ -335,3 +295,197 @@ button[type="submit"]:hover {
 	width: 100%
 }
 
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*navigatie begin*/
+.logo {
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+ 
+.navigation {
+    padding: 8px 8px 40px 8px;
+    display: flex;
+    justify-content: space-between;
+}
+ 
+.Nieuws,
+.Contact {
+    text-decoration: none;
+    font-size: 10px;
+    padding: 10px;
+    font-family: "Plus Jakarta Sans";
+}
+ 
+.Nieuws {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ec9c4a;
+    color: white;
+}
+ 
+.Contact {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e28fb2;
+    color: white;
+}
+/*Dropdown button*/
+.dropbtn_1,
+.dropbtn_2 {
+    color: white;
+    padding: 10px;
+    font-size: 10px;
+    border: none;
+}
+ 
+.dropbtn_1 {
+    background-color: #f3c16d;
+}
+ 
+.dropbtn_2 {
+    background-color: #489ad3;
+}
+/* The container <div> - needed to position the dropdown content */
+.dropdown_1,
+.dropdown_2 {
+    position: relative;
+    display: inline-block;
+}
+ 
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content_1,
+.dropdown-content_2 {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+ 
+/* Links inside the dropdown */
+.dropdown-content_1 a,
+.dropdown-content_2 a {
+    color: black;
+    padding: 5px 5px 5px 5px;
+    text-decoration: none;
+    display: block;
+    font-family: "Plus Jakarta Sans";
+    font-size: 10px;
+}
+ 
+/* Change color of dropdown links on hover */
+.dropdown-content_1 a:hover,
+.dropdown-content_2 a:hover {
+    background-color: #ddd;
+}
+ 
+/* Show the dropdown menu on hover */
+.dropdown_1:hover .dropdown-content_1 {
+    display: block;
+}
+ 
+.dropdown_2:hover .dropdown-content_2 {
+    display: block;
+}
+ 
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown_1:hover .dropbtn_1 {
+    background-color: #3e8e41;
+}
+ 
+.dropdown_2:hover .dropbtn_2 {
+    background-color: #3e8e41;
+}
+ 
+/*navigatie einde*/
+ 
+/*footer begin*/
+.footer {
+    display: inline-block;
+   
+	width:100%;
+    background-color: #fdf6ec;
+    padding: 0 60px 30px 60px;
+}
+ 
+.footer p {
+    font-family: "Plus Jakarta Sans";
+    font-size: 6px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+ 
+.footer-logo {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 30px;
+}
+ 
+.phone-icon,
+.mail-icon,
+.map-icon-footer {
+    height: 15px;
+}
+ 
+.facebook-icon {
+    height: 20px;
+}
+ 
+.icon-line-1,
+.icon-line-2 {
+    display: flex;
+    align-items: center;
+    /*ruimte tussen de iconen en de tekst*/
+    gap: 5px;
+}
+ 
+.icon-line-2 {
+    margin: 0 auto;
+    max-width: 200px;
+}
+ 
+.map-line-footer {
+    margin: 0 auto;
+    max-width: 200px;
+}
+ 
+.kaart {
+    max-width: 250px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ 
+.visie-footer,
+.bredeschool-footer,
+.klassen-footer,
+.inschrijven-footer,
+.contact-footer,
+.nieuws-footer,
+.praktischeinformatie-footer {
+    font-family: "Plus Jakarta Sans";
+    font-size: 10px;
+    text-decoration: none;
+    color: black;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-decoration: underline;
+}
+ 
+.links-footer {
+    display: flex;
+    justify-content: space-between;
+}
+ 
+.item_row_1,
+.item_row_2 {
+    display: flex;
+    flex-direction: column;
+}
+/*footer einde*/

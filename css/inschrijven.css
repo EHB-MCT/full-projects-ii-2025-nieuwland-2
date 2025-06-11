@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
-
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
 
 body {
@@ -20,30 +19,30 @@ body {
 	background-image: url("/images/tape_contact.png");
 }
 
-.sub-container {
-	position: relative;
-	width: 100%;
-}
-
-.pink_background {
-	width: 100%;
-	display: block;
-}
-
 .inschrijven-text {
 	font-family: "Plus Jakarta Sans";
 	font-size: 12px;
 	margin-top: 50px;
-	position: absolute;
-	top: 40%;
-	left: 9%;
+	display: flex;
+	max-width: 500px;
+	flex-direction: column;
+	box-sizing: border-box;
+	padding: 100px 50px 0px 50px;
+	width: 100vw;
+	background-image: url("./../images/pink_paper_background.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
 	margin: 0 auto;
+	gap: 20px;
+}
+
+.inschrijven-text p {
+	max-width: 275px;
+	padding-left: 20px;
 }
 
 .informatie-button {
-	position: absolute;
-	top: 50%;
-	left: 15%;
 	margin: 0 auto;
 	font-family: "Lexend";
 	font-size: 10px;
@@ -58,15 +57,22 @@ body {
 
 .oranje-kinderen {
 	width: 40%;
-	position: absolute;
-	top: 47%;
-	left: 55%;
-	margin: 0 auto;
+	margin-top: -50px;
+	margin-left: 200px;
+}
+
+.inschrijven-body h2 {
+	margin-top: 50px;
+	margin-left: 10px;
+	font-family: "Lexend";
+	background-color: #7cc0ae;
+	font-size: 14px;
+	display: inline-block;
+	padding: 10px 10px 10px 10px;
 }
 
 .stappenplan-container {
-	margin-top: 50px;
-	margin-bottom: 50px;
+	margin: 10px 15px 50px 15px;
 	background-color: #f8d1a4;
 }
 

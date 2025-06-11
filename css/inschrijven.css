@@ -2,8 +2,9 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
 
-.inschrijven-body {
+body {
 	margin: 0;
+	padding: 0px;
 	background-image: url("/images/inschrijven_background.png");
 }
 
@@ -14,15 +15,36 @@
 	max-width: 200px;
 	font-size: 18px;
 	text-align: center;
-	padding: 10px 10px 10px 10px;
+	padding: 10px 0px 10px 10px;
+	rotate: -5deg;
 	background-image: url("/images/tape_contact.png");
 }
 
 .sub-container {
-	background-image: url("/images/pink_paper_background.png");
+	position: relative;
+	width: 100%;
+}
+
+.pink_background {
+	width: 100%;
+	display: block;
+}
+
+.inschrijven-text {
+	font-family: "Plus Jakarta Sans";
+	font-size: 12px;
+	margin-top: 50px;
+	position: absolute;
+	top: 40%;
+	left: 9%;
+	margin: 0 auto;
 }
 
 .informatie-button {
+	position: absolute;
+	top: 50%;
+	left: 15%;
+	margin: 0 auto;
 	font-family: "Lexend";
 	font-size: 10px;
 	padding: 15px;
@@ -34,15 +56,12 @@
 	padding: 10px 10px 10px 10px;
 }
 
-.inschrijven-text {
-	font-family: "Plus Jakarta Sans";
-	font-size: 9px;
-	margin-top: 50px;
-}
-
 .oranje-kinderen {
 	width: 40%;
-	float: right;
+	position: absolute;
+	top: 47%;
+	left: 55%;
+	margin: 0 auto;
 }
 
 .stappenplan-container {

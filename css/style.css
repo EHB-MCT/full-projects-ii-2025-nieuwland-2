@@ -2,7 +2,81 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
 
-/* algemene styling voor h1, h2, etc */
+/*styling for h1, h2, etc + style fonts */
+h1 {
+	font-family: "Lexend";
+	font-size: 28pt;
+}
+
+h2 {
+	font-family: "Plus Jakarta Sans";
+	font-size: 22pt;
+}
+
+h3 {
+	font-family: "Plus Jakarta Sans";
+	font-size: 12pt;
+}
+
+p {
+	font-family: "Plus Jakarta Sans";
+	font-size: 12pt;
+}
+
+b,
+strong {
+	font-weight: 700;
+}
+
+em,
+i {
+	font-style: italic;
+}
+
+/* button styling */
+button.primary.active {
+	background-color: #d96c94;
+	color: black;
+	border: none;
+	padding: 10px 20px;
+	font-family: Kavoon;
+	font-size: 16px;
+	cursor: pointer;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+button.primary.hover {
+	background-color: #a32654;
+	color: black;
+	border: none;
+	padding: 10px 20px;
+	font-family: Kavoon;
+	font-size: 16px;
+	cursor: pointer;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+button.secondary.active {
+	background-color: #f3c16d;
+	color: black;
+	border: none;
+	padding: 10px 20px;
+	font-family: Kavoon;
+	font-size: 16px;
+	cursor: pointer;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+button.secondary.hover {
+	background-color: #a87725;
+	color: black;
+	border: none;
+	padding: 10px 20px;
+	font-family: Kavoon;
+	font-size: 16px;
+	cursor: pointer;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
 
 /*navigatie begin*/
 .logo {

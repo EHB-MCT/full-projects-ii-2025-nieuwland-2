@@ -23,33 +23,38 @@
 	text-decoration: none;
 	font-size: 10px;
 	padding: 10px;
-	border-radius: 10px;
+	font-family: "Plus Jakarta Sans";
 }
 
 .Nieuws {
 	display: inline-block;
 	padding: 10px 20px;
-	background-color: purple; /* blauw */
+	background-color: #ec9c4a;
 	color: white;
 }
 
 .Contact {
 	display: inline-block;
 	padding: 10px 20px;
-	background-color: blue; /* blauw */
+	background-color: #e28fb2;
 	color: white;
 }
 /*Dropdown button*/
 .dropbtn_1,
 .dropbtn_2 {
-	background-color: #04aa6d;
 	color: white;
 	padding: 10px;
 	font-size: 10px;
 	border: none;
-	border-radius: 10px;
 }
 
+.dropbtn_1 {
+	background-color: #f3c16d;
+}
+
+.dropbtn_2 {
+	background-color: #489ad3;
+}
 /* The container <div> - needed to position the dropdown content */
 .dropdown_1,
 .dropdown_2 {
@@ -75,6 +80,8 @@
 	padding: 5px 5px 5px 5px;
 	text-decoration: none;
 	display: block;
+	font-family: "Plus Jakarta Sans";
+	font-size: 10px;
 }
 
 /* Change color of dropdown links on hover */
@@ -113,7 +120,7 @@
 
 .footer p {
 	font-family: "Plus Jakarta Sans";
-	font-size: 6px;
+	font-size: 10px;
 	padding-top: 8px;
 	padding-bottom: 8px;
 }
@@ -126,7 +133,7 @@
 
 .phone-icon,
 .mail-icon,
-.map-icon-footer {
+.map-icon {
 	height: 15px;
 }
 
@@ -134,12 +141,17 @@
 	height: 20px;
 }
 
-.footer-line,
-.map-line-footer {
+.icon-line-1,
+.icon-line-2 {
 	display: flex;
 	align-items: center;
 	/*ruimte tussen de iconen en de tekst*/
 	gap: 5px;
+}
+
+.icon-line-2 {
+	margin: 0 auto;
+	max-width: 200px;
 }
 
 .map-line-footer {
@@ -229,6 +241,7 @@ p {
 /*Contactpagina begin*/
 .contact-body {
 	margin: 0;
+	background-image: url("/images/contact_background.png");
 }
 
 .contact-body h1 {
@@ -246,32 +259,47 @@ p {
 	font-family: "Plus Jakarta Sans";
 	margin-top: 10px;
 	margin-bottom: 10px;
-	font-size: 16px;
+	font-size: 12px;
 	font-weight: bold;
 }
 
-.contact-body p {
+.contact-text p {
 	font-family: "Plus Jakarta Sans";
-	padding-top: 10px;
-	font-size: 12px;
+	line-height: 10px;
+	font-size: 8px;
+}
+
+.contact-container {
+	position: relative;
+	width: 100%;
+}
+
+.collage-contact {
+	width: 100%;
+	/* display: block; */
+	position: relative;
 }
 
 .contact-text {
-	/*maak dit element niet breder dan 350 pixels*/
-	max-width: 350px;
+	position: absolute;
+	top: 0;
+	left: 0;
 	/*0 -> geen verticale marge & auto laat de browser automaticsh de linker- en rechtermarge berekenen*/
 	margin: 0 auto;
-	background-color: orange;
-	padding: 20px 20px 20px 20px;
+	/*maak dit element niet breder dan 350 pixels*/
+	max-width: 250px;
+	padding: 10px 10px 10px 10px;
+	background-image: url("/images/contactp_background.png");
 }
 
 .location-icon {
 	height: 15px;
 }
 
-.map-section p {
-	position: relative;
-	left: 40px;
+.map-section {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
 }
 
 .map {
@@ -281,9 +309,15 @@ p {
 }
 
 .map-line {
-	background-color: pink;
 	display: flex;
-	align-items: center;
+	background-color: pink;
+	justify-content: center;
+	gap: 0px;
+}
+
+.location-icon {
+	display: flex;
+	justify-content: center;
 }
 /*Contactpagina einde*/
 

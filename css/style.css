@@ -178,6 +178,7 @@ text {
 h1 {
 	font-size: 28px;
 	color: #333;
+}
 /*navigatie begin*/
 .logo {
 	height: 30px;
@@ -326,6 +327,7 @@ h1 {
  
 .dropbtn_2 {
     background-color: #489ad3;
+}
 /*Dropdown button*/
 .dropbtn_1,
 .dropbtn_2 {
@@ -400,7 +402,7 @@ h1 {
 /*footer begin*/
 .footer {
 	display: inline-block;
-	width: calc(100% - 120px);
+	width: 100%;
 	background-color: #fdf6ec;
 	padding: 0 60px 30px 60px;
 }
@@ -481,4 +483,3 @@ h1 {
 	display: flex;
 	flex-direction: column;
 }
-/*footer einde*/

@@ -12,8 +12,55 @@
 	display: block;
 	margin: 0 auto;
 	max-width: 200px;
-	font-size: 22px;
+	font-size: 18px;
 	text-align: center;
 	padding: 10px 10px 10px 10px;
-	background-image: url("/images/yellow_tape_inschrijven.png");
+	background-image: url("/images/tape_contact.png");
+}
+
+.sub-container {
+	background-image: url("/images/pink_paper_background.png");
+}
+
+.informatie-button {
+	font-family: "Lexend";
+	font-size: 10px;
+	padding: 15px;
+	border: 1px solid #f6d461;
+	text-decoration: none;
+	color: black;
+	background-color: #f6d461;
+	display: inline-block;
+	padding: 10px 10px 10px 10px;
+}
+
+.inschrijven-text {
+	font-family: "Plus Jakarta Sans";
+	font-size: 9px;
+	margin-top: 50px;
+}
+
+.oranje-kinderen {
+	width: 40%;
+	float: right;
+}
+
+.stappenplan-container {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background-color: #f8d1a4;
+}
+
+.stap_1_container,
+.stap_2_container,
+.stap_3_container {
+	display: flex;
+	flex-direction: column;
+}
+
+.stap_1_pic,
+.stap_2_pic,
+.stap_3_pic {
+	max-width: 350px;
+	width: 100%;
 }

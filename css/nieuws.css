@@ -37,9 +37,8 @@ h3 {
 .container p {
 	font-size: 12px;
 	font-family: "Plus Jakarta Sans";
-	display: inline-block;
-	line-height: 20px;
-	margin: 10px 70px 100px 70px;
+	margin: -10px 70px 100px 70px;
+	line-height: 15px;
 }
 
 .blog p {
@@ -48,8 +47,10 @@ h3 {
 }
 
 .blog {
-	margin: 30px 25px 30px 25px;
-	background-color: red;
+	margin: 20px 20px 20px 20px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background-image: url("/images/blog_background.png");
 }
 
 .blog img {
@@ -59,21 +60,51 @@ h3 {
 .blog h2,
 h3,
 p {
-	margin-top: 20px 0px 20px 0px;
+	margin-top: 10px 0px 10px 0px;
+	padding-top: 20px;
+	padding-bottom: 10px;
 }
 
-.title-1,
-.title-2,
-.title-3 {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+.blog p {
+	margin-top: -5px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 .item-1,
 .item-2,
 .item-3 {
-	margin: 50px 20px 50px 20px;
+	margin: 20px 20px 20px 20px;
+}
+
+.title {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.item-1 .title {
+	background-image: url("/images/purple_title.png");
+}
+
+.item-2 .title {
+	background-image: url("/images/blue_title.png");
+}
+
+.item-3 .title {
+	background-image: url("/images/yellow_title.png");
+}
+
+.item-1 p {
+	background-image: url("/images/purple_text.png");
+}
+
+.item-2 p {
+	background-image: url("/images/blue_text.png");
+}
+
+.item-3 p {
+	background-image: url("/images/orange_text.png");
 }
 
 .container-end {
@@ -87,12 +118,15 @@ p {
 
 .container-end h2 {
 	font-size: 14px;
-}
-
-.container-end h2 {
-	margin-bottom: 30px;
+	margin: 20px 0px 20px 0px;
+	background-image: url("/images/pink_vertical_tape.png");
+	padding: 15px 15px 15px 15px;
+	/* background-color: red; */
 }
 
 .facebook {
 	height: 90px;
+	margin-bottom: 30px;
+	background-color: #7cc0ae;
+	padding: 15px 15px 15px 15px;
 }

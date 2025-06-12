@@ -61,8 +61,10 @@ h3 {
 h3,
 p {
 	margin-top: 10px 0px 10px 0px;
-	padding-top: 20px;
+	padding-top: 10px;
 	padding-bottom: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
 }
 
 .blog p {
@@ -84,15 +86,21 @@ p {
 }
 
 .item-1 .title {
-	background-image: url("/images/purple_title.png");
+	/* background-image: url("/images/purple_title.png"); */
+	background-color: #c0b0e3;
 }
 
 .item-2 .title {
-	background-image: url("/images/blue_title.png");
+	/* background-image: url("/images/blue_title.png"); */
+	background-color: #62b7d9;
 }
 
 .item-3 .title {
-	background-image: url("/images/yellow_title.png");
+	/*TODO*/
+	/* background-image: url("/images/yellow_title.png");
+	background-position: left;
+	background-size: contain; */
+	background-color: #f6c995;
 }
 
 .item-1 p {
@@ -119,9 +127,9 @@ p {
 .container-end h2 {
 	font-size: 14px;
 	margin: 20px 0px 20px 0px;
-	background-image: url("/images/pink_vertical_tape.png");
+	/* background-image: url("/images/pink_vertical_tape.png"); */
 	padding: 15px 15px 15px 15px;
-	/* background-color: red; */
+	background-color: #f4bcae;
 }
 
 .facebook {

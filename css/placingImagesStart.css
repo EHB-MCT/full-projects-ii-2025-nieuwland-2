@@ -1,8 +1,9 @@
 /* general */
 .header-background {
+	padding-top: 200px;
 	z-index: -1;
 	position: relative;
-	width: 100%;
+	width: 90%;
 }
 
 .header-background img {
@@ -12,9 +13,69 @@
 }
 
 /* desktop screens*/
-
 /* style1 */
 
+.paper-scrap-orange1 {
+	transform: rotate(47.16deg);
+	top: 200%;
+	left: 20%;
+}
+
+.paper-scrap-orange2 {
+	transform: rotate(38.57deg);
+	top: 80%;
+	right: 10%;
+}
+
+.paper-scrap1 {
+	transform: rotate(105.89deg);
+	left: 18%;
+}
+
+.paper-scrap2 {
+	transform: rotate(110deg);
+	right: 2%;
+}
+
+.paper-scrap-blue {
+	transform: rotate(-18.33deg);
+	right: 20%;
+	top: 200%;
+}
+
+.child-playing-pool {
+	transform: rotate(-9.27deg);
+	top: 200%;
+	left: 10%;
+}
+
+.img-child-drawing {
+	transform: rotate(-5.3deg);
+	left: 28%;
+	top: 25%;
+}
+
+.kids-walking {
+	transform: rotate(13.63deg);
+	right: 15%;
+	top: 25%;
+}
+
+.paper-scrap-bench {
+	top: 200%;
+	right: 8%;
+}
+
+.drawing-butterfly {
+	transform: rotate(-37.67deg);
+	left: 90%;
+	top: 350%;
+}
+
+.drawing-bird {
+	top: 50%;
+	left: 5%;
+}
 /* style2 */
 
 /* style3 */
@@ -22,3 +83,15 @@
 /* phone screens */
 @media screen and (max-width: 480px) {
 }
+
+/* <img class="paper-scrap-orange1" src="images/imagesJS/element2.png" alt="">
+				<img class="paper-scrap-orange2" src="images/imagesJS/element2.png" alt="">
+				<img class="paper-scrap1" src="images/imagesJS/element0.png" alt="">
+				<img class="paper-scrap2" src="images/imagesJS/element0.png" alt="">
+				<img class="paper-scrap-blue" src="images/imagesJS/element1.png" alt="">
+				<img class="child-playing-pool" src="images/imagesJS/element8.png" alt="">
+				<img class="img-child-drawing" src="images/imagesJS/element7.png" alt="">
+				<img class="paper-scrap-bench" src="images/imagesJS/element4.png" alt="">
+				<img class="drawing-butterfly" src="images/imagesJS/element5.png" alt="">
+				<img class="drawing-bird" src="images/imagesJS/element6.png" alt="">
+ */

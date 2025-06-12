@@ -79,6 +79,13 @@ body h2 {
 	justify-content: center;
 }
 
+.icon-line-3 p {
+	font-size: 12px;
+}
+
 .icon-line-3 {
 	background-image: url("/images/purple_tape.png");
+	padding: 10px 10px 10px 10px;
+	rotate: -8deg;
+	margin-left: -200px;
 }

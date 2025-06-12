@@ -62,23 +62,27 @@ function renderImages(array, count) {
     for (let i = 0; i < count; i++) {
         let imgLocation = array[i];
         let rotateAngle = getRandomAngleRad();
+        //const minScale = 0.3;                                         Better way to make it changeble so that it works better for multiple developers
+        //const scalz = Math.random() + minScale                        
         let scaleNumber = Math.min(0.9, Math.max(0.3, window.innerWidth / 750));
         // img size scaling depending on the device (this way I can use the same img for both desktop and phone)
         //max, min, min;
         console.log(imgLocation)
         let img = new Image()
 
-        img.addEventListener('load', () => {   // Waist on the loading of the img
+        let x = Math.random() * (width);
+        let y = Math.random() * (height);
+        img.addEventListener('load', () => {   // Waits on the loading of the img
             context = canvas.getContext('2d')
 
             // console.log(img.width);
             // console.log(scaleNumber);
-
+            console.log(img);
             // random pos for images
-            let x = Math.random() * (width);
-            console.log("x is " + x);
-            console.log("the widht is " + width);
-            let y = Math.random() * (height);
+
+            // console.log("x is " + x);
+            // console.log("the widht is " + width);
+
 
             if (x >= width) {
                 x -= 20;
@@ -95,6 +99,16 @@ function renderImages(array, count) {
             context.drawImage(img, -img.width / 2, -img.height / 2)
         })
         img.src = imgLocation
+        console.log({ imgLocation });
+        console.log({ img });
+        console.log({ scaleNumber });
+        console.log({ rotateAngle });
+        console.log({ x, y });
+
+
+
+
+
     }
 }
 
@@ -116,4 +130,3 @@ function getRandomAngleRad() {
 }
 
 init();
-console.log("hello world");

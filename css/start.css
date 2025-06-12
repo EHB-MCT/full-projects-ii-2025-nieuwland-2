@@ -2,7 +2,6 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
 
-/*Startpagina begin*/
 body {
 	margin: 0;
 	background-image: url("/images/start_background.png");
@@ -43,7 +42,8 @@ ol {
 	font-size: 12px;
 	text-decoration: none;
 	color: black;
-	background-color: aqua;
+	font-family: "Lexend";
+	background-color: #489ad3;
 }
 
 .container-intro {

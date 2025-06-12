@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
 .bodyPU {
 	background-image: url("../images/wallpaper.png");
 	background-size: cover;
@@ -15,8 +19,11 @@
 }
 
 .PIalgTitle {
-	background-color: #c2b1e3;
-	padding-top: 10px;
+	background-image: url("../images/Blue_band.png");
+	padding: 20px;
+	z-index: 2;
+	background-position: right;
+	rotate: -6deg;
 }
 
 .PIalg1 {
@@ -29,6 +36,16 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+h1 {
+	font-size: 18px;
+	font-family: "Lexend";
+}
+
+h2 {
+	font-size: 12px;
+	font-family: "Lexend";
 }
 
 .PIoverlaytext2 {
@@ -133,7 +150,7 @@
 	display: flex;
 	align-items: center;
 	gap: 15px;
-	background-image: url("../images/Yellow_band.png");
+	background-image: url("../images/Purple_band.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -157,6 +174,17 @@
 	display: block;
 	width: 100%;
 	height: auto;
+	margin: 0px 30px 30px 50px;
+	width: 80%;
+}
+.PISU2 li {
+	font-size: 14px;
+	padding: 5px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	font-family: "Plus Jakarta Sans";
 }
 
 .PIoverlaytext1 {

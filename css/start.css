@@ -37,15 +37,6 @@ ol {
 	font-size: 12px;
 }
 
-.call-to-action {
-	font-family: "Plus Jakarta Sans";
-	font-size: 12px;
-	text-decoration: none;
-	color: black;
-	font-family: "Lexend";
-	background-color: #489ad3;
-}
-
 .container-intro {
 	display: flex;
 	flex-direction: column;
@@ -83,23 +74,46 @@ ol {
 }
 
 .item-3 {
-	margin-top: 50px;
-	margin-bottom: 20px;
+	margin: 70px 20px 50px 20px;
 	background-image: url("/images/infomoment_background.png");
+	padding-bottom: 100px;
+	background-repeat: no-repeat;
 }
 
 .item-3 h3 {
 	padding: 20px;
 	background-image: url("/images/bling_bling_tape.png");
+	rotate: -5deg;
+	text-align: center;
 	background-repeat: no-repeat;
 	font-weight: bold;
 	color: white;
 }
 
-.item-3 p {
-	background-image: url("/images/infomoment_background.png");
+.item-3 ol {
+	padding: 50px 10px 10px 10px;
+	margin: 20px 0px 60px 50px;
 }
 
 .item-4 {
-	background-color: yellow;
+	margin: 0px 20px 150px 20px;
+	background-color: #fae1a7;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.item-4 h3 {
+	padding: 20px 20px 20px 20px;
+}
+
+.call-to-action {
+	font-family: "Plus Jakarta Sans";
+	font-size: 12px;
+	text-decoration: none;
+	color: black;
+	font-family: "Lexend";
+	background-color: #489ad3;
+	margin: 10px 10px 20px 10px;
+	padding: 10px 10px 10px 10px;
 }

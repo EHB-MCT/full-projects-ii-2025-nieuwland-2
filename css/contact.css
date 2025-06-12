@@ -2,24 +2,24 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
 
-/*Contactpagina begin*/
-.contact-body {
+body {
 	margin: 0;
 	background-image: url("/images/contact_background.png");
 }
 
-.contact-body h1 {
+h1 {
 	font-family: "Lexend";
 	display: block;
 	margin: 0 auto;
 	max-width: 200px;
-	font-size: 28px;
+	font-size: 18px;
 	text-align: center;
 	padding: 10px 10px 10px 10px;
 	background-image: url("/images/tape_contact.png");
+	rotate: -8deg;
 }
 
-.contact-body h2 {
+body h2 {
 	font-family: "Plus Jakarta Sans";
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -31,7 +31,7 @@
 .contact-text p {
 	font-family: "Plus Jakarta Sans";
 	line-height: 13px;
-	font-size: 9px;
+	font-size: 8px;
 }
 
 .contact-container {
@@ -79,7 +79,13 @@
 	justify-content: center;
 }
 
+.icon-line-3 p {
+	font-size: 12px;
+}
+
 .icon-line-3 {
 	background-image: url("/images/purple_tape.png");
+	padding: 10px 10px 10px 10px;
+	rotate: -8deg;
+	margin-left: -200px;
 }
-/*Contactpagina einde*/

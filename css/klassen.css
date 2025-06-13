@@ -1,0 +1,156 @@
+/*ORdelijk */
+
+h1 {
+  font-size: 18px;
+ font-family: "Lexend";
+ font-weight: bold;
+ margin-bottom: 15px;
+}
+
+.KeuzeTitle h1{
+  background-color: #EDD676;
+ rotate: 8deg;
+ padding: 10px;
+}
+
+h2 {
+  font-size: 14px;
+  font-family: "Plus Jakarta Sans";
+}
+
+h3, p {
+  font-size: 12px;
+}
+
+.bodyKlassen {
+  background-image: url("../images/wallpaper.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.TeacherPictures {
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.TeacherPicture {
+  width: 100px; 
+  height: auto;
+  object-fit: cover; /* https://www.w3schools.com/css/css3_object-fit.asp */
+}
+
+.PeuterInfo {
+  background-color: #f5f5f5;
+  padding: 20px;
+  margin: 30px auto;
+  width: auto;
+}
+
+.PeuterInfo h1 {
+  font-size: 18px;
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+.PeuterInfo h2 {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.PeuterClassroom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.PeuterklassFoto {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.PeuterClassroom h2 {
+  font-size: 14px;
+  color: #34495e;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.classroom-info {
+  display: none;
+}
+
+.classroom-info.active {
+  display: block;
+}
+
+.classroom-info {
+      display: none;
+      margin-top: 20px;
+      padding: 10px;
+    }
+
+    .active {
+      display: block;
+    }
+
+  
+/*"Kies je klas" */
+.KeuzeTitle {
+  padding-bottom: 10px;
+}
+
+/*Styling buttons */
+.button-group button {
+    margin: 2px;
+    padding: 10px 15px;
+    display: flex;
+    width: 100px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Plus Jakarta Sans";
+    background-color: #C2B2D3;
+}
+
+/*Styling for when the button is active */
+.button-group button.active-button {
+  background-color: #9B8DA9;
+  color: white;
+}
+
+/* Styling the container of the button */
+.button-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Buttonrow1 {
+  display: flex;
+  
+  justify-content: center;
+}
+
+.Buttonrow2 {
+  display: flex;
+ 
+  justify-content: center;
+}
+
+.Buttonrow3 {
+  display: flex;
+  
+  justify-content: center;
+}
+
+.sezerText {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

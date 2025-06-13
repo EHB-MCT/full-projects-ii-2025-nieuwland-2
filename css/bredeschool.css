@@ -1,3 +1,73 @@
 @import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+body {
+	background-image: url("/images/wat_background.png");
+	margin: 0;
+}
+
+h1 {
+	background-color: #f176f5;
+	display: inline-block;
+	font-size: 18px;
+	/* rotate: 8deg; */
+	margin: 50px 0px 50px 0px;
+	padding: 10px 10px 10px 10px;
+	font-weight: bold;
+}
+
+.container {
+	margin: 10px 20px 50px 20px;
+	padding-bottom: 10px;
+	background-color: yellow;
+}
+
+.item-1,
+.item-2,
+.item-3,
+.item-4,
+.item-5 {
+	margin: 20px 0px 20px 0px;
+}
+
+h2 {
+	font-weight: bold;
+	padding: 5px 7px 5px 7px;
+	margin-left: -8px;
+	font-size: 14px;
+	display: inline-block;
+}
+
+.item-1 h2 {
+	background-color: #fcdb5a;
+}
+
+.item-2 h2 {
+	background-color: #62b7da;
+}
+
+.item-3 h2 {
+	background-color: #41a9a9;
+}
+
+.item-4 h2 {
+	background-color: #f0b8aa;
+}
+
+.item-5 h2 {
+	background-color: #beade3;
+}
+
+p,
+ol {
+	line-height: 20px;
+	font-size: 12px;
+	font-family: "Plus Jakarta Sans";
+	margin: 10px 10px 10px 10px;
+}
+
+.rectangle {
+	background-color: red;
+	margin: 10px 0px 50px 0px;
+}

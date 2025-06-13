@@ -5,17 +5,17 @@
 /*styling for h1, h2, etc + style fonts */
 h1 {
 	font-family: "Lexend";
-	font-size: 28pt;
+	font-size: 18px;
 }
 
 h2 {
 	font-family: "Plus Jakarta Sans";
-	font-size: 22pt;
+	font-size: 14px;
 }
 
 h3 {
 	font-family: "Plus Jakarta Sans";
-	font-size: 12pt;
+	font-size: 14px;
 }
 
 p {

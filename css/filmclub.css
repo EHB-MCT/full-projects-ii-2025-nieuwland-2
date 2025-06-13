@@ -11,8 +11,10 @@ h1 {
 	font-family: "Lexend";
 	background-color: #ffd1ff;
 	display: inline-block;
-	padding: 10px 10px 10px 10px;
-	margin-bottom: 50px;
+	font-size: 18px;
+	margin: 50px 0px 50px 0px;
+	padding: 10px;
+	font-weight: bold;
 }
 
 .container {

@@ -15,44 +15,22 @@
 /* desktop screens*/
 /* style1 */
 
-.header-background.style1 .paper-scrap-orange1 {
-	transform: rotate(47.16deg);
-	top: 200%;
-	left: 20%;
+.header-background.style1 .paper-clip {
+	/* transform: rotate(47.16deg); */
+	top: 50%;
+	left: 5%;
 }
 
-.header-background.style1 .paper-scrap-orange2 {
-	transform: rotate(38.57deg);
+.header-background.style1 .paper-scrap1 {
+	transform: rotate(136deg);
 	top: 80%;
 	right: 10%;
 }
 
-.header-background.style1 .paper-scrap1 {
-	transform: rotate(105.89deg);
-	left: 18%;
-}
-
-.header-background.style1 .paper-scrap2 {
-	transform: rotate(110deg);
-	right: 2%;
-}
-
-.header-background.style1 .paper-scrap-blue {
-	transform: rotate(-18.33deg);
-	right: 20%;
-	top: 200%;
-}
-
-.header-background.style1 .child-playing-pool {
-	transform: rotate(-9.27deg);
-	top: 200%;
-	left: 10%;
-}
-
 .header-background.style1 .img-child-drawing {
 	transform: rotate(-5.3deg);
-	left: 28%;
-	top: 25%;
+	left: 8%;
+	top: 60%;
 }
 
 .header-background.style1 .kids-walking {
@@ -62,30 +40,31 @@
 }
 
 .header-background.style1 .paper-scrap-bench {
-	top: 200%;
-	right: 8%;
+	top: 280%;
+	right: 5%;
 }
 
 .header-background.style1 .drawing-butterfly {
 	transform: rotate(-37.67deg);
 	left: 90%;
-	top: 350%;
+	top: 70%;
 }
 
 .header-background.style1 .drawing-bird {
-	top: 50%;
+	top: 300%;
 	left: 5%;
+	transform: scaleX(-1);
 }
 
 /* style2 */
 
-.header-background.style2 .paper-scrap-orange1 {
+.header-background.style2 .paper-clip {
 	transform: rotate(60deg);
 	top: 100%;
 	left: 20%;
 }
 
-.header-background.style2 .paper-scrap-orange2 {
+.header-background.style2 .paper-clip2 {
 	transform: rotate(20deg);
 	top: 200%;
 	right: 10%;
@@ -120,7 +99,7 @@
 }
 
 .header-background.style2 .kids-walking {
-	transform: rotate(13.63deg);
+	transform: rotate(30deg);
 	right: 15%;
 	top: 25%;
 }
@@ -144,13 +123,13 @@
 
 /* style3 */
 
-.header-background.style3 .paper-scrap-orange1 {
+.header-background.style3 .paper-clip1 {
 	transform: rotate(60deg);
 	top: 100%;
 	left: 20%;
 }
 
-.header-background.style3 .paper-scrap-orange2 {
+.header-background.style3 .paper-clip2 {
 	transform: rotate(20deg);
 	top: 200%;
 	right: 10%;
@@ -185,7 +164,7 @@
 }
 
 .header-background.style3 .kids-walking {
-	transform: rotate(13.63deg);
+	transform: rotate(10deg);
 	right: 15%;
 	top: 25%;
 }
@@ -211,8 +190,8 @@
 @media screen and (max-width: 480px) {
 }
 
-/* <img class="paper-scrap-orange1" src="images/imagesJS/element2.png" alt="">
-				<img class="paper-scrap-orange2" src="images/imagesJS/element2.png" alt="">
+/* <img class="paper-clip1" src="images/imagesJS/element2.png" alt="">
+				<img class="paper-clip2" src="images/imagesJS/element2.png" alt="">
 				<img class="paper-scrap1" src="images/imagesJS/element0.png" alt="">
 				<img class="paper-scrap2" src="images/imagesJS/element0.png" alt="">
 				<img class="paper-scrap-blue" src="images/imagesJS/element1.png" alt="">

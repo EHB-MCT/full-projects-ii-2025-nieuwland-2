@@ -3,11 +3,11 @@
 <head>
 	<link href="css/reset.css" rel="stylesheet" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Basisschool Nieuwland</title>
+	<title>Basisschool Nieuwland - klassen</title>
 	<link href="css/style.css" rel="stylesheet" />
-    <link rel="stylesheet" href="css/klassen.css">
+	<link href="css/klassen.css" rel="stylesheet" />
 </head>
-<body>
+<body class="bodyKlassen">
 	<header>
 		<div class="wrapper">
 			<div class="nav-top">
@@ -31,6 +31,7 @@
                     <div class="dropdown-content_2">
                         <a href="praktische_informatie.html">Praktische Informatie</a>
                         <a href="inschrijven.html">Inschrijven</a>
+                        <a href="klassen.html">Klassen</a>
                     </div>
                 </div>
                 <a href="nieuws.html" class="Nieuws">Nieuws</a>
@@ -39,33 +40,210 @@
 		</div>
 		</header>
 
+</head>
+<body>
 
-	<div class="wrapper">
-		<div class="infomomenten">
-			<div>
-				<h3>TITEL_3</h3>
-				<div>
-					<img src="image" class="bloknotitie" />
-				</div>
-				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi sunt
-					laboriosam, debitis placeat fuga veniam rem omnis officia, eligendi
-					minima corrupti quam. Magni alias aliquam expedita officiis earum
-					assumenda dolorum?
-				</p>
-				<!-- hier moeten foto's bij  -->
-			</div>
 
-			<div>
-				<h3>TITEL_3</h3>
-				<div>
-					<a href="#" class="call-to-action">Praktische Informatie</a>
-				</div>
-			</div>
-		</div>
-	</div>
+<div class="button-group">
+  <div class="KeuzeTitle">
+    <h1>Klassen</h1>  
+  </div>
+  <div class="Buttonrow1">
+    <button onclick=showClassroom(1) id="button-1" class="active-button">Peuterklas</button>
+    <button onclick=showClassroom(2) id="button-2">1ste Kleuterklas</button>
+    <button onclick=showClassroom(3) id="button-3">1ste Leerjaar</button>
+  </div>
 
-	<div class="footer">
+  <div class="Buttonrow2">
+    <button onclick=showClassroom(4) id="button-4">2de Leerjaar</button>
+    <button onclick=showClassroom(5) id="button-5">3rde Leerjaar</button>
+    <button onclick=showClassroom(6) id="button-6">4de Leerjaar</button>
+  </div>
+
+  <div class="Buttonrow3">
+    <button onclick=showClassroom(7) id="button-7">5de Leerjaar</button>
+    <button onclick=showClassroom(8) id="button-8">6de Leerjaar</button>
+    <button onclick=showClassroom(9) id="button-9">Lichamelijke opvoeding</button>
+  </div>
+</div>
+
+<div class="buttonclassroom">
+  <!-- Classroom information container for Peuterklas (set as active on load) -->
+  <div id="classroom-1" class="classroom-info active">
+    <div class="PeuterInfo">
+      <h1>Peuterklas</h1>
+      <div class="PeuterClassroom">
+        <img src="images/Peuterklas.jpg" class="PeuterklassFoto" alt="">
+        <h2>
+          Welkom bij de eerste stapjes in het onderwijs. 
+          Juf Jade zorgt voor een warm onthaal en wakkert een blijvende motivatie aan bij elke 2,5 jarige.
+        </h2>
+      </div>
+      <div class="TeacherPictures">
+        <img src="images/Sezer.jpg" class="TeacherPicture" alt="">
+        <div class="sezerText">
+          <h1>Juf Sezer</h1>
+          <h2>sdemir@bsnieuwland.be</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Other classroom containers (no changes here) -->
+  <div id="classroom-2" class="classroom-info">
+    <div class="PeuterInfo">
+      <h1>1ste Kleuterklas</h1>
+      <div class="PeuterClassroom">
+        <img src="images/1stekleuterklas.jpg" class="PeuterklassFoto" alt="">
+      </div>
+      <div class="TeacherPictures">
+        <img src="images/Jade.jpg" class="TeacherPicture" alt="">
+        <div class="sezerText">
+        <h1>Juf Jade</h1>
+        <h2>jlindekens@bsnieuwland.be</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="classroom-3" class="classroom-info">
+    <div class="PeuterInfo">
+      <h1>1ste Leerjaar</h1>
+      <div class="PeuterClassroom">
+        <img src="images/1steleerjaar.jpg" class="PeuterklassFoto" alt="">
+        <h2>Welkom in het eerste leerjaar. Hier gebeuren de spannendste dingen! Voor het eerst in hun jonge leven leren kinderen lezen, schrijven en rekenen. De toegangspoort naar de wijde wereld!</h2>
+      </div>
+      <div class="TeacherPictures">
+        <img src="images/Mieke.jpg" class="TeacherPicture" alt="">
+        <div class="sezerText">
+        <h1>Juf Mieke</h1>
+        <h2>mverhegge@bsnieuwland.be</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="classroom-4" class="classroom-info">
+    <div class="PeuterInfo">
+      <h1>2de Leerjaar</h1>
+      <div class="PeuterClassroom">
+        <img src="images/2deleerjaar.jpg" class="PeuterklassFoto" alt="">
+        <h2>
+          De focus verschuift van technisch lezen naar begrijpend lezen, van correct schrijven naar creatief schrijven.
+          Samen met de kinderen ontdekken ze getallen tot 100 en leren ze er mee rekenen.
+        </h2>
+      </div>
+      <div class="TeacherPictures">
+        <img src="images/Charline.jpg" class="TeacherPicture" alt="">
+        <div class="sezerText">
+        <h1>Juf Charline</h1>
+        <h2>cjanssen@bsnieuwland.be</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="classroom-5" class="classroom-info">
+    <div class="PeuterInfo">
+      <h1>3de Leerjaar</h1>
+      <div class="PeuterClassroom">
+        <img src="images/3de leerjaar.jpg" class="PeuterklassFoto" alt="">
+        <h2>
+          De maal - en deeltafels worden verder gautomatiseerd en er wordt voor het eerst gecijferd! 
+  De leesmotor draait nu op volle toeren waardoor de kinderen al snel in de fantasiewereld van dikke boeken kunnen duiken. 
+        </h2>
+      </div>
+      <div class="TeacherPictures">
+        <img src="images/Elien.jpg" class="TeacherPicture" alt="">
+        <div class="sezerText">
+          <h1>Juf Elien</h1>
+        <h2>egeeraerts@bsnieuwland.be</h2>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="classroom-6" class="classroom-info">
+    <div class="PeuterInfo">
+      <h1>4de leerjaar</h1>
+      <div class="PeuterClassroom">
+        <img src="images/4deleerjaarKlein.jpg" class="PeuterklassFoto" alt="">
+        <h2>
+          Voor het eerst maken we kennis met kommagetallen!
+          De blik van de leerlingen wordt verruimd door openluchtklassen aan zee en door thema's als 'uitvindingen', 'Belgie' en 'Sport en spel'.
+        </h2>
+      </div>
+      <div class="TeacherPictures">
+        <img src="images/Katrien.jpg" class="TeacherPicture" alt="">
+        <div class="sezerText">
+        <h1>Juf Katrien</h1>
+        <h2>kvanasbroeck@bsnieuwland.be</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="classroom-7" class="classroom-info">
+    <div class="PeuterInfo">
+      <h1>5de Leerjaar</h1>
+      <div class="PeuterClassroom">
+        <img src="images/L52.jpg" class="PeuterklassFoto" alt="">
+        <h2>
+          Welkom bij de eerste stapjes in het onderwijs. 
+          Juf Jade zorgt voor een warm onthaal en wakkert een blijvende motivatie aan bij elke 2,5 jarige.
+        </h2>
+      </div>
+      <div class="TeacherPictures">
+        <img src="images/Gaetan.jpg" class="TeacherPicture" alt="">
+        <div class="sezerText">
+        <h1>Meester Gaetan</h1>
+        <h2>gcarlier@bsnieuwland.be</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="classroom-8" class="classroom-info">
+    <div class="PeuterInfo">
+      <h1>6de leerjaar</h1>
+      <div class="PeuterClassroom">
+        <img src="images/6deleerjaar.jpg" class="PeuterklassFoto" alt="">
+        <h2>
+          In het zesde leerjaar worden de kinderen klaargestoomd voor het secundair onderwijs. Via een ruime waaier aan hulpmiddelen bij de studiekeuze worden leerlingen en ouders voorbereid op de grote overstap naar een secundaire school.
+        </h2>
+      </div>
+      <div class="TeacherPictures">
+        <img src="images/Willem.jpg" class="TeacherPicture" alt="">
+        <div class="sezerText">
+        <h1>Meester Willem</h1>
+        <h2>wdehertogh@bsnieuwland.be</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="classroom-9" class="classroom-info">
+    <div class="PeuterInfo">
+      <h1>Lichamelijke Opvoeding</h1>
+      <div class="PeuterClassroom">
+        <h2>
+          Onze kinderen krijgen minstens 3u bewegingsopvoeding per week en dat is volkomen terecht! 
+  Gekende sporten als voetbal, volleybal en basketbal, maar ook nieuwe sporten als grappling en muurklimmen komen aan bod
+        </h2>
+      </div>
+      <div class="TeacherPictures">
+        <img src="images/Michel.jpg" class="TeacherPicture" alt="">
+        <h1>Meester Michel</h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="classroom.js"></script>
+
+
+<div class="footer">
         <div class="wrapper">
             <div ><img src="images/logo.png" class="footer-logo" /></div>
  
@@ -88,7 +266,7 @@
                     <a href="contact.html" class="contact-footer">Contact</a>
                     <a href="nieuws.html" class="nieuws-footer">Nieuws</a>
                     <a href="praktische_informatie.html" class="praktischeinformatie-footer">Praktische Informatie</a>
-                </div>              
+                </div>
             </div>
  
             <div class="icon-line-2"><img src="images/icon_map_pin.png" class="map-icon" /><p>Nieuwland 194, 1000 Brussel</p></div>

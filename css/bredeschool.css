@@ -3,13 +3,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
 
 body {
-	background-image: url("/images/wat_background.png");
+	background-image: url("./../images/wat_background.png");
 	margin: 0;
 }
 
 h1 {
 	font-family: "Lexend";
-	background-color: #f176f5;
+	background-color: #ffd1ff;
 	display: inline-block;
 	font-size: 18px;
 	/* rotate: 8deg; */
@@ -21,20 +21,12 @@ h1 {
 .container {
 	margin: 10px 20px 50px 20px;
 	padding-bottom: 10px;
-	background-color: yellow;
-}
-
-.item-1,
-.item-2,
-.item-3,
-.item-4,
-.item-5 {
-	margin: 20px 0px 20px 0px;
 }
 
 h2 {
 	font-weight: bold;
-	padding: 5px 7px 5px 7px;
+	margin-bottom: -10px;
+	padding: 10px;
 	margin-left: -8px;
 	font-size: 14px;
 	display: inline-block;
@@ -65,10 +57,11 @@ ol {
 	line-height: 20px;
 	font-size: 12px;
 	font-family: "Plus Jakarta Sans";
-	margin: 10px;
+	margin: 0px;
 }
 
 .rectangle {
-	background-color: red;
-	margin: 10px 0px 50px 0px;
+	background-color: #d89eb9;
+	margin: 0px 0px 50px 0px;
+	padding: 12px;
 }

@@ -28,7 +28,6 @@ h2 {
 
 .container {
 	margin: 10px 20px 50px 20px;
-	background-color: yellow;
 }
 
 h3 {
@@ -37,13 +36,16 @@ h3 {
 	display: inline-block;
 	font-family: "Plus Jakarta Sans";
 	font-weight: bold;
+	margin-bottom: -10px;
+	margin-left: -10px;
 }
 
 .pic {
 	width: 100%;
+	margin-bottom: -20px;
 }
 
-p {
+.container p {
 	padding: 20px;
 	line-height: 20px;
 	font-size: 12px;
@@ -55,5 +57,22 @@ p {
 .item-3,
 .item-4 {
 	margin: 20px;
+	padding-top: 30px;
 	padding-bottom: 20px;
+}
+
+.buiteling-button {
+	display: flex;
+	justify-content: center;
+}
+
+.buiteling-button a {
+	font-family: "Plus Jakarta Sans";
+	color: black;
+	text-decoration: none;
+	background-color: #85aed5;
+	display: inline-block;
+	padding: 12px;
+	margin-top: -10px;
+	font-weight: bold;
 }

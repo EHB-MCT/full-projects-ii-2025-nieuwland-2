@@ -9,10 +9,13 @@ document.addEventListener('DOMContentLoaded', () => {
         const images = composition.querySelectorAll('img');
 
         images.forEach((img, index) => {
-            // Delay increases per image for build effect
+            // Delay increases per image for build up effect
             setTimeout(() => {
+                // add css class for desired effect(animation)
                 img.classList.add('show');
-            }, 300 * index); // 300ms stagger
+                img.classList.add('animate-in');
+            }, 250 * index); // ms stagger
+            // https://stackoverflow.com/questions/33895884/staggered-animation-using-settimeout-is-choppy
         });
     }
 

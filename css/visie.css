@@ -55,10 +55,6 @@ h1 {
 	/* background-color: red; */
 }
 
-.container img {
-	width: 80%;
-}
-
 h2 {
 	position: relative;
 	z-index: 4;
@@ -68,7 +64,6 @@ h2 {
 	margin-top: 10px;
 	margin-bottom: -10px;
 	font-size: 14px;
-	background-color: #f7ebc4;
 }
 
 /* .p-h-vakje-1,
@@ -88,6 +83,12 @@ h2 {
 	font-size: 12px;
 }
 
+.container img {
+	width: 80%;
+	position: relative;
+	z-index: 1;
+}
+
 /*Pedagogisch Project*/
 
 .pedagogisch-1,
@@ -98,6 +99,16 @@ h2 {
 .pedagogisch-6,
 .pedagogisch-7 {
 	margin-bottom: 50px;
+}
+
+.pedagogisch-1 h2,
+.pedagogisch-2 h2,
+.pedagogisch-3 h2,
+.pedagogisch-4 h2,
+.pedagogisch-5 h2,
+.pedagogisch-6 h2,
+.pedagogisch-7 h2 {
+	background-color: #f7ebc4;
 }
 
 .p-vakje-1,
@@ -130,8 +141,8 @@ h2 {
 .pedagogisch-pic-2,
 .pedagogisch-pic-3,
 .pedagogisch-pic-4 {
-	position: relative;
-	z-index: 1;
+	/* position: relative;
+	z-index: 1; */
 }
 
 .pedagogisch-1 h2 {
@@ -183,6 +194,101 @@ h2 {
 
 .pedagogisch-pic-4 {
 	margin: -10px 50px -10px;
+}
+
+/*Oriëntatie op de wereld*/
+.orientatie-1,
+.orientatie-2,
+.orientatie-3,
+.orientatie-4,
+.orientatie-5,
+.orientatie-6,
+.orientatie-7,
+.orientatie-8 {
+	margin-bottom: 50px;
+}
+
+.orientatie-1 h2,
+.orientatie-2 h2,
+.orientatie-3 h2,
+.orientatie-4 h2,
+.orientatie-5 h2,
+.orientatie-6 h2,
+.orientatie-7 h2,
+.orientatie-8 h2 {
+	background-color: #c0b6ee;
+}
+
+.o-vakje-1,
+.o-vakje-3,
+.o-vakje-4,
+.o-vakje-5,
+.o-vakje-6,
+.o-vakje-7,
+.o-vakje-8 {
+	background-color: #b6cde4;
+}
+
+.orientatie-1 {
+	display: inline-flex;
+	flex-direction: column;
+}
+
+.orientatie-1 h2 {
+	align-self: flex-end;
+}
+
+.orientatie-1 img {
+	align-self: flex-end;
+}
+
+.orientatie-2 {
+	/*TODO: background pic instead of color*/
+	padding: 10px;
+	background-color: #f8d3a9;
+	display: flex;
+	flex-direction: column;
+}
+
+.orientatie-2 h2,
+img,
+p {
+	align-self: center;
+}
+
+.orientatie-2 img {
+	margin-top: -10px;
+}
+
+.orientatie-3 h2 {
+	margin-left: -10px;
+}
+
+.orientatie-4 {
+	display: flex;
+	flex-direction: column;
+}
+
+.o-title-4 {
+	display: inline-table;
+	margin-left: -5px;
+}
+
+.orientatie-4 {
+	align-self: left;
+}
+
+.orientatie-4 img {
+	margin-bottom: -35px;
+}
+
+.orientatie-5 {
+	display: flex;
+	flex-direction: column;
+}
+
+.o-title-5 {
+	/* display: inline-table; */
 }
 
 /*Computer version*/

@@ -1,3 +1,141 @@
 @import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+body {
+	margin: 0;
+}
+
+.title {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+h1 {
+	font-family: "Lexend";
+	background-color: #ffd1ff;
+	display: inline-block;
+	font-size: 18px;
+	margin: 50px 0px 50px 0px;
+	padding: 10px;
+	font-weight: bold;
+}
+
+#filter {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	margin: 0px 9px 30px 9px;
+}
+
+.button-1,
+.button-2,
+.button-3 {
+	font-family: "Plus Jakarta Sans";
+	font-size: 12px;
+	background-color: #44b3af;
+	color: #000;
+	border: 0px;
+	padding: 10px;
+}
+
+.button-1:hover,
+.button-2:hover,
+.button-3:hover {
+	background-color: #1d919b;
+}
+
+.container {
+	margin: 20px 20px 50px 20px;
+	padding: 5px;
+	background-color: red;
+}
+
+.container img {
+	width: 80%;
+}
+
+h2 {
+	position: relative;
+	z-index: 3;
+	font-weight: bold;
+	display: inline-block;
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: -10px;
+	font-size: 14px;
+	background-color: #f7ebc4;
+}
+
+.container p {
+	position: relative;
+	z-index: 2;
+	padding: 15px;
+	line-height: 20px;
+	font-size: 12px;
+}
+
+/*Pedagogisch Project*/
+
+.pedagogisch-1,
+.pedagogisch-2,
+.pedagogisch-3,
+.pedagogisch-4,
+.pedagogisch-5,
+.pedagogisch-6,
+.pedagogisch-7 {
+	margin-bottom: 50px;
+}
+
+.pedagogisch-1 h2 {
+	margin-left: -10px;
+}
+
+.pedagogisch-pic-1 {
+	width: 80%;
+	padding-left: 20px;
+}
+
+.pedagogisch-1 p {
+	margin: -10px 25px 0px 25px;
+}
+
+.pedagogisch-1 p,
+.pedagogisch-2 p,
+.pedagogisch-3 p,
+.pedagogisch-4 p,
+.pedagogisch-5 p,
+.pedagogisch-7 p {
+	background-color: #b6cde4;
+}
+
+.pedagogisch-6 {
+	/*TODO*/
+	/* background-image: url("./../images/pink_paper_background.png"); */
+	background-color: #f9c3cc;
+}
+
+.pedagogisch-pic-1,
+.pedagogisch-pic-2,
+.pedagogisch-pic-3,
+.pedagogisch-pic-4 {
+	position: relative;
+	z-index: 1;
+}
+
+.pedagogisch-pic-1 {
+	margin: -5px 0px -5px 0px;
+}
+
+.pedagogisch-pic-2 {
+}
+
+.pedagogisch-pic-3 {
+}
+
+.pedagogisch-pic-4 {
+}

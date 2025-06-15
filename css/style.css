@@ -483,22 +483,23 @@ h1 {
 
 /*filter functie*/
 
-.filter {
+/* .filter {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
 	gap: 10px;
 	margin-bottom: 30px;
-}
+} */
 
-.title {
+/* .title {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
-}
+} */
 
+/* 
 .button {
 	font-family: "Plus Jakarta Sans";
 	font-size: 12px;
@@ -507,4 +508,4 @@ h1 {
 	background-color: #85dac4;
 	color: white;
 	text-decoration: none;
-}
+} */

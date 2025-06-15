@@ -52,7 +52,7 @@ h1 {
 .container {
 	margin: 20px 20px 50px 20px;
 	padding: 5px;
-	background-color: red;
+	/* background-color: red; */
 }
 
 .container img {
@@ -61,7 +61,7 @@ h1 {
 
 h2 {
 	position: relative;
-	z-index: 3;
+	z-index: 4;
 	font-weight: bold;
 	display: inline-block;
 	padding: 10px;
@@ -71,9 +71,18 @@ h2 {
 	background-color: #f7ebc4;
 }
 
+/* .p-h-vakje-1,
+.p-h-vakje-2,
+.p-h-vakje-3,
+.p-h-vakje-4,
+.p-h-vakje-5,
+.p-h-vakje-6,
+.p-h-vakje-7 {
+} */
+
 .container p {
 	position: relative;
-	z-index: 2;
+	z-index: 3;
 	padding: 15px;
 	line-height: 20px;
 	font-size: 12px;
@@ -91,25 +100,23 @@ h2 {
 	margin-bottom: 50px;
 }
 
-.pedagogisch-1 h2 {
-	margin-left: -10px;
+.p-vakje-1,
+.p-vakje-2,
+.p-vakje-3,
+.p-vakje-4,
+.p-vakje-5,
+.p-vakje-6,
+.p-vakje-7 {
+	position: relative;
+	z-index: 2;
 }
 
-.pedagogisch-pic-1 {
-	width: 80%;
-	padding-left: 20px;
-}
-
-.pedagogisch-1 p {
-	margin: -10px 25px 0px 25px;
-}
-
-.pedagogisch-1 p,
-.pedagogisch-2 p,
-.pedagogisch-3 p,
-.pedagogisch-4 p,
-.pedagogisch-5 p,
-.pedagogisch-7 p {
+.p-vakje-1,
+.p-vakje-2,
+.p-vakje-3,
+.p-vakje-4,
+.p-vakje-5,
+.p-vakje-7 {
 	background-color: #b6cde4;
 }
 
@@ -127,15 +134,191 @@ h2 {
 	z-index: 1;
 }
 
+.pedagogisch-1 h2 {
+	margin-left: -10px;
+}
+
 .pedagogisch-pic-1 {
-	margin: -5px 0px -5px 0px;
+	width: 80%;
+	padding-left: 20px;
+}
+
+.p-vakje-1 {
+	margin: -35px 15px 0px 15px;
+}
+
+.pedagogisch-2 h2 {
+	margin-left: 30px;
+}
+
+.pedagogisch-3 h2 {
+	margin-left: 100px;
 }
 
 .pedagogisch-pic-2 {
+	margin-left: -10px;
+	margin-bottom: -100px;
+}
+
+.pedagogisch-4 h2 {
+	margin-left: -15px;
+}
+
+.pedagogisch-5 h2 {
+	margin-left: 200px;
+}
+
+.pedagogisch-6 h2 {
+	margin-left: 30px;
 }
 
 .pedagogisch-pic-3 {
+	display: block;
+	margin: 40px auto;
+}
+
+.pedagogisch-7 h2 {
+	margin-left: 70px;
 }
 
 .pedagogisch-pic-4 {
+	margin: -10px 50px -10px;
+}
+
+/*Computer version*/
+@media (min-width: 480px) {
+	/*filter*/
+	.button-1,
+	.button-2,
+	.button-3 {
+		font-size: 20px;
+	}
+
+	/*general*/
+	h1 {
+		font-size: 45px;
+	}
+
+	.container {
+		margin: 80px 50px 80px 50px;
+	}
+
+	h2 {
+		font-size: 25px;
+	}
+
+	.container p {
+		font-size: 20px;
+		line-height: 35px;
+	}
+
+	/*Pedagogisch Project*/
+	.pedagogisch-1,
+	.pedagogisch-2,
+	.pedagogisch-3,
+	.pedagogisch-4,
+	.pedagogisch-5,
+	.pedagogisch-6,
+	.pedagogisch-7 {
+		margin-bottom: 150px;
+	}
+
+	.pedagogisch-1 {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.pedagogisch-1 img {
+		width: 30%;
+		margin-top: 10px;
+		padding-left: 20px;
+	}
+
+	.p-vakje-1 {
+		max-width: 800px;
+	}
+
+	.pedagogisch-2 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.p-vakje-2 {
+		max-width: 1000px;
+	}
+
+	.pedagogisch-3 {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		max-width: 1500px;
+	}
+
+	.pedagogisch-3 h2 {
+		/* align-self: flex-end; */
+	}
+
+	.pedagogisch-3 img {
+		width: 30%;
+	}
+
+	.p-vakje-3 {
+		max-width: 700px;
+	}
+
+	.pedagogisch-4 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.p-vakje-4 {
+		max-width: 1000px;
+	}
+
+	.pedagogisch-5 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.pedagogisch-5 h2 {
+		/* align-self: flex-start; */
+	}
+
+	.p-vakje-5 {
+		max-width: 900px;
+	}
+
+	.pedagogisch-6 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+	.pedagogisch-6 img {
+		width: 50%;
+	}
+
+	.pedagogisch-6 p {
+		max-width: 1100px;
+	}
+
+	.pedagogisch-7 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.pedagogisch-7 img {
+		width: 50%;
+	}
+
+	.p-vakje-7 {
+		max-width: 900px;
+	}
 }

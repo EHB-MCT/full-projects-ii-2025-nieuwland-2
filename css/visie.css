@@ -117,7 +117,14 @@ h2 {
 .p-vakje-4,
 .p-vakje-5,
 .p-vakje-6,
-.p-vakje-7 {
+.p-vakje-7,
+.o-vakje-1,
+.o-vakje-3,
+.o-vakje-4,
+.o-vakje-5,
+.o-vakje-6,
+.o-vakje-7,
+.o-vakje-8 {
 	position: relative;
 	z-index: 2;
 }
@@ -235,6 +242,7 @@ h2 {
 }
 
 .orientatie-1 h2 {
+	/*TODO: ask why not at end?*/
 	align-self: flex-end;
 }
 
@@ -285,10 +293,44 @@ p {
 .orientatie-5 {
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 }
 
-.o-title-5 {
-	/* display: inline-table; */
+.orientatie-5 img {
+	margin-bottom: -50px;
+}
+
+.orientatie-6 {
+	display: flex;
+	flex-direction: column;
+}
+
+.orientatie-6 h2 {
+	margin-left: -5px;
+}
+
+.orientatie-7 {
+	display: flex;
+	flex-direction: column;
+}
+
+.o-title-7 {
+	align-self: center;
+}
+
+.orientatie-7 img {
+	align-self: left;
+	margin-bottom: -50px;
+}
+
+.orientatie-8 {
+	display: flex;
+	flex-direction: column;
+}
+
+.o-title-8 {
+	align-self: flex-end;
+	margin-right: -5px;
 }
 
 /*Computer version*/

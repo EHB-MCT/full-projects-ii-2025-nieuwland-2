@@ -1,9 +1,45 @@
 function init() {
-	filter();
+	filterTitle();
+	filterContent();
+}
+
+function filterTitle() {
+	document.querySelector(".button-1").addEventListener('click', function () {
+		document.getElementById('title').innerHTML = `
+			<div class="bschool-title">
+				<h1>Wat is Brede School?</h1>
+			</div>`;
+
+	});
+
+	document.querySelector(".button-2").addEventListener('click', function () {
+		document.getElementById('title').innerHTML = `
+			<div class="hoofdst-title">
+				<h1>Hoofdstedelijke Academie</h1>
+			</div>`;
+
+	});
+
+	document.querySelector(".button-3").addEventListener('click', function () {
+		document.getElementById('title').innerHTML = `
+			<div class="buiteling-title">
+				<h1>Buiteling</h1>
+			</div>`;
+
+	});
+
+	document.querySelector(".button-4").addEventListener('click', function () {
+		document.getElementById('title').innerHTML = `
+		<div class="film-title">
+				<h1>Filmclub</h1>
+			</div>`;
+
+	});
+
 }
 
 
-function filter() {
+function filterContent() {
 	document.querySelector(".button-1").addEventListener('click', function () {
 		document.getElementById('content').innerHTML = `
       <div class="container">
@@ -88,11 +124,71 @@ function filter() {
 	});
 
 	document.querySelector(".button-3").addEventListener('click', function () {
-		document.getElementById('content').innerHTML = ``;
+		document.getElementById('content').innerHTML = `
+		<div class="bu-title">
+		<h2>Welkom</h2>
+	</div>
+
+	<div class="container">
+
+		<div class="bucontainer">
+			<div class="bu-row-1">
+				<div class="buiteling-1">
+					<img src="/images/ons_brussel.png" class="bu-pic-1">
+					<div class="bu-h3">
+						<h3>Ons Brussel</h3>
+					</div>
+					<p>Als kinderopvang in de grootstad willen wij actief meewerken aan een maatschappij van gelijke kansen. Dit is te zien aan onze diverse ploeg, in onze buurtsamenwerkingen en aan onze tarieven. We omhelzen de stad als een leerrijke ontmoetingsplaats, waarin we volop kunnen spelen!</p>
+				</div>
+
+				<div class="buiteling-2">
+					<img src="/images/allerlei_ateliers.png" class="bu-pic-2">
+					<div class="bu-h3">
+						<h3>Allerlei Ateliers</h3>
+					</div>
+					<p>Elke dag bieden we uiteenlopende activiteiten aan op onze locaties. Creatieve ateliers, sport, expressie of media, georganiseerd door onze eigen begeleiders of in samenwerking met onze partners. Zo creëren we een uitdagende en stimulerende speel- en leeromgeving.</p>
+				</div>
+			</div>
+
+			<div class="bu-row-2">
+				<div class="buiteling-3">
+					<img src="/images/vrij_spel.png" class="bu-pic-3">
+					<div class="bu-h3">
+						<h3>Vrij Spel</h3>
+					</div>
+					<p>In De Buiteling zien wij de waarde van begeleid vrij spelen. Kinderen leren dagelijks spelend initiatief te nemen, te vertrouwen op zichzelf, anderen en andere meningen te respecteren en om te gaan met conflicten. Ze groeien en experimenteren er op los in een veilige omgeving.</p>
+				</div>
+
+				<div class="buiteling-4">
+					<img src="/images/samen_leren.png" class="bu-pic-4">
+					<div class="bu-h3">
+						<h3>Samen Leren</h3>
+					</div>
+					<p>Ook onze begeleiders in opleiding leren iedere dag van onze ervaren begeleiders in de opvang. Ze volgen taaltrajecten om hun Nederlands aan te scherpen en diverse opleidingen en workshops om hun capaciteiten op de werkvloer verder te ontwikkelen.</p>
+					<p>Inschrijven voor de Buiteling kan op school of via:</p>
+					<div class="buiteling-button">
+						<a href="https://www.debuiteling.be/" target="_blank">De Buiteling</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>`;
 	});
 
 	document.querySelector(".button-4").addEventListener('click', function () {
-		document.getElementById('content').innerHTML = ``;
+		document.getElementById('content').innerHTML = `
+			<div class="main-filmcontainer">
+		<div class="filmcontainer">
+				<p>De OFFICIAL Filmclub toont kwaliteitsfilm op donderdagavond voor kinderen van het derde leerjaar tot het zesde leerjaar</p>
+				<p>...met een hart voor cinema.</p>
+				<p>Inschrijven kan bij meester Brian.</p>
+				<p class="sentence">Ontdek meer over de Filmclub op</p>
+				<div class="film-button">
+					<a href="https://www.jeugdfilm.be/film-zoeken" target="_blank">Filmclub</a>
+				</div>
+		</div>
+	</div>`;
 	});
 }
 

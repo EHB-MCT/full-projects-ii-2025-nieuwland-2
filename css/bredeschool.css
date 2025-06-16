@@ -9,7 +9,9 @@ body {
 
 /*general*/
 
-.title {
+.bschool-title,
+.hoofdst-title,
+.buiteling-title {
 	display: flex;
 	flex-direction: column;
 }
@@ -62,7 +64,11 @@ h1 {
 
 /*Wat*/
 
-.bschool-1 h2 {
+.bschool-1 h2,
+.bschool-2 h2,
+.bschool-3 h2,
+.bschool-4 h2,
+.bschool-5 h2 {
 	font-weight: bold;
 	margin-bottom: -10px;
 	padding: 10px;
@@ -218,6 +224,44 @@ h3 {
 	margin-left: -10px;
 }
 
+/*Filmclub*/
+.film-title {
+	display: flex;
+	flex-direction: column;
+}
+
+.filmcontainer {
+	margin: 100px 20px 100px 20px;
+	padding: 10px 10px 10px 10px;
+	background-color: #b2c2ea;
+	display: flex;
+	flex-direction: column;
+}
+
+.filmcontainer p {
+	line-height: 30px;
+	text-align: left;
+}
+
+.sentence {
+	padding-bottom: 35px;
+}
+
+.film-button {
+	display: flex;
+	justify-content: center;
+}
+
+.film-button a {
+	font-family: "Plus Jakarta Sans";
+	color: black;
+	text-decoration: none;
+	background-color: #e1965b;
+	display: inline-block;
+	padding: 12px;
+	margin-bottom: -20px;
+}
+
 /*Computer version*/
 @media (min-width: 480px) {
 	/*filter*/
@@ -251,13 +295,6 @@ h3 {
 
 	/*Wat*/
 
-	h2 {
-		font-size: 25px;
-		margin-left: -15px;
-		position: relative;
-		z-index: 2;
-	}
-
 	.container p,
 	ol {
 		font-size: 20px;
@@ -277,6 +314,17 @@ h3 {
 	.bschool-2 h2,
 	.bschool-3 h2,
 	.bschool-4 h2,
+	.bschool-5 h2 {
+		font-size: 25px;
+		margin-left: -15px;
+		position: relative;
+		z-index: 2;
+	}
+
+	.bschool-1 h2,
+	.bschool-2 h2,
+	.bschool-3 h2,
+	.bschool-4 h2,
 	.bschool-5 h2,
 	.rectangle {
 		align-self: flex-start;
@@ -290,6 +338,8 @@ h3 {
 	/*Hoofdstedelijke Academie*/
 	.hoofdst-1 h2 {
 		font-size: 25px;
+		position: relative;
+		z-index: 2;
 	}
 
 	.hoofdstedelijk-button {
@@ -302,6 +352,12 @@ h3 {
 		font-size: 30px;
 	}
 
+	h3 {
+		font-size: 25px;
+		position: relative;
+		z-index: 3;
+	}
+
 	.buiteling-1 p,
 	.buiteling-2 p,
 	.buiteling-3 p,
@@ -310,12 +366,59 @@ h3 {
 		z-index: 2;
 	}
 
+	.buiteling-1,
+	.buiteling-2,
+	.buiteling-3,
+	.buiteling-4 {
+		display: flex;
+		flex-direction: column;
+		max-width: 800px;
+	}
+
 	.bu-pic-1,
 	.bu-pic-2,
 	.bu-pic-3,
 	.bu-pic-4 {
-		width: 30%;
+		width: 60%;
 		position: relative;
 		z-index: 1;
+		margin-bottom: -50px;
+		align-self: center;
+	}
+
+	.bu-row-1,
+	.bu-row-2 {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+
+	.buiteling-button {
+		position: relative;
+		z-index: 3;
+		font-size: 22px;
+	}
+
+	/*Filmclub*/
+
+	.main-filmcontainer {
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 100px;
+	}
+
+	.filmcontainer {
+		align-self: center;
+		max-width: 900px;
+	}
+
+	.filmcontainer p {
+		font-size: 20px;
+		margin: 30px 25px 25px 30px;
+	}
+
+	.film-button {
+		margin-top: -20px;
+		font-size: 22px;
 	}
 }

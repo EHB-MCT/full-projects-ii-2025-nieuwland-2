@@ -4,12 +4,11 @@
 
 body {
 	margin: 0;
-	/* background-image: url("/images/contact_background.png"); */
+	background-image: url("/images/contact_background.png");
 }
 
 .container {
-	margin: 0px 20px 0px 20px;
-	background-color: red;
+	margin: 40px 20px 0px 20px;
 }
 
 /*contacts*/
@@ -47,7 +46,6 @@ h1 {
 .main-contactinformation {
 	display: flex;
 	flex-direction: column;
-	background-color: blue;
 	margin-top: -80px;
 }
 
@@ -84,31 +82,81 @@ h2 {
 
 /*map*/
 
-.map-section {
+.map-container {
+	margin-top: 50px;
 	display: flex;
 	align-items: center;
+	justify-content: center;
 	flex-direction: column;
+	height: 500px;
 }
 
 .map {
-	margin-bottom: 40px;
-	width: 80%;
-}
-
-.map-line {
+	padding: 10px;
+	background-image: url("/images/blue_text.png");
 	display: flex;
 	justify-content: center;
+	width: 100%;
+	margin-bottom: 40px;
 }
 
-.adres p {
-	font-size: 12px;
+.google-map {
+	align-self: center;
+	width: 80%;
+	height: 400px;
+	border: 0;
 }
 
-.adres {
-	background-image: url("/images/purple_tape.png");
-	padding: 10px;
-	rotate: -8deg;
-	display: flex;
-	justify-content: flex-start;
-	align-self: flex-start;
+/*Computer version*/
+@media (min-width: 480px) {
+	/*Contacts*/
+	.pic {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.pic img {
+		width: 50%;
+		align-self: center;
+	}
+
+	.title {
+		margin-top: -200px;
+	}
+
+	h1 {
+		font-size: 38px;
+	}
+
+	.contactinformation {
+		max-width: 1000px;
+	}
+
+	h2 {
+		font-size: 18px;
+		line-height: 20px;
+	}
+
+	.contactinformation p {
+		font-size: 12px;
+		line-height: 28px;
+	}
+
+	.main-contactinformation {
+		margin-top: -70px;
+	}
+
+	/*map*/
+	.map-container {
+		margin-top: 200px;
+		margin-bottom: 100px;
+	}
+
+	.map {
+		padding: 100px;
+	}
+
+	.google-map {
+		width: 50%;
+	}
 }

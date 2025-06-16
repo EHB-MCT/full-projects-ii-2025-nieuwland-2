@@ -1,10 +1,23 @@
-// canvas setup:
-let canvas = document.querySelector("canvas");
-canvas.width = window.innerWidth;
-canvas.height = window.innerHeight;
+document.addEventListener('DOMContentLoaded', () => {
+    const styles = ['style1', 'style2', 'style3'];
+    // const styles = ['style1']; //set style for testing
+    const randomStyle = styles[Math.floor(Math.random() * styles.length)];
 
-const mobileImages = [];
-const desktopImages = [];
+    const composition = document.getElementById('imageComposition');
+    if (composition) {
+        composition.classList.add(randomStyle);
+        const images = composition.querySelectorAll('img');
 
-console.log("hello world")
+        images.forEach((img, index) => {
+            // Delay increases per image for build up effect
+            setTimeout(() => {
+                // add css class for desired effect(animation)
+                img.classList.add('show');
+                img.classList.add('animate-in');
+            }, 250 * index); // ms stagger
+            // https://stackoverflow.com/questions/33895884/staggered-animation-using-settimeout-is-choppy
+        });
+    }
 
+    console.log("active style " + randomStyle);
+});

@@ -4,22 +4,65 @@
 
 body {
 	margin: 0;
-	background-image: url("/images/contact_background.png");
+	/* background-image: url("/images/contact_background.png"); */
+}
+
+.container {
+	margin: 0px 20px 0px 20px;
+	background-color: red;
+}
+
+/*contacts*/
+
+.pic img {
+	width: 100%;
+}
+
+.pic {
+	position: relative;
+	z-index: 1;
+}
+
+.title {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	z-index: 3;
 }
 
 h1 {
+	align-self: center;
 	font-family: "Lexend";
 	display: block;
-	margin: 0 auto;
+	margin-bottom: 50px;
 	max-width: 200px;
 	font-size: 18px;
+	font-weight: bold;
 	text-align: center;
 	padding: 10px 10px 10px 10px;
-	background-image: url("/images/tape_contact.png");
-	rotate: -8deg;
+	background-color: #e28fb2;
+	margin-top: -100px;
 }
 
-body h2 {
+.main-contactinformation {
+	display: flex;
+	flex-direction: column;
+	background-color: blue;
+	margin-top: -80px;
+}
+
+.contactinformation {
+	align-self: center;
+	display: flex;
+	flex-direction: column;
+	background-image: url("/images/orange_text.png");
+	padding: 30px;
+	max-width: 350px;
+	position: relative;
+	z-index: 2;
+}
+
+h2 {
 	font-family: "Plus Jakarta Sans";
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -28,44 +71,18 @@ body h2 {
 	line-height: 13px;
 }
 
-.contact-text p {
-	font-family: "Plus Jakarta Sans";
+.contactinformation p {
 	line-height: 13px;
 	font-size: 8px;
 }
 
-.contact-title{ 
-	display: flex;
-	justify-content: center;
-}
-.contact-container {
-	/*parent*/
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 100%;
+.contactinformation h2,
+.contactinformation p {
+	font-family: "Plus Jakarta Sans";
+	align-self: center;
 }
 
-.collage-contact {
-	width: 100%;
-	display: flex;
-	justify-content: center;
-}
-
-.contact-text {
-	/*child*/
-	position: absolute;
-	/*0 -> geen verticale marge & auto laat de browser automaticsh de linker- en rechtermarge berekenen*/
-	margin: 0 auto;
-	/*maak dit element niet breder dan 350 pixels*/
-	width: 250px;
-	padding: 10px 10px 10px 10px;
-	background-image: url("/images/contactp_background.png");
-}
-
-.location-icon {
-	height: 15px;
-}
+/*map*/
 
 .map-section {
 	display: flex;
@@ -83,15 +100,15 @@ body h2 {
 	justify-content: center;
 }
 
-.icon-line-3 p {
+.adres p {
 	font-size: 12px;
 }
 
-.icon-line-3 {
+.adres {
 	background-image: url("/images/purple_tape.png");
 	padding: 10px;
 	rotate: -8deg;
 	display: flex;
 	justify-content: flex-start;
-	align-self: flex-start; 
+	align-self: flex-start;
 }

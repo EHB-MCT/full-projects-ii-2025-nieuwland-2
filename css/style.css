@@ -179,6 +179,7 @@ h1 {
 	font-size: 28px;
 	color: #333;
 }
+
 /*navigatie begin*/
 .logo {
 	height: 30px;
@@ -276,10 +277,12 @@ h1 {
 
 /*navigatie begin*/
 .logo {
-	height: 30px;
-	margin-top: 15px;
+	/* height: 30px; */
+	/* margin-top: 15px;
 	margin-left: 15px;
-	margin-bottom: 20px;
+	margin-bottom: 20px; */
+
+	margin: 30px;
 }
 
 .navigation {
@@ -483,22 +486,23 @@ h1 {
 
 /*filter functie*/
 
-.filter {
+/* .filter {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
 	gap: 10px;
 	margin-bottom: 30px;
-}
+} */
 
-.title {
+/* .title {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
-}
+} */
 
+/* 
 .button {
 	font-family: "Plus Jakarta Sans";
 	font-size: 12px;
@@ -507,4 +511,33 @@ h1 {
 	background-color: #85dac4;
 	color: white;
 	text-decoration: none;
+} */
+
+/*Computer version*/
+@media (min-width: 480px) {
+	/*TODO*/
+
+	/*navigation*/
+	.logo {
+		height: 60px;
+	}
+
+	/*footer*/
+	.footer {
+		padding: 50px 60px 50px 60px;
+	}
+
+	.footer p {
+		font-size: 20px;
+	}
+
+	.visie-footer,
+	.bredeschool-footer,
+	.klassen-footer,
+	.inschrijven-footer,
+	.contact-footer,
+	.nieuws-footer,
+	.praktischeinformatie-footer {
+		font-size: 20px;
+	}
 }

@@ -1,14 +1,20 @@
 /* general */
+
+/* this to make sure there is no sideways scrolling on the webpage */
+body {
+	overflow-x: hidden;
+}
+
 .header-background {
 	padding-top: 200px;
 	z-index: -1;
 	position: relative;
-	width: 90%;
+	width: 100%;
 }
 
 .header-background img {
 	position: absolute;
-	max-width: 100%;
+	max-width: 40rem;
 	height: auto;
 }
 
@@ -340,6 +346,7 @@
 
 	.header-background.style1 .img-child-drawing.animate-in {
 		top: 45%;
+		display: none;
 		left: 8%;
 	}
 
@@ -350,16 +357,19 @@
 
 	.header-background.style1 .paper-scrap-bench.animate-in {
 		top: 60%;
-		left: 5%;
+		left: 2%;
 	}
 
 	.header-background.style1 .drawing-butterfly.animate-in {
 		top: 70%;
-		right: 4%;
+		width: 8rem;
+		right: 10%;
 	}
 
 	.header-background.style1 .drawing-bird.animate-in {
+		display: none;
 		top: 80%;
+		width: 6rem;
 		left: 10%;
 	}
 

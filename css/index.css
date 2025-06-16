@@ -14,7 +14,7 @@ h1 {
 	font-family: "Lexend";
 	font-weight: bold;
 	background-color: #7cc0ae;
-	padding: 10px 10px 10px 10px;
+	padding: 28px 20px 26px 20px;
 	display: inline-block;
 }
 
@@ -45,7 +45,7 @@ ol {
 .item {
 	margin-left: 20px;
 	margin-right: 20px;
-	margin-bottom: 2px;
+	margin-bottom: auto;
 }
 
 .pink_tape {
@@ -117,8 +117,45 @@ ol {
 	padding: 10px 10px 10px 10px;
 }
 
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: 720px) {
 	.item-2 {
 		width: 41.9375rem;
+		margin: 16rem auto;
+		display: flex;
+		flex-direction: column;
+		gap: 12px; /* interline inbetween both h2 and p */
+	}
+	.item-3 {
+		margin: 20rem 20px 50px 20px;
+	}
+	/*styling for h1, h2, etc + style fonts (desktop)*/
+	h1 {
+		font-family: "Lexend";
+		font-size: 32px;
+	}
+
+	h2 {
+		font-family: "Plus Jakarta Sans";
+		font-size: 22px;
+	}
+
+	h3 {
+		font-family: "Plus Jakarta Sans";
+		font-size: 14px;
+	}
+
+	p {
+		font-family: "Plus Jakarta Sans";
+		font-size: 12pt;
+	}
+
+	b,
+	strong {
+		font-weight: 700;
+	}
+
+	em,
+	i {
+		font-style: italic;
 	}
 }

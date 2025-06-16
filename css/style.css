@@ -11,7 +11,6 @@ h1 {
 h2 {
 	font-family: "Plus Jakarta Sans";
 	font-size: 14px;
-	font-weight: bold;
 }
 
 h3 {
@@ -541,4 +540,6 @@ h1 {
 	.praktischeinformatie-footer {
 		font-size: 20px;
 	}
+
+	
 }

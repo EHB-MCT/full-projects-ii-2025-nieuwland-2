@@ -14,7 +14,7 @@ body {
 
 .header-background img {
 	position: absolute;
-	max-width: 40rem;
+	max-width: 30rem;
 	height: auto;
 }
 
@@ -283,6 +283,10 @@ body {
 /* phone screens */
 
 @media screen and (max-width: 480px) {
+	/* this to make sure there is no sideways scrolling on the webpage */
+	body {
+		overflow-x: hidden;
+	}
 	.header-background img {
 		width: 10rem; /* scalable size */
 		max-width: none;

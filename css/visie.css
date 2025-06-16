@@ -1,3 +1,744 @@
 @import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+body {
+	margin: 0;
+}
+
+.title {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+h1 {
+	font-family: "Lexend";
+	background-color: #ffd1ff;
+	display: inline-block;
+	font-size: 18px;
+	margin: 50px 0px 50px 0px;
+	padding: 10px;
+	font-weight: bold;
+}
+
+#filter {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	gap: 30px;
+	margin: 0px 9px 30px 9px;
+}
+
+.button-1,
+.button-2,
+.button-3 {
+	font-family: "Plus Jakarta Sans";
+	font-size: 12px;
+	background-color: #44b3af;
+	color: #000;
+	border: 0px;
+	padding: 10px;
+}
+
+.button-1:hover,
+.button-2:hover,
+.button-3:hover {
+	background-color: #1d919b;
+}
+
+.container {
+	margin: 20px 20px 50px 20px;
+	padding: 5px;
+	/* background-color: red; */
+}
+
+h2 {
+	position: relative;
+	z-index: 4;
+	font-weight: bold;
+	display: inline-block;
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: -10px;
+	font-size: 14px;
+}
+
+/* .p-h-vakje-1,
+.p-h-vakje-2,
+.p-h-vakje-3,
+.p-h-vakje-4,
+.p-h-vakje-5,
+.p-h-vakje-6,
+.p-h-vakje-7 {
+} */
+
+.container p {
+	position: relative;
+	z-index: 3;
+	padding: 15px;
+	line-height: 20px;
+	font-size: 12px;
+}
+
+.container img {
+	width: 80%;
+	position: relative;
+	z-index: 1;
+}
+
+.p-vakje-1,
+.p-vakje-2,
+.p-vakje-3,
+.p-vakje-4,
+.p-vakje-5,
+.p-vakje-6,
+.p-vakje-7,
+.o-vakje-1,
+.o-vakje-3,
+.o-vakje-4,
+.o-vakje-5,
+.o-vakje-6,
+.o-vakje-7,
+.o-vakje-8,
+.l-vakje-1,
+.l-vakje-2,
+.l-vakje-3,
+.l-vakje-4,
+.l-vakje-5,
+.l-vakje-6 {
+	position: relative;
+	z-index: 2;
+}
+
+/*Pedagogisch Project*/
+
+.pedagogisch-1,
+.pedagogisch-2,
+.pedagogisch-3,
+.pedagogisch-4,
+.pedagogisch-5,
+.pedagogisch-6,
+.pedagogisch-7 {
+	margin-bottom: 50px;
+}
+
+.pedagogisch-1 h2,
+.pedagogisch-2 h2,
+.pedagogisch-3 h2,
+.pedagogisch-4 h2,
+.pedagogisch-5 h2,
+.pedagogisch-6 h2,
+.pedagogisch-7 h2 {
+	background-color: #f7ebc4;
+}
+
+.p-vakje-1,
+.p-vakje-2,
+.p-vakje-3,
+.p-vakje-4,
+.p-vakje-5,
+.p-vakje-7 {
+	background-color: #b6cde4;
+}
+
+.pedagogisch-6 {
+	/*TODO*/
+	/* background-image: url("./../images/pink_paper_background.png"); */
+	background-color: #f9c3cc;
+}
+
+.pedagogisch-pic-1,
+.pedagogisch-pic-2,
+.pedagogisch-pic-3,
+.pedagogisch-pic-4 {
+	/* position: relative;
+	z-index: 1; */
+}
+
+.pedagogisch-1 h2 {
+	margin-left: -10px;
+}
+
+.pedagogisch-pic-1 {
+	width: 80%;
+	padding-left: 20px;
+}
+
+.p-vakje-1 {
+	margin: -35px 15px 0px 15px;
+}
+
+.pedagogisch-2 h2 {
+	margin-left: 30px;
+}
+
+.pedagogisch-3 h2 {
+	margin-left: 100px;
+}
+
+.pedagogisch-pic-2 {
+	margin-left: -10px;
+	margin-bottom: -100px;
+}
+
+.pedagogisch-4 h2 {
+	margin-left: -15px;
+}
+
+.pedagogisch-5 h2 {
+	margin-left: 200px;
+}
+
+.pedagogisch-6 h2 {
+	margin-left: 30px;
+}
+
+.pedagogisch-pic-3 {
+	display: block;
+	margin: 40px auto;
+}
+
+.pedagogisch-7 h2 {
+	margin-left: 70px;
+}
+
+.pedagogisch-pic-4 {
+	margin: -10px 50px -10px;
+}
+
+/*Oriëntatie op de wereld*/
+.orientatie-1,
+.orientatie-2,
+.orientatie-3,
+.orientatie-4,
+.orientatie-5,
+.orientatie-6,
+.orientatie-7,
+.orientatie-8 {
+	margin-bottom: 50px;
+}
+
+.orientatie-1 h2,
+.orientatie-2 h2,
+.orientatie-3 h2,
+.orientatie-4 h2,
+.orientatie-5 h2,
+.orientatie-6 h2,
+.orientatie-7 h2,
+.orientatie-8 h2 {
+	background-color: #c0b6ee;
+}
+
+.o-vakje-1,
+.o-vakje-3,
+.o-vakje-4,
+.o-vakje-5,
+.o-vakje-6,
+.o-vakje-7,
+.o-vakje-8 {
+	background-color: #b6cde4;
+}
+
+.orientatie-1 {
+	display: inline-flex;
+	flex-direction: column;
+}
+
+.orientatie-1 h2 {
+	/*TODO: ask why not at end?*/
+	align-self: flex-end;
+}
+
+.orientatie-1 img {
+	align-self: flex-end;
+}
+
+.orientatie-2 {
+	/*TODO: background pic instead of color*/
+	padding: 10px;
+	background-color: #f8d3a9;
+	display: flex;
+	flex-direction: column;
+}
+
+.orientatie-2 h2,
+img,
+p {
+	align-self: center;
+}
+
+.orientatie-2 img {
+	margin-top: -10px;
+}
+
+.orientatie-3 h2 {
+	margin-left: -10px;
+}
+
+.orientatie-4 {
+	display: flex;
+	flex-direction: column;
+}
+
+.o-title-4 {
+	display: inline-table;
+	margin-left: -5px;
+}
+
+.orientatie-4 {
+	align-self: left;
+}
+
+.orientatie-4 img {
+	margin-bottom: -35px;
+}
+
+.orientatie-5 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.orientatie-5 img {
+	margin-bottom: -50px;
+}
+
+.orientatie-6 {
+	display: flex;
+	flex-direction: column;
+}
+
+.orientatie-6 h2 {
+	margin-left: -5px;
+}
+
+.orientatie-7 {
+	display: flex;
+	flex-direction: column;
+}
+
+.o-title-7 {
+	align-self: center;
+}
+
+.orientatie-7 img {
+	align-self: left;
+	margin-bottom: -50px;
+}
+
+.orientatie-8 {
+	display: flex;
+	flex-direction: column;
+}
+
+.o-title-8 {
+	align-self: flex-end;
+	margin-right: -5px;
+}
+
+/*Zin in leren! Zin in leven!*/
+
+.lerlev-1,
+.lerlev-2,
+.lerlev-3,
+.lerlev-4,
+.lerlev-5,
+.lerlev-6 {
+	margin-bottom: 50px;
+	display: flex;
+	flex-direction: column;
+}
+
+.lerlev-1 h2,
+.lerlev-2 h2,
+.lerlev-3 h2,
+.lerlev-4 h2,
+.lerlev-5 h2,
+.lerlev-6 h2 {
+	background-color: #eeb6db;
+}
+
+.l-vakje-1,
+.l-vakje-2,
+.l-vakje-3,
+.l-vakje-4,
+.l-vakje-5,
+.l-vakje-6 {
+	background-color: #b6cde4;
+}
+
+.l-title-1,
+.lerlev-1 img {
+	align-self: flex-start;
+}
+
+.l-vakje-1 {
+	margin-left: 5px;
+}
+
+.lerlev-1 img {
+	margin-bottom: -80px;
+}
+
+.l-title-2 {
+	margin-left: -5px;
+}
+
+.l-title-3 {
+	align-self: flex-end;
+	margin-right: -5px;
+}
+
+.lerlev-3 img {
+	align-self: flex-end;
+}
+
+.lerlev-4 img,
+.l-title-4 {
+	align-self: center;
+}
+
+.lerlev-5 img {
+	margin-bottom: -50px;
+	align-self: flex-end;
+}
+
+.l-title-5,
+.l-title-6 {
+	margin-left: -5px;
+}
+
+.lerlev-6 img {
+	margin-bottom: -60px;
+	align-self: flex-end;
+}
+
+/*Computer version*/
+@media (min-width: 480px) {
+	/*filter*/
+	.button-1,
+	.button-2,
+	.button-3 {
+		font-size: 20px;
+	}
+
+	/*general*/
+	h1 {
+		font-size: 45px;
+	}
+
+	.container {
+		margin: 80px 50px 80px 50px;
+	}
+
+	h2 {
+		font-size: 25px;
+	}
+
+	.container p {
+		font-size: 20px;
+		line-height: 35px;
+	}
+
+	/*Pedagogisch Project*/
+	.pedagogisch-1,
+	.pedagogisch-2,
+	.pedagogisch-3,
+	.pedagogisch-4,
+	.pedagogisch-5,
+	.pedagogisch-6,
+	.pedagogisch-7 {
+		margin-bottom: 150px;
+	}
+
+	.pedagogisch-1 {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.pedagogisch-1 img {
+		width: 30%;
+		margin-top: 10px;
+		padding-left: 20px;
+	}
+
+	.pedagogisch-1 h2 {
+		align-self: center;
+	}
+
+	.p-vakje-1 {
+		max-width: 800px;
+	}
+
+	.pedagogisch-2 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.p-vakje-2 {
+		max-width: 1000px;
+	}
+
+	.pedagogisch-3 {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		max-width: 1500px;
+	}
+
+	.pedagogisch-3 h2 {
+		/* align-self: flex-end; */
+	}
+
+	.pedagogisch-3 img {
+		width: 30%;
+	}
+
+	.p-vakje-3 {
+		max-width: 700px;
+	}
+
+	.pedagogisch-4 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.p-vakje-4 {
+		max-width: 1000px;
+	}
+
+	.pedagogisch-5 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.pedagogisch-5 h2 {
+		/* align-self: flex-start; */
+	}
+
+	.p-vakje-5 {
+		max-width: 900px;
+	}
+
+	.pedagogisch-6 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+	.pedagogisch-6 img {
+		width: 50%;
+	}
+
+	.pedagogisch-6 p {
+		max-width: 1100px;
+	}
+
+	.pedagogisch-7 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.pedagogisch-7 img {
+		width: 50%;
+	}
+
+	.p-vakje-7 {
+		max-width: 900px;
+	}
+
+	/*Oriëntatie op de wereld*/
+	.orientatie-1,
+	.orientatie-2,
+	.orientatie-3,
+	.orientatie-4,
+	.orientatie-5,
+	.orientatie-6,
+	.orientatie-7,
+	.orientatie-8 {
+		margin-bottom: 150px;
+	}
+
+	.orientatie-1,
+	.orientatie-2,
+	.orientatie-3,
+	.orientatie-4,
+	.orientatie-5,
+	.orientatie-6,
+	.orientatie-7,
+	.orientatie-8 {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.orientatie-1 img {
+		width: 40%;
+	}
+
+	.o-vakje-1 {
+		max-width: 800px;
+		align-self: flex-end;
+	}
+
+	.orientatie-2 img {
+		margin-top: -15px;
+		margin-bottom: 20px;
+		width: 50%;
+	}
+
+	.o-title-2 {
+		align-self: center;
+	}
+
+	.o-vakje-2 {
+		align-self: center;
+		max-width: 1000px;
+	}
+
+	.o-title-3,
+	.o-vakje-3 {
+		align-self: flex-start;
+	}
+
+	.o-vakje-3 {
+		max-width: 900px;
+	}
+
+	.orientatie-4 img {
+		margin-bottom: -100px;
+		width: 40%;
+	}
+
+	.o-vakje-4 {
+		max-width: 800px;
+	}
+
+	.o-title-4,
+	.o-vakje-4,
+	.orientatie-4 img {
+		align-self: flex-start;
+	}
+
+	.orientatie-5 img {
+		width: 40%;
+	}
+
+	.o-vakje-5 {
+		max-width: 900px;
+	}
+
+	.o-vakje-6 {
+		max-width: 1000px;
+	}
+
+	.o-vakje-7 {
+		max-width: 900px;
+		align-self: center;
+	}
+
+	.o-title-7 {
+		align-self: center;
+	}
+
+	.orientatie-7 img {
+		width: 30%;
+	}
+
+	.o-vakje-8 {
+		max-width: 800px;
+		align-self: flex-end;
+	}
+
+	/*Zin in leren! Zin in leven!*/
+	.lerlev-1,
+	.lerlev-2,
+	.lerlev-3,
+	.lerlev-4,
+	.lerlev-5,
+	.lerlev-6 {
+		margin-bottom: 150px;
+	}
+
+	.lerlev-1 img {
+		width: 30%;
+		margin-bottom: -150px;
+	}
+
+	.l-vakje-1 {
+		max-width: 1000px;
+	}
+
+	.l-title-2,
+	.l-vakje-2 {
+		align-self: center;
+	}
+	.l-vakje-2 {
+		max-width: 1200px;
+	}
+
+	.l-title-3 {
+		align-self: center;
+	}
+
+	.lerlev-3 img {
+		width: 40%;
+		align-self: center;
+	}
+
+	.l-vakje-3 {
+		align-self: center;
+		max-width: 900px;
+		margin-top: -100px;
+	}
+
+	.l-title-4,
+	.l-vakje-4,
+	.lerlev-4 img {
+		align-self: flex-start;
+	}
+
+	.l-vakje-4 {
+		max-width: 1000px;
+	}
+
+	.lerlev-4 img {
+		width: 35%;
+	}
+
+	.lerlev-5 img {
+		width: 40%;
+	}
+
+	.l-vakje-5 {
+		max-width: 900px;
+	}
+
+	.l-vakje-5,
+	.l-title-5 {
+		align-self: flex-end;
+	}
+
+	.l-title-6,
+	.l-vakje-6,
+	.lerlev-6 img {
+		align-self: center;
+	}
+
+	.l-vakje-6 {
+		max-width: 800px;
+	}
+
+	.lerlev-6 img {
+		width: 40%;
+	}
+}

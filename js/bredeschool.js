@@ -180,6 +180,7 @@ function filterContent() {
 		document.getElementById('content').innerHTML = `
 			<div class="main-filmcontainer">
 		<div class="filmcontainer">
+			<img src="images/Icon_film.png" class="film-icon">
 				<p>De OFFICIAL Filmclub toont kwaliteitsfilm op donderdagavond voor kinderen van het derde leerjaar tot het zesde leerjaar</p>
 				<p>...met een hart voor cinema.</p>
 				<p>Inschrijven kan bij meester Brian.</p>

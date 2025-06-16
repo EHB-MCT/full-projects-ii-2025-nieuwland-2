@@ -43,11 +43,11 @@
 </head>
 <body>
 
-
-<div class="button-group">
-  <div class="KeuzeTitle">
+<div class="KeuzeTitle">
     <h1>Klassen</h1>  
   </div>
+<div class="layout-wrapper">
+<div class="button-group">  
   <div class="Buttonrow1">
     <button onclick=showClassroom(1) id="button-1" class="active-button">Peuterklas</button>
     <button onclick=showClassroom(2) id="button-2">1ste Kleuterklas</button>
@@ -63,7 +63,7 @@
   <div class="Buttonrow3">
     <button onclick=showClassroom(7) id="button-7">5de Leerjaar</button>
     <button onclick=showClassroom(8) id="button-8">6de Leerjaar</button>
-    <button onclick=showClassroom(9) id="button-9">Lichamelijke opvoeding</button>
+    <button onclick=showClassroom(9) id="button-9">Testing fetch request</button>
   </div>
 </div>
 
@@ -105,6 +105,7 @@
       </div>
     </div>
   </div>
+
   <div id="classroom-3" class="classroom-info">
     <div class="PeuterInfo">
       <h1>1ste Leerjaar</h1>
@@ -120,27 +121,27 @@
         </div>
       </div>
     </div>
-  </div>
-
-  <div id="classroom-4" class="classroom-info">
-    <div class="PeuterInfo">
-      <h1>2de Leerjaar</h1>
-      <div class="PeuterClassroom">
-        <img src="images/2deleerjaar.jpg" class="PeuterklassFoto" alt="">
-        <h2>
-          De focus verschuift van technisch lezen naar begrijpend lezen, van correct schrijven naar creatief schrijven.
-          Samen met de kinderen ontdekken ze getallen tot 100 en leren ze er mee rekenen.
-        </h2>
-      </div>
-      <div class="TeacherPictures">
-        <img src="images/Charline.jpg" class="TeacherPicture" alt="">
-        <div class="sezerText">
-        <h1>Juf Charline</h1>
-        <h2>cjanssen@bsnieuwland.be</h2>
-        </div>
-      </div>
     </div>
-  </div>
+
+    <div id="classroom-4" class="classroom-info">
+      <div class="PeuterInfo">
+        <h1>2de Leerjaar</h1>
+        <div class="PeuterClassroom">
+          <img src="images/2deleerjaar.jpg" class="PeuterklassFoto" alt="">
+          <h2>
+            De focus verschuift van technisch lezen naar begrijpend lezen, van correct schrijven naar creatief schrijven.
+            Samen met de kinderen ontdekken ze getallen tot 100 en leren ze er mee rekenen.
+          </h2>
+        </div>
+        <div class="TeacherPictures">
+          <img src="images/Charline.jpg" class="TeacherPicture" alt="">
+          <div class="sezerText">
+          <h1>Juf Charline</h1>
+          <h2>cjanssen@bsnieuwland.be</h2>
+          </div>
+        </div>
+    </div>
+    </div>
 
   <div id="classroom-5" class="classroom-info">
     <div class="PeuterInfo">
@@ -149,7 +150,7 @@
         <img src="images/3de leerjaar.jpg" class="PeuterklassFoto" alt="">
         <h2>
           De maal - en deeltafels worden verder gautomatiseerd en er wordt voor het eerst gecijferd! 
-  De leesmotor draait nu op volle toeren waardoor de kinderen al snel in de fantasiewereld van dikke boeken kunnen duiken. 
+          De leesmotor draait nu op volle toeren waardoor de kinderen al snel in de fantasiewereld van dikke boeken kunnen duiken. 
         </h2>
       </div>
       <div class="TeacherPictures">
@@ -190,8 +191,8 @@
       <div class="PeuterClassroom">
         <img src="images/L52.jpg" class="PeuterklassFoto" alt="">
         <h2>
-          Welkom bij de eerste stapjes in het onderwijs. 
-          Juf Jade zorgt voor een warm onthaal en wakkert een blijvende motivatie aan bij elke 2,5 jarige.
+        In het vijfde leerjaar ontdekken de kinderen via openluchtklassen de Westhoek en de bijbehorende geschiedenis.
+        Daarnaast komen de leerlingen in contact met allerlei kunstuitingen.
         </h2>
       </div>
       <div class="TeacherPictures">
@@ -239,6 +240,11 @@
     </div>
   </div>
 </div>
+</div>
+
+</div>
+
+  
 
 <script src="classroom.js"></script>
 

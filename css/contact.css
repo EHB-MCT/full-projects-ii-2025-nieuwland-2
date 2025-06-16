@@ -34,26 +34,31 @@ body h2 {
 	font-size: 8px;
 }
 
+.contact-title{ 
+	display: flex;
+	justify-content: center;
+}
 .contact-container {
 	/*parent*/
-	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	width: 100%;
 }
 
 .collage-contact {
 	width: 100%;
-	display: block;
+	display: flex;
+	justify-content: center;
 }
 
 .contact-text {
 	/*child*/
 	position: absolute;
-	top: 30%;
-	left: 25%;
 	/*0 -> geen verticale marge & auto laat de browser automaticsh de linker- en rechtermarge berekenen*/
 	margin: 0 auto;
 	/*maak dit element niet breder dan 350 pixels*/
-	max-width: 250px;
+	width: 250px;
 	padding: 10px 10px 10px 10px;
 	background-image: url("/images/contactp_background.png");
 }
@@ -69,7 +74,6 @@ body h2 {
 }
 
 .map {
-	margin-top: 30px;
 	margin-bottom: 40px;
 	width: 80%;
 }
@@ -85,7 +89,9 @@ body h2 {
 
 .icon-line-3 {
 	background-image: url("/images/purple_tape.png");
-	padding: 10px 10px 10px 10px;
+	padding: 10px;
 	rotate: -8deg;
-	margin-left: -200px;
+	display: flex;
+	justify-content: flex-start;
+	align-self: flex-start; 
 }

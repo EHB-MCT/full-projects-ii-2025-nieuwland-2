@@ -7,3 +7,4 @@ const mobileImages = [];
 const desktopImages = [];
 
 console.log("hello world")
+

@@ -1,0 +1,519 @@
+/* general */
+
+/* this to make sure there is no sideways scrolling on the webpage */
+body {
+	overflow-x: hidden;
+}
+
+.header-background {
+	padding-top: 200px;
+	z-index: -1;
+	position: relative;
+	width: 100%;
+}
+
+.header-background img {
+	position: absolute;
+	max-width: 40rem;
+	height: auto;
+}
+
+.header-background img {
+	opacity: 0;
+	transition: opacity 1s ease-out, top 1s ease-out, left 1s ease-out,
+		right 1s ease-out;
+	position: absolute;
+}
+
+/* Final state triggered by JS for the fade in of the images */
+.header-background img.show {
+	opacity: 1;
+}
+
+/* desktop screens*/
+/* style1 */
+
+/* start pos (off screen)*/
+
+.header-background.style1 .paper-clip {
+	top: calc(50% + 200px);
+	left: calc(5% - 200px);
+}
+
+.header-background.style1 .paper-scrap1 {
+	top: calc(80% - 200px);
+	right: calc(10% + 300px);
+}
+
+.header-background.style1 .img-child-drawing {
+	top: calc(60% + 200px);
+	left: calc(8% - 300px);
+}
+
+.header-background.style1 .kids-walking {
+	top: calc(25% + 400px);
+	right: calc(10% - 300px);
+}
+
+.header-background.style1 .paper-scrap-bench {
+	top: calc(280% - 200px);
+	right: calc(5% + 300px);
+}
+
+.header-background.style1 .drawing-butterfly {
+	top: calc(70% + 200px);
+	left: calc(90% + 300px);
+}
+
+.header-background.style1 .drawing-bird {
+	top: calc(300% - 300px);
+	left: calc(5% - 300px);
+}
+
+/* final pos */
+.header-background.style1 .paper-clip.animate-in {
+	/* transform: rotate(47.16deg); */
+	top: 50%;
+	left: 5%;
+}
+
+.header-background.style1 .paper-scrap1.animate-in {
+	transform: rotate(136deg);
+	top: 80%;
+	right: 10%;
+}
+
+.header-background.style1 .img-child-drawing.animate-in {
+	transform: rotate(-5.3deg);
+	left: 8%;
+	top: 60%;
+}
+
+.header-background.style1 .kids-walking.animate-in {
+	transform: rotate(13.63deg);
+	right: 10%;
+	top: 25%;
+}
+
+.header-background.style1 .paper-scrap-bench.animate-in {
+	top: 280%;
+	right: 5%;
+}
+
+.header-background.style1 .drawing-butterfly.animate-in {
+	transform: rotate(-37.67deg);
+	left: 90%;
+	top: 70%;
+}
+
+.header-background.style1 .drawing-bird.animate-in {
+	top: 300%;
+	left: 5%;
+	transform: scaleX(-1);
+}
+
+/* style2 */
+
+/* intial pos (outside of the screen) */
+
+.header-background.style2 .paper-clip {
+	top: calc(100% + 200px);
+	right: calc(5% - 300px);
+}
+
+.header-background.style2 .paper-scrap1 {
+	left: calc(8% - 300px);
+	top: calc(0% + 300px);
+}
+
+.header-background.style2 .img-child-drawing {
+	top: calc(210% + 400px);
+	left: calc(6% - 300px);
+}
+
+.header-background.style2 .kids-walking {
+	top: calc(30% + 200px);
+	right: calc(6% - 300px);
+}
+
+.header-background.style2 .paper-scrap-bench {
+	top: calc(200% - 300px);
+	right: calc(2% + 300px);
+}
+
+.header-background.style2 .drawing-butterfly {
+	top: calc(40% + 300px);
+	left: calc(2% - 300px);
+}
+
+.header-background.style2 .drawing-bird {
+	top: calc(360% + 400px);
+	right: calc(20% - 400px);
+}
+
+/* final pos */
+
+.header-background.style2 .paper-clip.animate-in {
+	transform: rotate(60deg);
+	top: 100%;
+	right: 5%;
+}
+
+.header-background.style2 .paper-scrap1.animate-in {
+	transform: rotate(10deg);
+	transform: scaleX(-1);
+	left: 8%;
+}
+
+.header-background.style2 .img-child-drawing.animate-in {
+	transform: rotate(8deg);
+	left: 6%;
+	top: 210%;
+}
+
+.header-background.style2 .kids-walking.animate-in {
+	transform: rotate(-10deg);
+	right: 6%;
+	top: 30%;
+}
+
+.header-background.style2 .paper-scrap-bench.animate-in {
+	top: 200%;
+	right: 2%;
+}
+
+.header-background.style2 .drawing-butterfly.animate-in {
+	transform: rotate(60deg);
+	left: 2%;
+	top: 40%;
+	transform: scaleX(-1);
+}
+
+.header-background.style2 .drawing-bird.animate-in {
+	top: 360%;
+	right: 20%;
+}
+
+/* style3 */
+
+/* inital pos (outside of the screen) */
+
+.header-background.style3 .paper-clip {
+	top: calc(100% + 200px);
+	right: calc(5% - 300px);
+}
+
+.header-background.style3 .paper-scrap1 {
+	top: calc(0% + 300px);
+	left: calc(8% - 300px);
+}
+
+.header-background.style3 .img-child-drawing {
+	top: calc(180% + 300px);
+	left: calc(6% - 300px);
+}
+
+.header-background.style3 .kids-walking {
+	top: calc(25% + 200px);
+	right: calc(0% - 300px);
+}
+
+.header-background.style3 .paper-scrap-bench {
+	top: calc(10% - 300px);
+	left: calc(10% - 300px);
+}
+
+.header-background.style3 .drawing-butterfly {
+	top: calc(140% + 300px);
+	left: calc(12% - 300px);
+}
+
+.header-background.style3 .drawing-bird {
+	top: calc(360% + 400px);
+	right: calc(25% - 400px);
+}
+
+/* final post */
+
+.header-background.style3 .paper-clip.animate-in {
+	transform: rotate(60deg);
+	top: 100%;
+	right: 5%;
+}
+
+.header-background.style3 .paper-scrap1.animate-in {
+	transform: rotate(10deg);
+	transform: scaleX(-1);
+	left: 8%;
+}
+
+.header-background.style3 .img-child-drawing.animate-in {
+	transform: rotate(-8deg);
+	left: 6%;
+	top: 180%;
+}
+
+.header-background.style3 .kids-walking.animate-in {
+	transform: rotate(10deg);
+	right: 0%;
+	top: 25%;
+}
+
+.header-background.style3 .paper-scrap-bench.animate-in {
+	transform: rotate(20deg);
+	top: 10%;
+	left: 10%;
+	transform: scaleX(-1);
+}
+
+.header-background.style3 .drawing-butterfly.animate-in {
+	transform: rotate(60deg);
+	left: 12%;
+	top: 140%;
+}
+
+.header-background.style3 .drawing-bird.animate-in {
+	top: 360%;
+	right: 25%;
+}
+
+/* left: calc(100vw + 400px);
+	z-index: (to add an extra level of randomness) */
+
+/* phone screens */
+
+@media screen and (max-width: 480px) {
+	.header-background img {
+		width: 10rem; /* scalable size */
+		max-width: none;
+		height: auto;
+	}
+
+	/* style 1 outside pos */
+
+	.header-background.style1 .animate-in {
+		opacity: 1;
+		transition: top 1.2s ease-out, left 1.2s ease-out, right 1.2s ease-out,
+			opacity 0.8s ease-out;
+	}
+
+	.header-background.style1 .paper-clip.style1 {
+		top: calc(5% + 15rem);
+		left: calc(3% - 12rem);
+	}
+
+	.header-background.style1 .paper-scrap1.style1 {
+		top: calc(25% + 12rem);
+		right: calc(5% - 12rem);
+	}
+
+	.header-background.style1 .img-child-drawing.style1 {
+		top: calc(45% + 14rem);
+		left: calc(8% - 10rem);
+	}
+
+	.header-background.style1 .kids-walking.style1 {
+		top: calc(15% + 18rem);
+		right: calc(10% - 14rem);
+	}
+
+	.header-background.style1 .paper-scrap-bench.style1 {
+		top: calc(60% + 10rem);
+		left: calc(5% - 10rem);
+	}
+
+	.header-background.style1 .drawing-butterfly.style1 {
+		top: calc(70% + 15rem);
+		right: calc(4% - 12rem);
+	}
+
+	.header-background.style1 .drawing-bird.style1 {
+		top: calc(80% + 12rem);
+		left: calc(10% - 10rem);
+	}
+
+	/* final pos */
+
+	.header-background.style1 .paper-clip.animate-in {
+		top: 5%;
+		left: 3%;
+	}
+
+	.header-background.style1 .paper-scrap1.animate-in {
+		top: 25%;
+		right: 5%;
+	}
+
+	.header-background.style1 .img-child-drawing.animate-in {
+		top: 45%;
+		display: none;
+		left: 8%;
+	}
+
+	.header-background.style1 .kids-walking.animate-in {
+		top: 15%;
+		right: 10%;
+	}
+
+	.header-background.style1 .paper-scrap-bench.animate-in {
+		top: 60%;
+		left: 2%;
+	}
+
+	.header-background.style1 .drawing-butterfly.animate-in {
+		top: 70%;
+		width: 8rem;
+		right: 10%;
+	}
+
+	.header-background.style1 .drawing-bird.animate-in {
+		display: none;
+		top: 80%;
+		width: 6rem;
+		left: 10%;
+	}
+
+	/* style 2 */
+
+	.header-background.style2 .paper-clip.style2 {
+		top: calc(10% + 16rem);
+		right: calc(6% - 13rem);
+	}
+
+	.header-background.style2 .paper-scrap1.style2 {
+		top: calc(30% + 14rem);
+		left: calc(7% - 11rem);
+	}
+
+	/* child-drawing hidden on mobile for this style */
+
+	.header-background.style2 .kids-walking.style2 {
+		top: calc(20% + 17rem);
+		left: calc(12% - 14rem);
+	}
+
+	.header-background.style2 .paper-scrap-bench.style2 {
+		top: calc(65% + 9rem);
+		right: calc(5% - 9rem);
+	}
+
+	.header-background.style2 .drawing-butterfly.style2 {
+		top: calc(75% + 13rem);
+		left: calc(8% - 10rem);
+	}
+
+	.header-background.style2 .drawing-bird.style2 {
+		top: calc(85% + 12rem);
+		right: calc(9% - 10rem);
+	}
+
+	/* Final pos */
+
+	.header-background.style2 .paper-clip.animate-in {
+		top: 10%;
+		right: 6%;
+	}
+
+	.header-background.style2 .paper-scrap1.animate-in {
+		top: 30%;
+		left: 7%;
+	}
+
+	.header-background.style2 .kids-walking.animate-in {
+		top: 20%;
+		left: 1%;
+	}
+
+	.header-background.style2 .paper-scrap-bench.animate-in {
+		top: 65%;
+		right: 5%;
+	}
+
+	.header-background.style2 .drawing-butterfly.animate-in {
+		top: 75%;
+		width: 6rem;
+		left: 8%;
+	}
+
+	.header-background.style2 .drawing-bird.animate-in {
+		top: 85%;
+		width: 6rem;
+		right: 9%;
+	}
+
+	.header-background.style2 .img-child-drawing {
+		display: none;
+	}
+
+	/* style 3 */
+
+	/* .paper-scrap-bench hidden on mobile for this style */
+
+	.header-background.style3 .paper-clip.style3 {
+		top: calc(12% + 14rem);
+		left: calc(5% - 10rem);
+	}
+
+	.header-background.style3 .paper-scrap1.style3 {
+		top: calc(35% + 13rem);
+		right: calc(6% - 11rem);
+	}
+
+	.header-background.style3 .img-child-drawing.style3 {
+		top: calc(50% + 15rem);
+		left: calc(10% - 12rem);
+	}
+
+	.header-background.style3 .kids-walking.style3 {
+		top: calc(25% + 18rem);
+		right: calc(12% - 13rem);
+	}
+
+	.header-background.style3 .drawing-butterfly.style3 {
+		top: calc(70% + 14rem);
+		left: calc(7% - 10rem);
+	}
+
+	.header-background.style3 .drawing-bird.style3 {
+		top: calc(90% + 13rem);
+		right: calc(6% - 9rem);
+	}
+
+	/* Final positions */
+
+	.header-background.style3 .paper-clip.animate-in {
+		top: 60%;
+		right: 2%;
+	}
+
+	.header-background.style3 .paper-scrap1.animate-in {
+		top: 35%;
+		right: 6%;
+	}
+
+	.header-background.style3 .img-child-drawing.animate-in {
+		top: 50%;
+		left: 10%;
+	}
+
+	.header-background.style3 .kids-walking.animate-in {
+		top: 25%;
+		right: 12%;
+	}
+
+	.header-background.style3 .drawing-butterfly.animate-in {
+		top: 70%;
+		width: 8rem;
+		left: 7%;
+	}
+
+	.header-background.style3 .drawing-bird.animate-in {
+		top: 90%;
+		width: 6rem;
+		right: 6%;
+	}
+
+	.header-background.style3 .paper-scrap-bench {
+		display: none;
+	}
+}

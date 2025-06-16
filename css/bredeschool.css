@@ -154,6 +154,22 @@ ol {
 
 /*Buiteling*/
 
+.bu-title {
+	display: flex;
+	flex-direction: column;
+}
+
+.bu-title h2 {
+	font-family: "Lexend";
+	background-color: #6aabfb;
+	display: inline-block;
+	font-size: 18px;
+	margin: 30px 0px 50px 0px;
+	padding: 10px;
+	font-weight: bold;
+	align-self: center;
+}
+
 .bucontainer p {
 	background-color: #e7b6e5;
 	padding: 20px;
@@ -174,6 +190,32 @@ ol {
 	margin: 20px;
 	padding-top: 30px;
 	padding-bottom: 20px;
+}
+
+.buiteling-button {
+	display: flex;
+	justify-content: center;
+}
+
+.buiteling-button a {
+	font-family: "Plus Jakarta Sans";
+	color: black;
+	text-decoration: none;
+	background-color: #85aed5;
+	display: inline-block;
+	padding: 12px;
+	margin-top: -10px;
+	font-weight: bold;
+}
+
+h3 {
+	background-color: #a8e8dc;
+	padding: 8px;
+	display: inline-block;
+	font-family: "Plus Jakarta Sans";
+	font-weight: bold;
+	margin-bottom: -10px;
+	margin-left: -10px;
 }
 
 /*Computer version*/
@@ -253,5 +295,27 @@ ol {
 	.hoofdstedelijk-button {
 		margin-top: 100px;
 		font-size: 24px;
+	}
+
+	/*Buiteling*/
+	.bu-title h2 {
+		font-size: 30px;
+	}
+
+	.buiteling-1 p,
+	.buiteling-2 p,
+	.buiteling-3 p,
+	.buiteling-4 p {
+		position: relative;
+		z-index: 2;
+	}
+
+	.bu-pic-1,
+	.bu-pic-2,
+	.bu-pic-3,
+	.bu-pic-4 {
+		width: 30%;
+		position: relative;
+		z-index: 1;
 	}
 }

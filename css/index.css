@@ -37,9 +37,13 @@ ol {
 }
 
 .container-intro {
+	margin-top: -20rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	position: relative;
+	z-index: 2; /* Places it above imageComposition */
+	padding-top: 2rem;
 }
 
 .item {
@@ -120,7 +124,7 @@ ol {
 @media screen and (min-width: 720px) {
 	.item-2 {
 		width: 41.9375rem;
-		margin: 16rem auto;
+		margin: 8rem auto;
 		display: flex;
 		flex-direction: column;
 		gap: 12px; /* interline inbetween both h2 and p */

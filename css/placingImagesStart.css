@@ -6,10 +6,11 @@ body {
 }
 
 .header-background {
-	padding-top: 200px;
-	z-index: -1;
 	position: relative;
 	width: 100%;
+	min-height: 40vh; /* Adjust height as needed */
+	margin-bottom: 4rem; /* Gives spacing between images and intro text */
+	z-index: 1;
 }
 
 .header-background img {

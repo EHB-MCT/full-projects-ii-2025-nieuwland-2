@@ -9,6 +9,11 @@ body {
 
 /*general*/
 
+.title {
+	display: flex;
+	flex-direction: column;
+}
+
 h1 {
 	font-family: "Lexend";
 	background-color: #ffd1ff;
@@ -17,6 +22,7 @@ h1 {
 	margin: 50px 0px 50px 0px;
 	padding: 10px;
 	font-weight: bold;
+	align-self: center;
 }
 
 /*filter*/
@@ -56,7 +62,7 @@ h1 {
 
 /*Wat*/
 
-h2 {
+.bschool-1 h2 {
 	font-weight: bold;
 	margin-bottom: -10px;
 	padding: 10px;
@@ -99,6 +105,77 @@ ol {
 	padding: 12px;
 }
 
+/*Hoofdstedelijke Academie*/
+
+.hcontainer {
+	margin: 70px 20px 100px 20px;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+}
+
+.hoofdst-1 h2 {
+	font-weight: bold;
+	padding: 10px;
+	margin-left: -20px;
+	margin-bottom: -10px;
+	font-size: 14px;
+	display: inline-block;
+	background-color: #fb9172;
+}
+
+.pic {
+	width: 100%;
+	margin-top: 10px;
+}
+
+.hrectangle {
+	background-color: #cbdaa9;
+	padding: 10px 0px 10px 0px;
+}
+
+.hoofdstedelijk-button {
+	display: flex;
+	justify-content: center;
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: -50px;
+}
+
+.hoofdstedelijk-button a {
+	font-family: "Plus Jakarta Sans";
+	color: black;
+	text-decoration: none;
+	background-color: #a8e8dc;
+	display: inline-block;
+	padding: 12px;
+	margin-bottom: 100px;
+}
+
+/*Buiteling*/
+
+.bucontainer p {
+	background-color: #e7b6e5;
+	padding: 20px;
+}
+
+.bu-pic-1,
+.bu-pic-2,
+.bu-pic-3,
+.bu-pic-4 {
+	width: 100%;
+	margin-bottom: -20px;
+}
+
+.buiteling-1,
+.buiteling-2,
+.buiteling-3,
+.buiteling-4 {
+	margin: 20px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
 /*Computer version*/
 @media (min-width: 480px) {
 	/*filter*/
@@ -124,8 +201,19 @@ ol {
 		margin: 80px 50px 80px 50px;
 	}
 
+	.bschool-container,
+	.hcontainer {
+		margin: 0 auto;
+		max-width: 1500px;
+	}
+
+	/*Wat*/
+
 	h2 {
 		font-size: 25px;
+		margin-left: -15px;
+		position: relative;
+		z-index: 2;
 	}
 
 	.container p,
@@ -152,8 +240,18 @@ ol {
 		align-self: flex-start;
 	}
 
-	.rectangle p {
+	.rectangle {
+		position: relative;
+		z-index: 1;
 	}
 
-	/*Wat*/
+	/*Hoofdstedelijke Academie*/
+	.hoofdst-1 h2 {
+		font-size: 25px;
+	}
+
+	.hoofdstedelijk-button {
+		margin-top: 100px;
+		font-size: 24px;
+	}
 }

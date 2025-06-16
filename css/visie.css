@@ -466,6 +466,10 @@ p {
 		padding-left: 20px;
 	}
 
+	.pedagogisch-1 h2 {
+		align-self: center;
+	}
+
 	.p-vakje-1 {
 		max-width: 800px;
 	}
@@ -639,6 +643,11 @@ p {
 
 	.o-vakje-7 {
 		max-width: 900px;
+		align-self: center;
+	}
+
+	.o-title-7 {
+		align-self: center;
 	}
 
 	.orientatie-7 img {
@@ -651,6 +660,15 @@ p {
 	}
 
 	/*Zin in leren! Zin in leven!*/
+	.lerlev-1,
+	.lerlev-2,
+	.lerlev-3,
+	.lerlev-4,
+	.lerlev-5,
+	.lerlev-6 {
+		margin-bottom: 150px;
+	}
+
 	.lerlev-1 img {
 		width: 30%;
 		margin-bottom: -150px;
@@ -658,5 +676,69 @@ p {
 
 	.l-vakje-1 {
 		max-width: 1000px;
+	}
+
+	.l-title-2,
+	.l-vakje-2 {
+		align-self: center;
+	}
+	.l-vakje-2 {
+		max-width: 1200px;
+	}
+
+	.l-title-3 {
+		align-self: center;
+	}
+
+	.lerlev-3 img {
+		width: 40%;
+		align-self: center;
+	}
+
+	.l-vakje-3 {
+		align-self: center;
+		max-width: 900px;
+		margin-top: -100px;
+	}
+
+	.l-title-4,
+	.l-vakje-4,
+	.lerlev-4 img {
+		align-self: flex-start;
+	}
+
+	.l-vakje-4 {
+		max-width: 1000px;
+	}
+
+	.lerlev-4 img {
+		width: 35%;
+	}
+
+	.lerlev-5 img {
+		width: 40%;
+	}
+
+	.l-vakje-5 {
+		max-width: 900px;
+	}
+
+	.l-vakje-5,
+	.l-title-5 {
+		align-self: flex-end;
+	}
+
+	.l-title-6,
+	.l-vakje-6,
+	.lerlev-6 img {
+		align-self: center;
+	}
+
+	.l-vakje-6 {
+		max-width: 800px;
+	}
+
+	.lerlev-6 img {
+		width: 40%;
 	}
 }

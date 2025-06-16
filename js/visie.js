@@ -1,5 +1,3 @@
-
-
 function init() {
     filter();
 }
@@ -7,7 +5,6 @@ function init() {
 
 function filter() {
     document.querySelector(".button-1").addEventListener('click', function () {
-        console.log("This is button 1");
         document.getElementById('content').innerHTML = `
         
         <div class="container">
@@ -70,7 +67,6 @@ function filter() {
     });
 
     document.querySelector(".button-2").addEventListener('click', function () {
-        console.log("This is button 2");
         document.getElementById('content').innerHTML =
             ` <div class="container">
 
@@ -154,9 +150,72 @@ function filter() {
     });
 
     document.querySelector(".button-3").addEventListener('click', function () {
-        console.log("This is button 3");
+        document.getElementById('content').innerHTML = `
+        <div class="container">
+
+		<div class="lerlev-1">
+			<img src="./images/samen.png" class="samen">
+			<div class="l-title-1">
+				<h2>Samen</h2>
+			</div>
+			<div class="l-vakje-1">
+				<p>Als school willen we groeien als gemeenschap en organisatie. We vertrouwen in de kracht van een team om tot die groei te komen. Samen het leerplanconcept vorm geven in de klas in co – teaching, samen reflecteren over onze ZILL aanpak in team – teaching zijn de concrete vertalingen van dit geloof in groei.  </p>
+				<p>Elke personeelslid op Sint – Joris Nieuwland treedt op als verbindende figuur tussen de leerlingen, de school en de thuiscontext. Het ongedwongen en spontaan zijn binnen ontmoeten als ervaringskans is voor onze school van groot belang. Daarbij dagen we de leerlingen uit om via het ‘IK’ naar ‘JIJ’ tot het sociale ‘WIJ’ te komen, waarbij het WIJ staat voor onze school als gemeenschap, als familie waarin iedereen welkom is.</p>
+			</div>
+		</div>
+
+		<div class="lerlev-2">
+			<div class="l-title-2">
+				<h2>Creatief</h2>
+			</div>
+			<div class="l-vakje-2">
+				<p>Onze leerlingen worden gekenmerkt door een kleurrijk palet aan interesses, voorkeuren en talenten. Door ze via ZILL onder te dompelen in betekenisvolle contexten verruimen we hun blik op de wereld en begeleiden we ze op hun tocht naar nieuwe ontdekkingen. De brede vorming die we kinderen daarbij aanbieden krijgt een verlengstuk in onze Brede School, door activiteiten rond cultuur, welzijn en sport.  </p>
+				<p>Daarnaast willen we als school creatief met het leerplanconcept omspringen. Onze context en onze leerlingen dwingen ons om inhoudelijke focussen te leggen die voor onze school van belang zijn. Door op systematische basis kritisch te kijken naar onze onderwijskwaliteit, willen we komen tot een duurzame onderwijsverbetering.</p>
+			</div>
+		</div>
+
+		<div class="lerlev-3">
+			<div class="l-title-3">
+				<h2>Positief</h2>
+			</div>
+			<img src="./images/positief.png" class="positief">
+			<div class="l-vakje-3">
+				<p>We geloven oprecht in de leer – kracht van elke leerling op Nieuwland. Dit uit zich in de ontmoeting met inspirerende persoonlijkheden die voor elke betrokkene een voorbeeld kunnen zijn. Nadrukkelijk inzetten op veerkracht is voor ons een voorwaarde om de leer – kracht te stimuleren. Als school zijn wij ervan doordrongen dat we een cruciale bijdrage kunnen leveren in de ontwikkeling van onze leerlingen door via veerkracht naar leer – kracht te streven.</p>
+			</div>
+		</div>
+
+		<div class="lerlev-4">
+			<div class="l-title-4">
+				<h2>De lat van elk kind hoog</h2>
+			</div>
+			<img src="./images/lat_van_elk_kind.png" class="lat_kind">
+			<div class="l-vakje-4">
+				<p>Om het geloof in de leer – kracht van onze leerlingen vorm te geven, stellen we realistische én ambitieuze verwachtingen ten opzichte van de ontwikkeling van onze leerlingen. Door niet enkel te focussen op school – en klasniveau, maar ook op leerlingniveau, willen we gelijke onderwijskansen creëren voor elke leerling. Het unieke profiel van elke leerling vormt het uitgangspunt voor onze aanpak binnen ZILL, waarbij het verschillend ontwikkelingstempo van elke leerling gerespecteerd wordt. Ontwikkelingstrajecten op maat worden gecommuniceerd naar alle betrokkenen, zodat de verticale en horizontale samenhang bewaakt wordt.</p>
+			</div>
+		</div>
+
+		<div class="lerlev-5">
+			<img src="./images/open.png" class="open">
+			<div class="l-title-5">
+				<h2>Open</h2>
+			</div>
+			<div class="l-vakje-5">
+				<p>Vanuit onze christelijke inspiratie willen we samen werken aan een stimulerend en open opvoedingsklimaat, door iedereen uit te nodigen om aan ons onderwijsproject mee te werken. Andere levensbeschouwingen of religies verwelkomen we in dialoog met elkaar. Binnen ZILL willen we hier niet enkel aan werken binnen het ontwikkelveld Rooms – Katholieke Godsdienst, maar streven we naar een geïntegreerd onderwijsinhoudelijk aanbod waarbij leren leren, leren werken en leren leven hand in hand gaan.</p>
+			</div>
+		</div>
+
+		<div class="lerlev-6">
+			<img src="./images/veilig.png" class="veilig">
+			<div class="l-title-6">
+				<h2>Veilig</h2>
+			</div>
+			<div class="l-vakje-6">
+				<p>De leerkracht is de veilige baken binnen het leerplanconcept ZILL. Hij staat aan het roer en bepaalt de koers, maar verleent ook mede eigenaarschap aan de leerlingen door samen arrangementen uit te werken. Op die manier wisselt elke leraar doorheen de arrangementen van rol: van kapitein naar mede – onderzoeker, van faciliteren tot meespelen.</p>
+				<p>Daarbij zorgt de leerkracht voor een veilig leef – en leerklimaat, waarbinnen fouten maken toegestaan is en noodzakelijk is om tot leren te komen. We investeren in een gedifferentieerd zelfbeeld (IK), relaties tussen alle betrokkenen die gebaseerd zijn op vertrouwen, respect en zorg (JIJ) en het samenhorigheidsgevoel binnen Nieuwland als gemeenschap, waarin onze diversiteit als rijkdom wordt aanzien.</p>
+			</div>
+		</div>
+	</div>`;
     });
 }
-
 
 init();

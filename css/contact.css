@@ -154,9 +154,6 @@ h2 {
 
 	.map {
 		padding: 100px;
-	}
-
-	.google-map {
-		width: 50%;
+		width: calc(50% + 20px);
 	}
 }

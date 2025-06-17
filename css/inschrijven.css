@@ -7,16 +7,16 @@ body {
 	background-image: url("/images/inschrijven_background.png");
 }
 
-.inschrijven-body h1 {
+h1 {
 	font-family: "Lexend";
+	font-weight: bold;
 	display: block;
-	margin: 0 auto;
+	/* margin: 0 auto; */
 	max-width: 200px;
 	font-size: 18px;
 	text-align: center;
-	padding: 10px 0px 10px 10px;
-	rotate: -5deg;
-	background-image: url("/images/tape_contact.png");
+	padding: 10px;
+	background-color: #489ad3;
 }
 
 .inschrijven-text {

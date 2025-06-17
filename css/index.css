@@ -5,6 +5,9 @@
 body {
 	margin: 0;
 	background-image: url("/images/start_background.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-color: #ebe2de;
 }
 
 h1 {
@@ -13,9 +16,8 @@ h1 {
 	font-size: 18px;
 	font-family: "Lexend";
 	font-weight: bold;
-	rotate: 10deg;
 	background-color: #7cc0ae;
-	padding: 10px 10px 10px 10px;
+	padding: 28px 20px 26px 20px;
 	display: inline-block;
 }
 
@@ -38,15 +40,19 @@ ol {
 }
 
 .container-intro {
+	margin-top: -20rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	position: relative;
+	z-index: 2; /* Places it above imageComposition */
+	padding-top: 2rem;
 }
 
 .item {
 	margin-left: 20px;
 	margin-right: 20px;
-	margin-bottom: 50px;
+	margin-bottom: auto;
 }
 
 .pink_tape {
@@ -76,18 +82,20 @@ ol {
 .item-3 {
 	margin: 70px 20px 50px 20px;
 	background-image: url("/images/infomoment_background.png");
+	background-size: contain;
 	padding-bottom: 100px;
 	background-repeat: no-repeat;
+	z-index: 1;
 }
 
 .item-3 h3 {
 	padding: 20px;
-	background-image: url("/images/bling_bling_tape.png");
-	rotate: -5deg;
+	background-color: #489ad3;
 	text-align: center;
-	background-repeat: no-repeat;
 	font-weight: bold;
 	color: white;
+	display: inline-block;
+	padding: 10px;
 }
 
 .item-3 ol {
@@ -96,11 +104,12 @@ ol {
 }
 
 .item-4 {
-	margin: 0px 20px 150px 20px;
+	margin: auto;
 	background-color: #fae1a7;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	width: 80%;
 }
 
 .item-4 h3 {
@@ -116,4 +125,67 @@ ol {
 	background-color: #489ad3;
 	margin: 10px 10px 20px 10px;
 	padding: 10px 10px 10px 10px;
+}
+
+@media screen and (min-width: 720px) {
+	.item-2 {
+		width: 41.9375rem;
+		margin: 8rem auto;
+		display: flex;
+		flex-direction: column;
+		gap: 33px; /* interline inbetween both h2 and p */
+		padding: 40px 115px;
+	}
+	.item-3 {
+		margin: 8rem 20px 50px 20px;
+	}
+
+	.item-4 {
+		margin: 0px 20px 150px 10rem;
+		background-color: #fae1a7;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 35%;
+	}
+
+	/*styling for h1, h2, etc + style fonts (desktop)*/
+	h1 {
+		font-family: "Lexend";
+		font-size: 28px;
+	}
+
+	h2 {
+		font-family: "Plus Jakarta Sans";
+		font-size: 21px;
+	}
+
+	h3 {
+		font-family: "Plus Jakarta Sans";
+		font-size: 18px;
+	}
+
+	p {
+		font-family: "Plus Jakarta Sans";
+		font-size: 16pt;
+	}
+
+	b,
+	strong {
+		font-weight: 700;
+	}
+
+	em,
+	i {
+		font-style: italic;
+	}
+
+	.list {
+		padding-top: 30px;
+	}
+
+	ol {
+		font-size: 16px;
+		line-height: 2.5rem;
+	}
 }

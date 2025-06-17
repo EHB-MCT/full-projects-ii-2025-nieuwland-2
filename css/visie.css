@@ -93,41 +93,7 @@ h2 {
 	position: relative;
 	z-index: 1;
 }
-.human-icon,
-.society-icon,
-.mobility-icon,
-.clock-icon,
-.milieu-icon,
-.nature-icon,
-.together-icon,
-.creativ-icon,
-.positiv-icon,
-.ladder-icon,
-.open-icon,
-.safe-icon,
-.kriebels-icon,
-.teachers-icon,
-.complex-icon,
-.challenging-icon,
-.but-icon,
-.rules-icon,
-.technology-icon {
-	margin: 0 auto;
-	max-width: 50px;
-	gap: 5px;
-}
-.film-icon img {
-	width: 10%;
-}
-.educational-icon {
-	margin: 0 auto;
-	max-width: 45px;
-	gap: 5px;
-}
-.health-icon {
-	margin: 0 auto;
-	max-width: 80px;
-}
+
 .pedagogisch-1 {
 	display: flex;
 	align-items: center;
@@ -794,39 +760,6 @@ p {
 }
 
 @media screen and (min-width: 1024px) {
-	.human-icon,
-	.society-icon,
-	.mobility-icon,
-	.clock-icon,
-	.milieu-icon,
-	.nature-icon,
-	.together-icon,
-	.creativ-icon,
-	.positiv-icon,
-	.ladder-icon,
-	.open-icon,
-	.safe-icon,
-	.kriebels-icon,
-	.teachers-icon,
-	.complex-icon,
-	.challenging-icon,
-	.but-icon,
-	.rules-icon,
-	.technology-icon {
-		margin: 0 auto;
-		max-width: 50px;
-		gap: 5px;
-	}
-	.educational-icon {
-		margin: 0 auto;
-		max-width: 45px;
-		gap: 5px;
-	}
-
-	.health-icon {
-		margin: 0 auto;
-		max-width: 80px;
-	}
 	.pedagogisch-1 {
 		display: flex;
 		flex-direction: column;

@@ -22,10 +22,14 @@ body {
 	position: relative;
 }
 
-.block p {
-	max-width: 250px;
-	padding-left: 20px;
-	line-height: 15px;
+h1 {
+	font-family: "Lexend";
+	font-weight: bold;
+	display: inline-table;
+	font-size: 18px;
+	text-align: center;
+	padding: 10px;
+	background-color: #489ad3;
 }
 
 .title {
@@ -37,6 +41,12 @@ body {
 	margin: 40px;
 }
 
+.block p {
+	padding-left: 20px;
+	padding-left: 20px;
+	line-height: 1.2;
+}
+
 .information-button {
 	margin: 0 auto;
 	font-family: "Lexend";
@@ -46,21 +56,6 @@ body {
 	color: black;
 	background-color: #f6d461;
 	display: inline-block;
-}
-
-h1 {
-	font-family: "Lexend";
-	font-weight: bold;
-	display: inline-table;
-	font-size: 18px;
-	text-align: center;
-	padding: 10px;
-	background-color: #489ad3;
-}
-
-.block p {
-	padding-left: 20px;
-	line-height: 1.2;
 }
 
 .pic {
@@ -132,45 +127,19 @@ ol {
 @media (min-width: 480px) {
 	.text {
 		background-color: red;
-		width: 50%;
-		align-self: center;
-	}
-
-	p {
-		font-size: 20px;
 	}
 
 	h1 {
 		font-size: 28px;
 	}
 
-	.information-button {
-		display: flex;
-		justify-content: center;
-		align-items: center;
+	p {
+		font-size: 20px;
 	}
 
 	.pic {
 		width: 60%;
-		align-self: flex-end;
 		margin-right: -150px;
 		margin-bottom: -250px;
-	}
-
-	.block {
-		display: flex;
-		/* align-items: center; */
-		flex-direction: column;
-		justify-content: center;
-		/* margin-top: 0px;
-		margin-bottom: 200px;
-		height: 400px;
-		width: 60%; */
-	}
-
-	.fixtry {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
 	}
 }

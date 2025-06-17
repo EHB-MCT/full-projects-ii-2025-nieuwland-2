@@ -10,16 +10,19 @@ body {
 	margin: 40px 20px 0px 20px;
 }
 
-.block {
+.main-block {
 	display: flex;
 	flex-direction: column;
+}
+
+.block {
+	align-self: center;
 	background-image: url("/images/pink_paper_background.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 	align-self: center;
 	margin-top: 80px;
 	margin-bottom: 100px;
-	position: relative;
 }
 
 h1 {
@@ -65,8 +68,6 @@ h1 {
 	align-self: flex-end;
 }
 
-/*Stapppenplan*/
-
 h2 {
 	margin-top: -20px;
 	margin-left: 10px;
@@ -91,6 +92,7 @@ ol {
 }
 
 .plan-container h3 {
+	font-weight: bold;
 	font-size: 14px;
 	padding-bottom: 20px;
 }
@@ -125,12 +127,34 @@ ol {
 
 /*Computer version*/
 @media (min-width: 480px) {
-	.text {
-		background-color: red;
+	.main-block {
+		margin-bottom: 200px;
 	}
 
 	h1 {
 		font-size: 28px;
+	}
+
+	h2 {
+		font-size: 21px;
+	}
+
+	.plan-container h3 {
+		font-weight: bold;
+		font-size: 18px;
+	}
+
+	.info-section {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		position: relative;
+		margin-top: 40px;
+	}
+
+	.information-button {
+		margin-bottom: 10px;
+		font-size: 12px;
 	}
 
 	p {
@@ -140,6 +164,33 @@ ol {
 	.pic {
 		width: 60%;
 		margin-right: -150px;
-		margin-bottom: -250px;
+		margin-bottom: -200px;
+	}
+
+	.container-2 {
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+		align-content: center;
+	}
+
+	.plan-container p,
+	ol {
+		font-size: 16px;
+		line-height: 1.6;
+	}
+
+	.step_1_pic,
+	.step_2_pic,
+	.step_3_pic {
+		width: 60%;
+	}
+
+	.step_1,
+	.step_2,
+	.step_3 {
+		display: flex;
+		width: 100%;
+		padding: 20px;
 	}
 }

@@ -6,6 +6,7 @@ function filter() {
 	document.querySelector(".button-1").addEventListener("click", function () {
 		document.getElementById("content").innerHTML = `
 	         <div class="container">
+	         <div class="container">
 
       	<div class="pedagogisch-1">
                 <h2>Pedagogisch Project</h2>
@@ -67,9 +68,9 @@ function filter() {
             </div>
         </div>
 	</div>
-
-	<!-- hier moet call to action voor inschrijven -->
-	
+	<div class="enrolment-wrapper">
+		<a href="inschrijven.html" class="button-4">Nu Inschrijven</a>
+	</div>
 
 	<div class="footer">
 		<div class="wrapper">

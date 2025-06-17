@@ -47,7 +47,24 @@ h1 {
 	border: 0px;
 	padding: 10px;
 }
-
+.button-4 {
+	font-family: "Plus Jakarta Sans";
+	font-size: 12px;
+	background-color: #fa5139;
+	color: #000;
+	border: 0px;
+	padding: 10px;
+	text-decoration: none;
+	margin-bottom: 200px;
+}
+.enrolment-wrapper {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+.button-4:hover {
+	background-color: #b73625;
+}
 .button-1:hover,
 .button-2:hover,
 .button-3:hover {
@@ -434,10 +451,10 @@ p {
 	/*filter*/
 	.button-1,
 	.button-2,
-	.button-3 {
+	.button-3,
+	.button-4 {
 		font-size: 20px;
 	}
-
 	/*general*/
 	h1 {
 		font-size: 45px;
@@ -757,6 +774,23 @@ p {
 }
 
 @media screen and (min-width: 1024px) {
+	header {
+		background-image: url("/images/ripped_paper_up.png");
+		background-repeat: no-repeat;
+		background-size: 180%;
+	}
+	h1{
+		font-size: 28px;
+	}
+	h2{
+		font-size: 21px;
+	}
+	h3{
+		font-size: 18px;
+	}
+	p{
+		font-size: 16px;
+	}
 	.p-vakje-1,
 	.p-vakje-2,
 	.p-vakje-3,
@@ -779,7 +813,12 @@ p {
 		background-color: #b6cde4;
 		max-width: 50%;
 	}
-
+	.button-1,
+	.button-2,
+	.button-3,
+	.button-4 {
+		font-size: 20px;
+	}
 	.pedagogisch-1 {
 		display: flex;
 		flex-direction: column;

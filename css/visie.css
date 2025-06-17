@@ -59,6 +59,11 @@ h1 {
 	padding: 5px;
 	/* background-color: red; */
 }
+header {
+	background-image: url("/images/ripped_paper_up.png");
+	background-repeat: no-repeat;
+	background-size: 280%;
+}
 
 h2 {
 	position: relative;
@@ -79,7 +84,6 @@ h2 {
 .p-h-vakje-6,
 .p-h-vakje-7 {
 } */
-
 .container p {
 	position: relative;
 	z-index: 3;
@@ -146,15 +150,31 @@ h2 {
 	background-color: #f7ebc4;
 }
 
-.p-vakje-1,
 .p-vakje-2,
 .p-vakje-3,
 .p-vakje-4,
 .p-vakje-5,
-.p-vakje-7 {
+.p-vakje-7,
+.o-vakje-1,
+.o-vakje-3,
+.o-vakje-4,
+.o-vakje-5,
+.o-vakje-6,
+.o-vakje-7,
+.o-vakje-8,
+.l-vakje-1,
+.l-vakje-2,
+.l-vakje-3,
+.l-vakje-4,
+.l-vakje-5,
+.l-vakje-6 {
 	background-color: #b6cde4;
+	max-width: 65%;
 }
-
+.p-vakje-1 {
+	background-color: #b6cde4;
+	max-width: 100%;
+}
 .pedagogisch-6 {
 	/*TODO*/
 	background-image: url("./../images/paper_visie_tekst.png");
@@ -245,17 +265,6 @@ h2 {
 .orientatie-8 h2 {
 	background-color: #c0b6ee;
 }
-
-.o-vakje-1,
-.o-vakje-3,
-.o-vakje-4,
-.o-vakje-5,
-.o-vakje-6,
-.o-vakje-7,
-.o-vakje-8 {
-	background-color: #b6cde4;
-}
-
 .orientatie-1 {
 	display: inline-flex;
 	flex-direction: column;
@@ -375,15 +384,6 @@ p {
 .lerlev-5 h2,
 .lerlev-6 h2 {
 	background-color: #eeb6db;
-}
-
-.l-vakje-1,
-.l-vakje-2,
-.l-vakje-3,
-.l-vakje-4,
-.l-vakje-5,
-.l-vakje-6 {
-	background-color: #b6cde4;
 }
 
 .l-title-1,
@@ -769,7 +769,7 @@ p {
 		background-position: right;
 	}
 	.pedagogisch-1 img {
-		width: 40%;
+		width: 30%;
 		margin-top: 10px;
 		padding-left: 20px;
 	}
@@ -784,6 +784,11 @@ p {
 		background-size: 20%;
 	}
 	.pedagogisch-3 img {
+		width: 30%;
+		margin-top: 10px;
+		padding-left: 20px;
+	}
+	.pedagogisch-6 img {
 		width: 40%;
 		margin-top: 10px;
 		padding-left: 20px;
@@ -798,18 +803,18 @@ p {
 		background-size: 20%;
 	}
 	.pedagogisch-7 img {
-		width: 50%;
+		width: 40%;
 		margin-top: 10px;
 		padding-left: 20px;
 	}
 	.orientatie-1 img {
 		align-self: flex-end;
-		width: 50%;
+		width: 40%;
 		margin-top: 10px;
 		padding-left: 20px;
 	}
 	.orientatie-2 img {
-		width: 50%;
+		width: 40%;
 		margin-top: 10px;
 		padding-left: 20px;
 	}
@@ -821,12 +826,12 @@ p {
 		background-size: 40%;
 	}
 	.orientatie-4 img {
-		width: 50%;
+		width: 40%;
 		margin-top: 10px;
 		padding-left: 20px;
 	}
 	.orientatie-5 img {
-		width: 50%;
+		width: 35%;
 		margin-top: 10px;
 		padding-left: 20px;
 	}
@@ -837,7 +842,7 @@ p {
 		background-size: 20%;
 	}
 	.orientatie-6 img {
-		width: 50%;
+		width: 35%;
 		margin-top: 10px;
 		padding-left: 20px;
 	}
@@ -847,16 +852,41 @@ p {
 		background-position: right;
 		background-size: 20%;
 	}
+	.lerlev-1 img {
+		width: 35%;
+		margin-top: 10px;
+		padding-left: 20px;
+	}
 	.lerlev-3 {
 		background-image: url("../images/holding_hands.png");
 		background-repeat: no-repeat;
 		background-position: left;
 		background-size: 20%;
 	}
+	.lerlev-3 img {
+		width: 35%;
+		margin-top: 10px;
+		padding-left: 20px;
+	}
+	.lerlev-4 img {
+		width: 30%;
+		margin-top: 10px;
+		padding-left: 20px;
+	}
+	.lerlev-5 img {
+		width: 35%;
+		margin-top: 10px;
+		padding-left: 20px;
+	}
 	.lerlev-6 {
 		background-image: url("../images/plant_pot.png");
 		background-repeat: no-repeat;
 		background-position: right;
 		background-size: 20%;
+	}
+	.lerlev-6 img {
+		width: 25%;
+		margin-top: 10px;
+		padding-left: 20px;
 	}
 }

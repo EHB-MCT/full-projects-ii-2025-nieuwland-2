@@ -106,7 +106,7 @@ ol {
 }
 
 .rectangle {
-	background-color: #d89eb9;
+	background-color: #ebacc9;
 	margin: 0px 0px 50px 0px;
 	padding: 12px;
 }
@@ -225,6 +225,7 @@ h3 {
 }
 
 /*Filmclub*/
+
 .film-title {
 	display: flex;
 	flex-direction: column;
@@ -236,6 +237,11 @@ h3 {
 	background-color: #b2c2ea;
 	display: flex;
 	flex-direction: column;
+}
+
+.film-icon {
+	max-width: 50px;
+	gap: 5px;
 }
 
 .filmcontainer p {

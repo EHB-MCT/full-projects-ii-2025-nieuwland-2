@@ -5,14 +5,13 @@ function init() {
 function filter() {
 	document.querySelector(".button-1").addEventListener("click", function () {
 		document.getElementById("content").innerHTML = `
-	<div id="content">
-         <div class="container">
+	         <div class="container">
 
-            <div class="pedagogisch-1">
+      	<div class="pedagogisch-1">
                 <h2>Pedagogisch Project</h2>
                 <img src="./images/pedagogisch_project.png" class="pedagogisch-pic-1">
                 <div class="p-vakje-1">
-                    <p>Nergens voel je het kloppend hart van Brussel zo sterk als in <br/>de Marollen. Nieuwland ligt midden in deze bruisende volksbuurt en wil een<br/> plek bieden voor elke jongere tussen 2.5 en 12 jaar.</p>
+                    <p>Nergens voel je het kloppend hart van Brussel zo sterk als in <br/>de Marollen. Nieuwland ligt midden in deze bruisende volksbuurt en<br/> wil een plek bieden voor elke jongere tussen 2.5 en 12 jaar.</p>
                 </div>
             </div>
 
@@ -20,7 +19,7 @@ function filter() {
                 <h2>Voel je het al kriebelen?</h2>
 				
                 <div class="p-vakje-2">
-                    <p>Dat komt doordat we hier aan de toekomst werken. En samen<br/> kunnen we dat veel beter dan alleen. In de klas leren we<br/> met elkaar en van elkaar, met respect voor de keuze en de <br/>identiteit van iedereen. Dat vraagt een flinke portie zelfkennis, waar we samen<br/> voor zorgen.</p>
+                    <p>Dat komt doordat we hier aan de toekomst werken. En samen<br/> kunnen we dat veel beter dan alleen. In de klas leren we<br/> met elkaar en van elkaar, met respect voor de keuze en de <br/>identiteit van iedereen. Dat vraagt een flinke portie zelfkennis,<br/> waar we samen voor zorgen.</p>
                 </div>
             </div>
 
@@ -37,7 +36,7 @@ function filter() {
                 <h2>Voorbereid op een complexe wereld?</h2>
 				
                 <div class="p-vakje-4">
-                    <p>Creativiteit – in de meest brede zin van het woord - is hierop het <br/>antwoord. We willen oog hebben voor de talenten van alle leerlingen, hen <br/>helpen die te ontdekken en ten volle te ontplooien. Daarnaast stimuleren we<br/> hen om na te denken over complexe uitdagingen. De innovatieve ideeën die<br/> leerlingen opdoen zijn de motor om los te komen van stereotypen en<br/> om de wereld te bekijken vanuit verschillende perspectieven.</p>
+                    <p>Creativiteit – in de meest brede zin van het woord - is hierop het <br/>antwoord. We willen oog hebben voor de talenten van alle <br/>leerlingen, hen helpen die te ontdekken en ten volle te ontplooien. <br/>Daarnaast stimuleren we hen om na te denken over complexe uitdagingen. De innovatieve ideeën dieleerlingen opdoen zijn<br/>  de motor om los te komen van stereotypen en<br/> om de wereld te bekijken vanuit verschillende perspectieven.</p>
                 </div>
             </div>
 
@@ -45,7 +44,7 @@ function filter() {
                 <h2>Best uitdagend?</h2>
 				
                 <div class="p-vakje-5">
-                    <p>Dat klopt! Maar we kijken positief naar de toekomst. We geloven oprecht<br/> in de leer – kracht van elk kind en vinden fouten maken noodzakelijk!<br/> De grootste uitvindingen zijn maar tot stand gekomen door veelvuldig experimenteren en <br/>fouten maken. Als school willen we hier positief op inspelen door kinderen<br/> in hun leer – kracht te begeleiden.</p>
+                    <p>Dat klopt! Maar we kijken positief naar de toekomst. We geloven<br/> oprecht in de leer – kracht van elk kind en vinden fouten maken<br/> noodzakelijk! De grootste uitvindingen zijn maar tot stand gekomen<br/> door veelvuldig experimenteren en fouten maken. Als school willen<br/> we hier positief op inspelen door kinderenin hun <br/>leer – kracht te begeleiden.</p>
                 </div>
             </div>
 
@@ -63,12 +62,11 @@ function filter() {
 				
                 <img src="./images/kinderen_fluo_hesjes.png" class="pedagogisch-pic-4">
                 <div class="p-vakje-7">
-                    <p>Natuurlijk wel. Regels en structuur bieden veiligheid voor iedereen op Nieuwland. <br/>Ze zorgen ervoor dat iedereen zich goed voelt op school en klaar<br/> is om te leren. Samen nadenken over deze regels op school is<br/> een sterk signaal van het geloof in onze leerlingen. En loopt het<br/> eens fout? Geen paniek! Zolang we samen naar een geweldloze oplossing<br/> kunnen zoeken is er niets aan de hand.Op die manier willen<br/> we samen op een creatieve en positieve manier de lat van elk<br/> kind hoog leggen in een open en veilige omgeving.</p>
+                    <p>Natuurlijk wel. Regels en structuur bieden veiligheid voor iedereen<br/> op Nieuwland. Ze zorgen ervoor dat iedereen zich goed voelt op <br/>school en klaaris om te leren. Samen nadenken over deze regels op <br/>school is een sterk signaal van het geloof in onze leerlingen.<br/> En loopt het eens fout? Geen paniek! Zolang we samen naar een<br/> geweldloze oplossing kunnen zoeken is er niets aan de hand.Op die <br/> manier willen we samen op een creatieve en positieve manier de lat<br/> van elk kind hoog leggen in een open en veilige omgeving.</p>
                 </div>
             </div>
         </div>
 	</div>
-
 
 	<!-- hier moet call to action voor inschrijven -->
 	
@@ -120,7 +118,7 @@ function filter() {
 			<!-- </div> -->
 			<img src="./images/mens.png" class="mens">
 			<div class="o-vakje-1">
-				<p>Veel van onze kinderen groeien op in stressvolle omstandigheden en leren niet <br/>vanzelf hun emoties goed te uiten. Daarom investeren we als school extra </br>in emotieregulatie en leren we kinderen de taal van emoties. Om schoolse</br> achterstanden, demotivatie en uitval te voorkomen, versterken we het zelfbeeld en zelfvertrouwen</br> van onze leerlingen. Via onze pedagogische en didactische keuzes willen we bovendien</br> hun leerzin en motivatie blijven voeden.</p>
+				<p>Veel van onze kinderen groeien op in stressvolle omstandigheden en leren niet vanzelf hun emoties<br/> goed te uiten. Daarom investeren we als school extra </br>in emotieregulatie en leren we kinderen de taal van emoties. Om schoolseachterstanden, demotivatie en uitval te voorkomen, versterken we het zelfbeeld en zelfvertrouwen van onze leerlingen.</br> Via onze pedagogische en didactische keuzes willen we bovendien</br> hun leerzin en motivatie blijven voeden.</p>
 			</div>
 		</div>
 
@@ -139,7 +137,7 @@ function filter() {
 				<h2>Ruimte: verkeer en mobiliteit</h2>
 			</div>
 			<div class="o-vakje-3">
-				<p>Door het drukke verkeer leggen we de nadruk op verkeersveiligheid, zodat kinderen</br> zich veilig te voet en met de fiets kunnen verplaatsen. We maken</br> optimaal gebruik van het openbaar vervoer bij uitstappen in het BHG, zodat </br>kinderen leren zich zelfstandig te verplaatsen en hun leefwereld verbreden. Mobiliteit koppelen</br> we aan milieueducatie, waarbij we hen bewust maken van hun ecologische impact </br>en duurzame keuzes stimuleren.</p>
+				<p>Door het drukke verkeer leggen we de nadruk op verkeersveiligheid, zodat kinderen</br> zich veilig te voet en met de fiets kunnen verplaatsen. We maken</br> optimaal gebruik van het openbaar vervoer bij uitstappen in het</br> BHG, zodat kinderen leren zich zelfstandig te verplaatsen en hun leefwereld verbreden. Mobiliteit koppelen</br> we aan milieueducatie, waarbij we hen bewust maken van hun ecologische impact </br>en duurzame keuzes stimuleren.</p>
 			</div>
 		</div>
 
@@ -149,7 +147,7 @@ function filter() {
 				<h2>Tijd</h2>
 			</div>
 			<div class="o-vakje-4">
-				<p>Om mee te kunnen in een snel veranderende samenleving, leren we kinderen</br> hun dagelijks leven organiseren, beginnend bij tijdsbesef. Daarnaast laten we hen kennismaken</br> met historische gebeurtenissen, zodat ze onze maatschappij beter begrijpen en bewuster over </br>de toekomst kunnen nadenken.</p>
+				<p>Om mee te kunnen in een snel veranderende samenleving, leren we</br> kinderen hun dagelijks leven organiseren, beginnend bij tijdsbesef. Daarnaast laten we hen kennismaken</br> met historische gebeurtenissen, zodat ze onze maatschappij beter begrijpen en bewuster over </br>de toekomst kunnen nadenken.</p>
 			</div>
 		</div>
 
@@ -159,7 +157,7 @@ function filter() {
 				<h2>Natuur: levende natuur</h2>
 			</div>
 			<div class="o-vakje-5">
-				<p>Onze kinderen groeien op in een verstedelijkt gebied en hebben vaak beperkte </br>voorkennis over de natuur. Daarom laten we hen actief en ontdekkend kennismaken </br>met diverse biotopen en organismen, binnen en buiten het BHG, zodat deze</br> ervaringen blijven hangen.</p>
+				<p>Onze kinderen groeien op in een verstedelijkt gebied en hebben</br> vaak beperkte voorkennis over de natuur. Daarom laten we hen</br> actief en ontdekkend kennismaken met diverse biotopen en organismen, binnen en buiten het BHG, zodat deze</br> ervaringen blijven hangen.</p>
 			</div>
 		</div>
 
@@ -178,7 +176,7 @@ function filter() {
 				<h2>Natuur: Milieu</h2>
 			</div>
 			<div class="o-vakje-7">
-				<p>Kinderen zien in hun omgeving weinig voorbeelden van respectvol gedrag naar milieu.</br> Zo wordt er bijvoorbeeld weinig gesorteerd en slingert er veel afval in</br> de omliggende straten. We willen dat onze leerlingen opgroeien tot burgers die</br> de wereld beter maken en dus is het belangrijk om vanuit de</br> school voldoende klemtoon te leggen op milieu-educatie en ecologie.</p>
+				<p>Kinderen zien in hun omgeving weinig voorbeelden van respectvol</br> gedrag naar milieu. Zo wordt er bijvoorbeeld weinig gesorteerd en slingert er veel afval in</br> de omliggende straten. We willen dat onze leerlingen opgroeien tot burgers die</br> de wereld beter maken en dus is het belangrijk om vanuit de</br> school voldoende klemtoon te leggen op milieu-educatie en ecologie.</p>
 			</div>
 		</div>
 
@@ -187,7 +185,7 @@ function filter() {
 				<h2>Techniek</h2>
 			</div>
 			<div class="o-vakje-8">
-				<p>Onze wereld evolueert razendsnel. Techniek vormt het sleutelbegrip om de toekomst vorm te geven.</br> Gezien de ecologische, maatschappelijke uitdagingen is het belangrijk</br> om techniek een plaats te geven. Wij willen dat onze kinderen deze evolutie</br> begrijpen en hierop kunnen anticiperen.</p>
+				<p>Onze wereld evolueert razendsnel. Techniek vormt het sleutelbegrip om de toekomst vorm te geven.</br> Gezien de ecologische, maatschappelijke uitdagingen is het</br> belangrijk om techniek een plaats te geven. Wij willen dat onze kinderen deze evolutie begrijpen en hierop kunnen anticiperen.</p>
 			</div>
 		</div>
 	</div>`;

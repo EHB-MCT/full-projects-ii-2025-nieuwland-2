@@ -149,7 +149,7 @@ h2 {
 .pedagogisch-7 h2 {
 	background-color: #f7ebc4;
 }
-
+.p-vakje-1,
 .p-vakje-2,
 .p-vakje-3,
 .p-vakje-4,
@@ -169,12 +169,9 @@ h2 {
 .l-vakje-5,
 .l-vakje-6 {
 	background-color: #b6cde4;
-	max-width: 65%;
-}
-.p-vakje-1 {
-	background-color: #b6cde4;
 	max-width: 100%;
 }
+
 .pedagogisch-6 {
 	/*TODO*/
 	background-image: url("./../images/paper_visie_tekst.png");
@@ -760,6 +757,29 @@ p {
 }
 
 @media screen and (min-width: 1024px) {
+	.p-vakje-1,
+	.p-vakje-2,
+	.p-vakje-3,
+	.p-vakje-4,
+	.p-vakje-5,
+	.p-vakje-7,
+	.o-vakje-1,
+	.o-vakje-3,
+	.o-vakje-4,
+	.o-vakje-5,
+	.o-vakje-6,
+	.o-vakje-7,
+	.o-vakje-8,
+	.l-vakje-1,
+	.l-vakje-2,
+	.l-vakje-3,
+	.l-vakje-4,
+	.l-vakje-5,
+	.l-vakje-6 {
+		background-color: #b6cde4;
+		max-width: 50%;
+	}
+
 	.pedagogisch-1 {
 		display: flex;
 		flex-direction: column;

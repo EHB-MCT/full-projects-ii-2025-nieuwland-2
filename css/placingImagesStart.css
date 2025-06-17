@@ -14,8 +14,36 @@ body {
 }
 
 .background-decoration {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1; /* Ensure it's in the back */
+}
+
+.info-wrapper {
+	margin: 10rem 0 25rem;
+	position: relative; /* Required to anchor absolutely-positioned children */
+	width: 100%;
+	height: 100vh; /* Adjust as needed */
+}
+
+.info-wrapper img {
+	position: absolute;
+	/* max-width: 25rem; */
+	height: auto;
+}
+
+.container-info {
 	position: relative;
-	z-index: 1;
+	z-index: 2; /* Ensure it's in front */
+	padding: 2rem;
+	padding-left: 2rem;
+	margin-bottom: 6rem;
+	display: flex;
+	flex-direction: column;
+	gap: 5rem; /* change spacing between info container */
 }
 
 .header-background img {
@@ -294,8 +322,45 @@ body {
 	left: 14rem;
 }
 
-/* left: calc(100vw + 400px);
-	z-index: (to add an extra level of randomness) */
+/* styling bottom of the page */
+
+.drawing1 {
+	transform: rotate(-10deg);
+	top: 16rem;
+	left: 60%;
+	max-width: 10rem;
+}
+
+.drawing2 {
+	top: 32rem;
+	left: 90%;
+	max-width: 10rem;
+}
+
+.playing-sand {
+	transform: rotate(10deg);
+	left: 75%;
+	top: 5rem;
+	max-width: 25rem;
+}
+
+.bugs {
+	max-width: 20rem;
+	left: 60%;
+	top: 35rem;
+}
+
+.child-looking-back {
+	max-width: 12.5rem;
+	transform: rotate(30deg);
+	right: 91%;
+	top: 35rem;
+}
+
+.flower {
+	top: 50rem;
+	left: 5%;
+}
 
 /* phone screens */
 
@@ -535,6 +600,17 @@ body {
 	}
 
 	.header-background.style3 .paper-scrap-bench {
+		display: none;
+	}
+	.drawing1 {
+		display: none;
+	}
+
+	.drawing2 {
+		display: none;
+	}
+
+	.playing-sand {
 		display: none;
 	}
 }

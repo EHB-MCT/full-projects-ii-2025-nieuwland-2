@@ -365,6 +365,9 @@ body {
 /* phone screens */
 
 @media screen and (max-width: 480px) {
+	.info-wrapper {
+		margin: -1rem 0 10rem;
+	}
 	/* this to make sure there is no sideways scrolling on the webpage */
 	body {
 		overflow-x: hidden;
@@ -373,6 +376,10 @@ body {
 		width: 10rem; /* scalable size */
 		max-width: none;
 		height: auto;
+	}
+
+	.container-info {
+		margin-bottom: 2rem;
 	}
 
 	/* style 1 outside pos */
@@ -611,6 +618,17 @@ body {
 	}
 
 	.playing-sand {
+		display: none;
+	}
+	.bugs {
+		display: none;
+	}
+
+	.child-looking-back {
+		display: none;
+	}
+
+	.flower {
 		display: none;
 	}
 }

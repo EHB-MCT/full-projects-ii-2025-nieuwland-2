@@ -524,6 +524,8 @@ h1 {
 
 	/*footer*/
 	.footer {
+		position: relative;
+		z-index: 5;
 		padding: 50px 60px 50px 60px;
 	}
 
@@ -540,6 +542,4 @@ h1 {
 	.praktischeinformatie-footer {
 		font-size: 20px;
 	}
-
-	
 }

@@ -68,8 +68,8 @@ function filter() {
             </div>
         </div>
 	</div>
-	<div class="enrolment-wrapper">
-		<a href="inschrijven.html" class="button-4">Nu Inschrijven</a>
+	<div class="enrolment-button">
+	<a href="inschrijven.html" class="button-4">Nu Inschrijven</a>
 	</div>
 
 	<div class="footer">

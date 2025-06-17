@@ -13,6 +13,11 @@ body {
 	z-index: 1;
 }
 
+.background-decoration {
+	position: relative;
+	z-index: 1;
+}
+
 .header-background img {
 	position: absolute;
 	max-width: 30rem;
@@ -75,12 +80,14 @@ body {
 .header-background.style1 .paper-clip.animate-in {
 	/* transform: rotate(47.16deg); */
 	top: 50%;
+	max-width: 40rem;
 	left: 5%;
 }
 
 .header-background.style1 .paper-scrap1.animate-in {
 	transform: rotate(136deg);
-	top: 80%;
+	max-width: 40rem;
+	top: 50%;
 	right: 10%;
 }
 
@@ -97,7 +104,7 @@ body {
 }
 
 .header-background.style1 .paper-scrap-bench.animate-in {
-	top: 280%;
+	top: 30rem;
 	right: 5%;
 }
 
@@ -108,7 +115,7 @@ body {
 }
 
 .header-background.style1 .drawing-bird.animate-in {
-	top: 300%;
+	top: 35rem;
 	left: 5%;
 	transform: scaleX(-1);
 }
@@ -156,6 +163,7 @@ body {
 
 .header-background.style2 .paper-clip.animate-in {
 	transform: rotate(60deg);
+	max-width: 40rem;
 	top: 100%;
 	right: 5%;
 }
@@ -164,12 +172,14 @@ body {
 	transform: rotate(10deg);
 	transform: scaleX(-1);
 	left: 8%;
+	max-width: 40rem;
 }
 
 .header-background.style2 .img-child-drawing.animate-in {
 	transform: rotate(8deg);
 	left: 6%;
-	top: 210%;
+	top: 28rem;
+	max-width: 26rem;
 }
 
 .header-background.style2 .kids-walking.animate-in {
@@ -192,6 +202,7 @@ body {
 
 .header-background.style2 .drawing-bird.animate-in {
 	top: 360%;
+	display: none;
 	right: 20%;
 }
 
@@ -230,34 +241,37 @@ body {
 }
 
 .header-background.style3 .drawing-bird {
-	top: calc(360% + 400px);
-	right: calc(25% - 400px);
+	top: calc(38rem - 60rem);
+	left: calc(14rem - 20rem);
 }
 
 /* final post */
 
 .header-background.style3 .paper-clip.animate-in {
-	transform: rotate(60deg);
+	transform: rotate(40deg);
 	top: 100%;
-	right: 5%;
+	right: 8%;
+	max-width: 40rem;
 }
 
 .header-background.style3 .paper-scrap1.animate-in {
 	transform: rotate(10deg);
 	transform: scaleX(-1);
-	left: 8%;
+	left: 18%;
+	max-width: 40rem;
 }
 
 .header-background.style3 .img-child-drawing.animate-in {
 	transform: rotate(-8deg);
-	left: 6%;
-	top: 180%;
+	left: 12%;
+	top: 30rem;
+	max-width: 25rem;
 }
 
 .header-background.style3 .kids-walking.animate-in {
 	transform: rotate(10deg);
-	right: 0%;
-	top: 25%;
+	right: 10rem;
+	top: 10rem;
 }
 
 .header-background.style3 .paper-scrap-bench.animate-in {
@@ -265,17 +279,19 @@ body {
 	top: 10%;
 	left: 10%;
 	transform: scaleX(-1);
+	display: none;
 }
 
 .header-background.style3 .drawing-butterfly.animate-in {
 	transform: rotate(60deg);
-	left: 12%;
-	top: 140%;
+	left: 65rem;
+	top: 34rem;
 }
 
 .header-background.style3 .drawing-bird.animate-in {
-	top: 360%;
-	right: 25%;
+	transform: rotate(10deg);
+	top: 10rem;
+	left: 14rem;
 }
 
 /* left: calc(100vw + 400px);

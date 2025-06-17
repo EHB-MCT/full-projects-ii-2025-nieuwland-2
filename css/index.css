@@ -5,6 +5,8 @@
 body {
 	margin: 0;
 	background-image: url("/images/start_background.png");
+	background-repeat: no-repeat;
+	background-color: #ebe2de;
 }
 
 h1 {
@@ -38,12 +40,17 @@ ol {
 
 .container-intro {
 	margin-top: -20rem;
-	display: flex;
+	/display: flex;
 	flex-direction: column;
 	justify-content: center;
 	position: relative;
 	z-index: 2; /* Places it above imageComposition */
 	padding-top: 2rem;
+}
+
+.contrainer-info {
+	position: relative;
+	z-index: 10;
 }
 
 .item {
@@ -81,6 +88,7 @@ ol {
 	background-image: url("/images/infomoment_background.png");
 	padding-bottom: 100px;
 	background-repeat: no-repeat;
+	z-index: 1;
 }
 
 .item-3 h3 {
@@ -127,7 +135,8 @@ ol {
 		margin: 8rem auto;
 		display: flex;
 		flex-direction: column;
-		gap: 12px; /* interline inbetween both h2 and p */
+		gap: 33px; /* interline inbetween both h2 and p */
+		padding: 40px 115px;
 	}
 	.item-3 {
 		margin: 20rem 20px 50px 20px;
@@ -145,7 +154,7 @@ ol {
 
 	h3 {
 		font-family: "Plus Jakarta Sans";
-		font-size: 14px;
+		font-size: 16px;
 	}
 
 	p {

@@ -31,6 +31,14 @@ h1 {
 	display: none;
 }
 
+.hpic {
+	display: none;
+}
+
+.bupic {
+	display: none;
+}
+
 /*filter*/
 
 #filter {
@@ -324,16 +332,13 @@ h3 {
 	.bpic {
 		display: block;
 		width: 30%;
-		/*margin-left: -600px;*/
 		margin-top: -300px;
 		margin-left: 800px;
 	}
 
 	.bpic2 {
 		display: block;
-		width: 25%;
-		z-index: 2;
-		/*margin-left: -600px;*/
+		width: 35%;
 		margin-top: -300px;
 		margin-left: 1000px;
 	}
@@ -342,6 +347,32 @@ h3 {
 	.hcontainer {
 		margin: 0 auto;
 		max-width: 1500px;
+	}
+
+	.hcontainer {
+		background-image: url("../images/sun.png");
+		background-repeat: no-repeat;
+		background-position: left;
+	}
+
+	.bucontainer {
+		background-image: url("../images/branch.png");
+		background-repeat: no-repeat;
+		background-position: -10% 150%;
+	}
+
+	.hpic {
+		display: block;
+		width: 30%;
+		margin-top: -200px;
+		margin-left: 1000px;
+	}
+
+	.bupic {
+		display: block;
+		width: 20%;
+		margin-top: -400px;
+		margin-left: 1000px;
 	}
 
 	/*Wat*/

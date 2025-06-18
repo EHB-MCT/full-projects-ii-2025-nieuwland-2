@@ -95,12 +95,12 @@ function filterContent() {
 
 	document.querySelector(".button-2").addEventListener('click', function () {
 		document.getElementById('content').innerHTML = `
-		<div class="container">
+	<div class="container">
 
 		<div class="hcontainer">
-			<div class="hoofdst-1">
+			<div class="item-1">
 				<h2>MUZIEK, WOORD EN DANS</h2>
-				<div class="rectangle">
+				<div class="h-rectangle">
 				<p> De Hoofdstedelijke Academie is een creatieve omgeving waar zowel kinderen vanaf 6 jaar, jongeren als volwassenen lessen muziek, theater en dans kunnen volgen. Onze hoofdvestiging is gelegen in het centrum van Brussel, gemakkelijk bereikbaar vanuit alle hoeken van het land. Daarnaast organiseren we lessen op verschillende plaatsen in Laken, Neder-Over-Heembeek en Haren. De academie heeft een zeer gevarieerd lerarenteam. Naast het les geven zijn zij ook actief als acteur, danser of muzikant en nemen ze deze expertise mee naar de les. </p>
 				</div>
 			</div>
@@ -108,7 +108,7 @@ function filterContent() {
 			<img src="./images/hoofdstedelijk_pic.png" class="pic">
 
 			<div class="item-2">
-				<div class="rectangle">
+				<div class="h-rectangle">
 					<p>Op onze academie willen we de leerlingen de mogelijkheid bieden om hun talenten maximaal te ontplooien. Ons aanbod is daarom erg gevarieerd: leerlingen krijgen de keuze tussen klassieke muziek, jazz-pop-rock en oude muziek; speltheater en verteltheater; klassieke dans, hedendaagse dans en urban. Alvorens te kiezen krijgen de leerlingen de tijd om te proeven van de verschillende lessen en disciplines. </p>	
 					<p>Tijdens de opleiding bieden we ook verschillende podium kansen aan onze leerlingen. In samenspraak met de leerkracht kunnen ze o.a. aan een concert, voorstelling of grote productie meewerken. Ook maken we gebruik van de cultuurmogelijkheden die Stad Brussel te bieden heeft zoals Bozar, Bronks, Flagey, etc., dit door o.a. het organiseren van uitstappen.</p>		
 				</div>
@@ -116,7 +116,7 @@ function filterContent() {
 			
 		</div>
 
-		<div class="hoofdstedelijk-button">
+		<div class="h-button">
 				<a href="https://www.hoofdstedelijkeacademie.be/" target="_blank">Ontdek hier meer</a>
 		</div>
 	</div>`;

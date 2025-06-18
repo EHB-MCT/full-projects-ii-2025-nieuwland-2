@@ -454,7 +454,7 @@ p {
 }
 
 /*Computer version*/
-@media (min-width: 1024px) {
+@media (min-width: 480px) {
 	header {
 		background-image: url("/images/ripped_paper_up.png");
 		background-repeat: no-repeat;

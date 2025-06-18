@@ -127,12 +127,6 @@ ol {
 
 /*Hoofdstedelijke Academie*/
 
-.rectangle {
-	background-color: #e7b6e5;
-	margin: 0px 0px 50px 0px;
-	padding: 12px;
-}
-
 .hcontainer {
 	margin: 70px 20px 100px 20px;
 	padding: 10px;
@@ -140,7 +134,19 @@ ol {
 	flex-direction: column;
 }
 
-.hoofdst-1 h2 {
+.item-1,
+.item-2,
+.pic {
+	align-self: center;
+}
+
+.h-rectangle {
+	background-color: #cbdaa9;
+	margin: 0px 0px 50px 0px;
+	padding: 1rem;
+}
+
+.item-1 h2 {
 	font-weight: bold;
 	padding: 10px;
 	margin-left: -20px;
@@ -155,12 +161,7 @@ ol {
 	margin-top: 10px;
 }
 
-.hrectangle {
-	background-color: #cbdaa9;
-	padding: 10px 0px 10px 0px;
-}
-
-.hoofdstedelijk-button {
+.h-button {
 	display: flex;
 	justify-content: center;
 	font-size: 14px;
@@ -168,7 +169,7 @@ ol {
 	margin-top: -50px;
 }
 
-.hoofdstedelijk-button a {
+.h-button a {
 	font-family: "Plus Jakarta Sans";
 	color: black;
 	text-decoration: none;
@@ -289,7 +290,7 @@ h3 {
 }
 
 /*Computer version*/
-@media (min-width: 1024px) {
+@media (min-width: 480px) {
 	/*filter*/
 	.button-1,
 	.button-2,
@@ -352,15 +353,21 @@ h3 {
 	}
 
 	/*Hoofdstedelijke Academie*/
-	.hoofdst-1 h2 {
+	.item-1 h2 {
 		font-size: 21px;
 		position: relative;
 		z-index: 2;
 	}
 
-	.hoofdstedelijk-button {
+	.h-button {
 		margin-top: 100px;
-		font-size: 24px;
+		font-size: 20px;
+	}
+
+	.item-1,
+	.item-2,
+	.pic {
+		max-width: 700px;
 	}
 
 	/*Buiteling*/
@@ -412,7 +419,7 @@ h3 {
 	.buiteling-button {
 		position: relative;
 		z-index: 3;
-		font-size: 22px;
+		font-size: 20px;
 	}
 
 	/*Filmclub*/

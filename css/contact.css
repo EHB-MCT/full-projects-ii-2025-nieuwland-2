@@ -25,6 +25,10 @@ body {
 	display: none;
 }
 
+.bee {
+	display: none;
+}
+
 .title {
 	display: flex;
 	flex-direction: column;
@@ -132,6 +136,13 @@ h2 {
 		width: 20%;
 		margin-top: -200px;
 		margin-left: 1200px;
+	}
+
+	.bee {
+		display: block;
+		width: 30%;
+		margin-top: -200px;
+		margin-left: 50px;
 	}
 
 	h1 {

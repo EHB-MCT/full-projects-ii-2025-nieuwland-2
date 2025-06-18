@@ -361,6 +361,18 @@ h3 {
 		background-position: -10% 150%;
 	}
 
+	.main-filmcontainer{
+		background-image: url("../images/house.png");
+		background-repeat: no-repeat;
+		background-position: 0% 0%;
+	}
+
+	.filmcontainer {
+		background-image: url("../images/sun-2.png");
+		background-repeat: no-repeat;
+		background-position: 100% 100%;
+	}
+
 	.hpic {
 		display: block;
 		width: 30%;

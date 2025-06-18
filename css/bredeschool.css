@@ -27,6 +27,10 @@ h1 {
 	align-self: center;
 }
 
+.bpic {
+	display: none;
+}
+
 /*filter*/
 
 #filter {
@@ -308,6 +312,30 @@ h3 {
 
 	.container {
 		margin: 80px 50px 80px 50px;
+	}
+
+	.bschool-container {
+		background-image: url("../images/butterfly.png");
+		background-repeat: no-repeat;
+		background-size: 30%;
+		background-position: left;
+	}
+
+	.bpic {
+		display: block;
+		width: 30%;
+		/*margin-left: -600px;*/
+		margin-top: -300px;
+		margin-left: 800px;
+	}
+
+	.bpic2 {
+		display: block;
+		width: 25%;
+		z-index: 2;
+		/*margin-left: -600px;*/
+		margin-top: -300px;
+		margin-left: 1000px;
 	}
 
 	.bschool-container,

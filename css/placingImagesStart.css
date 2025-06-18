@@ -1,15 +1,13 @@
-/* general */
-
-/* this to make sure there is no sideways scrolling on the webpage */
 body {
 	overflow-x: hidden;
+	width: 100vw;
 }
 
 .header-background {
 	position: relative;
 	width: 100%;
-	min-height: 40vh; /* Adjust height as needed */
-	margin-bottom: 4rem; /* Gives spacing between images and intro text */
+	min-height: 40vh;
+	margin-bottom: 4rem;
 	z-index: 1;
 }
 
@@ -19,31 +17,30 @@ body {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	z-index: 1; /* Ensure it's in the back */
+	z-index: 1;
 }
 
 .info-wrapper {
 	margin: 10rem 0 25rem;
-	position: relative; /* Required to anchor absolutely-positioned children */
+	position: relative;
 	width: 100%;
-	height: 100vh; /* Adjust as needed */
+	height: 100vh;
 }
 
 .info-wrapper img {
 	position: absolute;
-	/* max-width: 25rem; */
 	height: auto;
 }
 
 .container-info {
 	position: relative;
-	z-index: 2; /* Ensure it's in front */
+	z-index: 2;
 	padding: 2rem;
 	padding-left: 2rem;
 	margin-bottom: 6rem;
 	display: flex;
 	flex-direction: column;
-	gap: 5rem; /* change spacing between info container */
+	gap: 5rem;
 }
 
 .header-background img {
@@ -59,15 +56,9 @@ body {
 	position: absolute;
 }
 
-/* Final state triggered by JS for the fade in of the images */
 .header-background img.show {
 	opacity: 1;
 }
-
-/* desktop screens*/
-/* style1 */
-
-/* start pos (off screen)*/
 
 .header-background.style1 .paper-clip {
 	top: calc(50% + 200px);
@@ -104,9 +95,7 @@ body {
 	left: calc(5% - 300px);
 }
 
-/* final pos */
 .header-background.style1 .paper-clip.animate-in {
-	/* transform: rotate(47.16deg); */
 	top: 50%;
 	max-width: 40rem;
 	left: 5%;
@@ -148,10 +137,6 @@ body {
 	transform: scaleX(-1);
 }
 
-/* style2 */
-
-/* intial pos (outside of the screen) */
-
 .header-background.style2 .paper-clip {
 	top: calc(100% + 200px);
 	right: calc(5% - 300px);
@@ -186,8 +171,6 @@ body {
 	top: calc(360% + 400px);
 	right: calc(20% - 400px);
 }
-
-/* final pos */
 
 .header-background.style2 .paper-clip.animate-in {
 	transform: rotate(60deg);
@@ -234,10 +217,6 @@ body {
 	right: 20%;
 }
 
-/* style3 */
-
-/* inital pos (outside of the screen) */
-
 .header-background.style3 .paper-clip {
 	top: calc(100% + 200px);
 	right: calc(5% - 300px);
@@ -272,8 +251,6 @@ body {
 	top: calc(38rem - 60rem);
 	left: calc(14rem - 20rem);
 }
-
-/* final post */
 
 .header-background.style3 .paper-clip.animate-in {
 	transform: rotate(40deg);
@@ -322,8 +299,6 @@ body {
 	left: 14rem;
 }
 
-/* styling bottom of the page */
-
 .drawing1 {
 	transform: rotate(-10deg);
 	top: 16rem;
@@ -362,18 +337,16 @@ body {
 	left: 5%;
 }
 
-/* phone screens */
-
 @media screen and (max-width: 480px) {
 	.info-wrapper {
 		margin: -1rem 0 10rem;
 	}
-	/* this to make sure there is no sideways scrolling on the webpage */
+
 	body {
 		overflow-x: hidden;
 	}
 	.header-background img {
-		width: 17rem; /* scalable size */
+		width: 17rem;
 		max-width: none;
 		height: auto;
 	}
@@ -381,8 +354,6 @@ body {
 	.container-info {
 		margin-bottom: 2rem;
 	}
-
-	/* style 1 outside pos */
 
 	.header-background.style1 .animate-in {
 		opacity: 1;
@@ -425,8 +396,6 @@ body {
 		left: calc(10% - 10rem);
 	}
 
-	/* final pos */
-
 	.header-background.style1 .paper-clip.animate-in {
 		top: 10rem;
 		left: 3%;
@@ -459,7 +428,7 @@ body {
 	.header-background.style1 .drawing-butterfly.animate-in {
 		top: 28rem;
 		width: 8rem;
-		left: 26rem;
+		left: 90%;
 	}
 
 	.header-background.style1 .drawing-bird.animate-in {
@@ -468,8 +437,6 @@ body {
 		width: 6rem;
 		left: 10%;
 	}
-
-	/* style 2 */
 
 	.header-background.style2 .paper-clip.style2 {
 		top: calc(10% + 16rem);
@@ -480,8 +447,6 @@ body {
 		top: calc(30% + 14rem);
 		left: calc(7% - 11rem);
 	}
-
-	/* child-drawing hidden on mobile for this style */
 
 	.header-background.style2 .kids-walking.style2 {
 		top: calc(20% + 17rem);
@@ -503,8 +468,6 @@ body {
 		top: calc(85% + 12rem);
 		right: calc(9% - 10rem);
 	}
-
-	/* Final pos */
 
 	.header-background.style2 .paper-clip.animate-in {
 		top: 10%;
@@ -545,10 +508,6 @@ body {
 		display: none;
 	}
 
-	/* style 3 */
-
-	/* .paper-scrap-bench hidden on mobile for this style */
-
 	.header-background.style3 .paper-clip.style3 {
 		top: calc(12% + 14rem);
 		left: calc(5% - 10rem);
@@ -575,15 +534,9 @@ body {
 	}
 
 	.header-background.style3 .drawing-bird.style3 {
-		/* top: calc(90% + 13rem);
-		right: calc(6% - 9rem); */
-		/* top: 12rem;
-		left: 2rem; */
 		top: calc(12rem - 100px);
 		left: calc(2rem -10);
 	}
-
-	/* Final positions */
 
 	.header-background.style3 .paper-clip.animate-in {
 		top: 60%;

@@ -19,18 +19,17 @@
 }
 
 .PIalgTitle {
-	background-image: url("../images/Blue_band.png");
+	background-color: #489ad3;
 	background-repeat: no-repeat;
 	padding: 20px;
 	z-index: 2;
 	background-position: right;
-	rotate: -6deg;
 }
 
 .PIalg1 {
 	position: relative;
 	width: 100%;
-	height: 400px; /* adjust as needed */
+	height: 400px;
 	background-image: url("../images/writtenpaperbg.png");
 	background-size: cover;
 	background-position: center;
@@ -151,7 +150,7 @@ h2 {
 	display: flex;
 	align-items: center;
 	gap: 15px;
-	background-image: url("../images/Purple_band.png");
+	background-color: #c0b6ee;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -212,106 +211,98 @@ h2 {
 }
 
 @media screen and (min-width: 900px) {
-
 	.PISU {
-    margin-top: 60px;
-}
+		margin-top: 60px;
+	}
 
-  /* Example: .PIalg1 container bigger height and more padding */
-  .PIalg1 {
-    height: 600px; /* increase height for bigger screens */
-    padding: 40px;
-	position: relative;
-  }
+	.PIalg1 {
+		height: 600px; 
+		padding: 40px;
+		position: relative;
+	}
 
-  /* Example: The overlay text can be aligned side-by-side instead of stacked */
-  .PIoverlaytext2 {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 80%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    flex-wrap: nowrap; /* keep them in a row */
-  }
+	.PIoverlaytext2 {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		width: 80%;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		flex-wrap: nowrap;
+	}
 
-  /* Adjust each block inside the overlay to be smaller and aligned horizontally */
-  .PIoverlaytext2 > div {
-    flex: 1 1 20%; /* each takes roughly equal space */
-    padding: 20px;
-    margin: 0 10px;
-    background-position: center;
-  }
+	.PIoverlaytext2 > div {
+		flex: 1 1 20%; 
+		padding: 20px;
+		margin: 0 10px;
+		background-position: center;
+	}
 
-  /* Example: Increase font size for headers */
-  h1 {
-    font-size: 36px;
-  }
+	h1 {
+		font-size: 28px;
+	}
 
-  h2 {
-    font-size: 30px;
-  }
+	h2 {
+		font-size: 21px;
+	}
+	p {
+		font-size: 16px;
+	}
 
-  /* School hours section layout changes */
-  .PISU2 {
-    width: 70%;
-  }
+	.PISU2 {
+		width: 70%;
+	}
 
-  .PISU2 img {
-    display: block;
-    width: 100%;
-    height: auto;
-    width: 80%;
-}
+	.PISU2 img {
+		display: block;
+		width: 100%;
+		height: auto;
+		width: 80%;
+	}
 
-  .PISU2 img.note {
-    margin: 0 auto 30px auto; /* center image */
-    width: 100%; /* smaller on bigger screens */
-  }
+	.PISU2 img.note {
+		margin: 0 auto 30px auto; 
+		width: 100%; 
+	}
 
-  /* Footer links arranged horizontally */
-  .links-footer {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-    gap: 40px;
-  }
+	.links-footer {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: nowrap;
+		gap: 40px;
+	}
 
-  /* Navigation adjustments - if you want to display dropdown horizontally */
-  .navigation {
-    display: flex;
-    gap: 30px;
-    align-items: center;
-  }
+	.navigation {
+		display: flex;
+		gap: 30px;
+		align-items: center;
+	}
 
-  /* Optional: Increase size of icons */
-  .PIbook-icon,
-  .PIcallendar-icon,
-  .PIFlyer-icon,
-  .PIclock-icon {
-    width: 40px;
-  }
+	.PIbook-icon,
+	.PIcallendar-icon,
+	.PIFlyer-icon,
+	.PIclock-icon {
+		width: 40px;
+	}
 
-  /* Adjust padding in title bars */
-  .PIalgTitle,
-  .PISUtitle {
-    padding: 30px;
-    rotate: -4deg; /* less rotation */
-  }
+	.PIalgTitle,
+	.PISUtitle {
+		padding: 30px;
+	}
 
- .PIoverlaytext2 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: grid; /* for your 2x2 layout */
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, auto);
-    gap: 20px;
-    width: 80%; /* or any width that fits */
-    text-align: center;
-}
+	.PIoverlaytext2 {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(2, auto);
+		gap: 20px;
+		width: 80%;
+		text-align: center;
+	}
 
 	.PIoverlaytext2-1 {
 		width: 400px;
@@ -342,15 +333,12 @@ h2 {
 	}
 
 	.PISU2 li {
-    font-size: 30px;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    font-family: "Plus Jakarta Sans";
-	
-}
-	
-
+		font-size: 30px;
+		padding: 20px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		position: relative;
+		font-family: "Plus Jakarta Sans";
+	}
 }

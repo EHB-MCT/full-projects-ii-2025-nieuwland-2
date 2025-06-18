@@ -8,19 +8,6 @@ function setActiveButton(clickedButton) {
 	allButtons.forEach(button => button.classList.remove('active-button'));
 	clickedButton.classList.add('active-button');
 }
-// const composition = document.getElementById('imageComposition');
-// if (composition) {
-//     composition.classList.add(randomStyle);
-//     const images = composition.querySelectorAll('img');
-
-//     images.forEach((img, index) => {
-//         setTimeout(() => {
-//             img.classList.add('show');
-//             img.classList.add('animate-in');
-//         }, 250 * index);
-
-//     });
-// }
 
 function filterTitle() {
 	document.querySelector(".button-1").addEventListener("click", function () {

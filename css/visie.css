@@ -647,6 +647,13 @@ p {
 		flex-direction: column;
 	}
 
+	.orientation-1 {
+		background-image: url("../images/flower_simple.png");
+		background-repeat: no-repeat;
+		background-position: left;
+		background-size: 25%;
+	}
+
 	.orientation-1 img {
 		align-self: flex-end;
 		width: 40%;
@@ -750,6 +757,13 @@ p {
 	.o-block-8 {
 		max-width: 800px;
 		align-self: flex-end;
+	}
+
+	.orientation-8 {
+		background-image: url("../images/flower-drowing.png");
+		background-repeat: no-repeat;
+		background-position: left;
+		background-size: 25%;
 	}
 
 	/*Zin in leren! Zin in leven!*/

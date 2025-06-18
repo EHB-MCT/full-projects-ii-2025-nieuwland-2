@@ -1,5 +1,6 @@
 body {
 	overflow-x: hidden;
+	width: 100vw;
 }
 
 .header-background {
@@ -427,7 +428,7 @@ body {
 	.header-background.style1 .drawing-butterfly.animate-in {
 		top: 28rem;
 		width: 8rem;
-		left: 26rem;
+		left: 90%;
 	}
 
 	.header-background.style1 .drawing-bird.animate-in {

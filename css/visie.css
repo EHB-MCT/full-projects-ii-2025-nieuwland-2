@@ -167,7 +167,29 @@ h2 {
 .e-block-3,
 .e-block-4,
 .e-block-5,
-.e-block-6,
+.e-block-7,
+.o-block-1,
+.o-block-3,
+.o-block-4,
+.o-block-5,
+.o-block-6,
+.o-block-7,
+.o-block-8,
+.l-block-1,
+.l-block-2,
+.l-block-3,
+.l-block-4,
+.l-block-5,
+.l-block-6 {
+	background-color: white;
+	border-radius: 10px;
+}
+
+.e-block-1,
+.e-block-2,
+.e-block-3,
+.e-block-4,
+.e-block-5,
 .e-block-7,
 .o-block-1,
 .o-block-3,
@@ -183,9 +205,7 @@ h2 {
 .l-block-5,
 .l-block-6 {
 	padding: 3rem;
-	background-color: white;
 	max-width: 100%;
-	border-radius: 10px;
 }
 
 .educational-6 {
@@ -584,7 +604,9 @@ p {
 	}
 
 	.educational-6 img {
-		width: 50%;
+		width: 40%;
+		margin-top: 10px;
+		padding-left: 20px;
 	}
 
 	.educational-6 p {
@@ -595,10 +617,16 @@ p {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		background-image: url("../images/Cloud.png");
+		background-repeat: no-repeat;
+		background-position: left;
+		background-size: 20%;
 	}
 
 	.educational-7 img {
-		width: 50%;
+		width: 40%;
+		margin-top: 10px;
+		padding-left: 20px;
 	}
 
 	.e-block-7 {
@@ -620,7 +648,10 @@ p {
 	}
 
 	.orientation-1 img {
+		align-self: flex-end;
 		width: 40%;
+		margin-top: 10px;
+		padding-left: 20px;
 	}
 
 	.o-block-1 {
@@ -629,9 +660,9 @@ p {
 	}
 
 	.orientation-2 img {
-		margin-top: -15px;
-		margin-bottom: 20px;
-		width: 50%;
+		width: 40%;
+		margin-top: 10px;
+		padding-left: 20px;
 	}
 
 	.o-title-2 {
@@ -652,9 +683,12 @@ p {
 		max-width: 900px;
 	}
 
-	.orientation-4 img {
-		margin-bottom: -100px;
-		width: 40%;
+	.orientation-3 {
+		margin-bottom: 150px;
+		background-image: url("../images/bus_drawing.png");
+		background-repeat: no-repeat;
+		background-position: right;
+		background-size: 40%;
 	}
 
 	.o-block-4 {
@@ -667,8 +701,23 @@ p {
 		align-self: flex-start;
 	}
 
-	.orientation-5 img {
+	.orientation-4 img {
 		width: 40%;
+		margin-top: 10px;
+		padding-left: 20px;
+	}
+
+	.orientation-5 img {
+		width: 35%;
+		margin-top: 10px;
+		padding-left: 20px;
+	}
+
+	.orientation-5 {
+		background-image: url("../images/tree_drawing.png");
+		background-repeat: no-repeat;
+		background-position: left;
+		background-size: 20%;
 	}
 
 	.o-block-5 {
@@ -677,6 +726,12 @@ p {
 
 	.o-block-6 {
 		max-width: 1000px;
+	}
+
+	.orientation-6 img {
+		width: 35%;
+		margin-top: 10px;
+		padding-left: 20px;
 	}
 
 	.o-block-7 {
@@ -708,8 +763,16 @@ p {
 	}
 
 	.learn-1 img {
-		width: 30%;
-		margin-bottom: -150px;
+		width: 35%;
+		margin-top: 10px;
+		padding-left: 20px;
+	}
+
+	.learn-1 {
+		background-image: url("../images/lil_kids.png");
+		background-repeat: no-repeat;
+		background-position: right;
+		background-size: 20%;
 	}
 
 	.l-block-1 {
@@ -733,6 +796,19 @@ p {
 		align-self: center;
 	}
 
+	.learn-3 img {
+		width: 35%;
+		margin-top: 10px;
+		padding-left: 20px;
+	}
+
+	.learn-3 {
+		background-image: url("../images/holding_hands.png");
+		background-repeat: no-repeat;
+		background-position: left;
+		background-size: 20%;
+	}
+
 	.l-block-3 {
 		align-self: center;
 		max-width: 900px;
@@ -750,11 +826,15 @@ p {
 	}
 
 	.learn-4 img {
-		width: 35%;
+		width: 30%;
+		margin-top: 10px;
+		padding-left: 20px;
 	}
 
 	.learn-5 img {
-		width: 40%;
+		width: 35%;
+		margin-top: 10px;
+		padding-left: 20px;
 	}
 
 	.l-block-5 {
@@ -766,164 +846,6 @@ p {
 		align-self: flex-end;
 	}
 
-	.l-title-6,
-	.l-block-6,
-	.learn-6 img {
-		align-self: center;
-	}
-
-	.l-block-6 {
-		max-width: 800px;
-	}
-
-	.learn-6 img {
-		width: 40%;
-	}
-}
-
-@media screen and (min-width: 1024px) {
-	/*Pedagogisch Project*/
-
-	/* .educational-1 {
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-		background-image: url("../images/Blue_butterfly.png");
-		background-repeat: no-repeat;
-		background-position: right;
-	} */
-
-	/* .educational-1 img {
-		width: 30%;
-		margin-top: 10px;
-		padding-left: 20px;
-	} */
-
-	/* .educational-3 {
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-		max-width: 1500px;
-		background-image: url("../images/rose.png");
-		background-repeat: no-repeat;
-		background-position: right;
-		background-size: 20%;
-	} */
-
-	/* .educational-3 img {
-		width: 30%;
-		margin-top: 10px;
-		padding-left: 20px;
-	} */
-
-	.educational-6 img {
-		width: 40%;
-		margin-top: 10px;
-		padding-left: 20px;
-	}
-
-	.educational-7 {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		background-image: url("../images/Cloud.png");
-		background-repeat: no-repeat;
-		background-position: left;
-		background-size: 20%;
-	}
-
-	.educational-7 img {
-		width: 40%;
-		margin-top: 10px;
-		padding-left: 20px;
-	}
-
-	/*Oriëntatie op de wereld*/
-
-	.orientation-1 img {
-		align-self: flex-end;
-		width: 40%;
-		margin-top: 10px;
-		padding-left: 20px;
-	}
-	.orientation-2 img {
-		width: 40%;
-		margin-top: 10px;
-		padding-left: 20px;
-	}
-
-	.orientation-3 {
-		margin-bottom: 150px;
-		background-image: url("../images/bus_drawing.png");
-		background-repeat: no-repeat;
-		background-position: right;
-		background-size: 40%;
-	}
-
-	.orientation-4 img {
-		width: 40%;
-		margin-top: 10px;
-		padding-left: 20px;
-	}
-
-	.orientation-5 img {
-		width: 35%;
-		margin-top: 10px;
-		padding-left: 20px;
-	}
-
-	.orientation-5 {
-		background-image: url("../images/tree_drawing.png");
-		background-repeat: no-repeat;
-		background-position: left;
-		background-size: 20%;
-	}
-
-	.orientation-6 img {
-		width: 35%;
-		margin-top: 10px;
-		padding-left: 20px;
-	}
-
-	/*Zin in leren! Zin in leven!*/
-
-	.learn-1 {
-		background-image: url("../images/lil_kids.png");
-		background-repeat: no-repeat;
-		background-position: right;
-		background-size: 20%;
-	}
-
-	.learn-1 img {
-		width: 35%;
-		margin-top: 10px;
-		padding-left: 20px;
-	}
-
-	.learn-3 {
-		background-image: url("../images/holding_hands.png");
-		background-repeat: no-repeat;
-		background-position: left;
-		background-size: 20%;
-	}
-
-	.learn-3 img {
-		width: 35%;
-		margin-top: 10px;
-		padding-left: 20px;
-	}
-
-	.learn-4 img {
-		width: 30%;
-		margin-top: 10px;
-		padding-left: 20px;
-	}
-
-	.learn-5 img {
-		width: 35%;
-		margin-top: 10px;
-		padding-left: 20px;
-	}
 	.learn-6 {
 		background-image: url("../images/plant_pot.png");
 		background-repeat: no-repeat;
@@ -935,5 +857,15 @@ p {
 		width: 25%;
 		margin-top: 10px;
 		padding-left: 20px;
+	}
+
+	.l-title-6,
+	.l-block-6,
+	.learn-6 img {
+		align-self: center;
+	}
+
+	.l-block-6 {
+		max-width: 800px;
 	}
 }

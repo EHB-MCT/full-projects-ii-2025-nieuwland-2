@@ -145,6 +145,13 @@ h2 {
 		margin-left: 50px;
 	}
 
+	.flower {
+		display: block;
+		width: 30%;
+		margin-top: -200px;
+		margin-left: 950px;
+	}
+
 	h1 {
 		font-size: 38px;
 	}

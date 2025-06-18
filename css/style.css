@@ -510,6 +510,8 @@ h1 {
 
 	.dropbtn_1.active {
 		border-bottom: 2px solid black;
+		display: flex;
+		align-items: flex-start;
 	}
 
 	.dropbtn_2.active {

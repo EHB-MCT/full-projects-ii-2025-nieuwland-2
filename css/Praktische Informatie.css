@@ -59,6 +59,10 @@ h2 {
 	text-align: center;
 }
 
+.PIoverlaytext2 a {
+	color: black;
+}
+
 .PIoverlaytext2-1 {
 	padding-top: 10%;
 	display: flex;
@@ -213,14 +217,12 @@ h2 {
 
 a:link,
 a:visited {
-	color: black;
 	text-decoration: none;
 	cursor: pointer;
 	font-family: Lexend;
-	font-size: 12px;
+	/* font-size: 12px; */
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	font-weight: 300;
 }
 
 @media screen and (min-width: 900px) {
@@ -259,6 +261,7 @@ a:visited {
 	h2 {
 		font-size: 21px;
 	}
+
 	p {
 		font-size: 16px;
 	}
@@ -347,10 +350,5 @@ a:visited {
 		align-items: center;
 		position: relative;
 		font-family: "Plus Jakarta Sans";
-	}
-
-	a:link,
-	a:visited {
-		font-size: 18px;
 	}
 }

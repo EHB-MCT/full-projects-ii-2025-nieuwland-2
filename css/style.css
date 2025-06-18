@@ -518,6 +518,10 @@ h1 {
 	/*TODO*/
 
 	/*navigation*/
+	.navWrapper {
+		display: flex;
+		justify-content: space-between;
+	}
 	.logo {
 		height: 60px;
 	}

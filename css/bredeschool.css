@@ -64,6 +64,20 @@ h1 {
 
 /*Wat*/
 
+.bschool-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.bschool-1,
+.bschool-2,
+.bschool-3,
+.bschool-4,
+.bschool-5 {
+	align-self: center;
+	max-width: 900px;
+}
+
 .bschool-1 h2,
 .bschool-2 h2,
 .bschool-3 h2,
@@ -99,16 +113,16 @@ h1 {
 
 p,
 ol {
-	line-height: 20px;
+	line-height: 1.5;
 	font-size: 12px;
 	font-family: "Plus Jakarta Sans";
 	margin: 0px;
 }
 
-.rectangle {
-	background-color: #ebacc9;
+.s-rectangle {
 	margin: 0px 0px 50px 0px;
-	padding: 12px;
+	padding: 3rem;
+	background-color: #e7b6e5;
 }
 
 /*Hoofdstedelijke Academie*/
@@ -120,7 +134,19 @@ ol {
 	flex-direction: column;
 }
 
-.hoofdst-1 h2 {
+.item-1,
+.item-2,
+.pic {
+	align-self: center;
+}
+
+.h-rectangle {
+	background-color: #cbdaa9;
+	margin: 0px 0px 50px 0px;
+	padding: 1rem;
+}
+
+.item-1 h2 {
 	font-weight: bold;
 	padding: 10px;
 	margin-left: -20px;
@@ -135,12 +161,7 @@ ol {
 	margin-top: 10px;
 }
 
-.hrectangle {
-	background-color: #cbdaa9;
-	padding: 10px 0px 10px 0px;
-}
-
-.hoofdstedelijk-button {
+.h-button {
 	display: flex;
 	justify-content: center;
 	font-size: 14px;
@@ -148,7 +169,7 @@ ol {
 	margin-top: -50px;
 }
 
-.hoofdstedelijk-button a {
+.h-button a {
 	font-family: "Plus Jakarta Sans";
 	color: black;
 	text-decoration: none;
@@ -279,13 +300,9 @@ h3 {
 	}
 
 	/*general*/
-	.title {
-		display: flex;
-		flex-direction: column;
-	}
 
 	h1 {
-		font-size: 45px;
+		font-size: 28px;
 		align-self: center;
 	}
 
@@ -300,20 +317,14 @@ h3 {
 	}
 
 	/*Wat*/
+	.rectangle {
+		max-width: 80%;
+	}
 
 	.container p,
 	ol {
-		font-size: 20px;
-		line-height: 35px;
-	}
-
-	.bschool-1,
-	.bschool-2,
-	.bschool-3,
-	.bschool-4,
-	.bschool-5 {
-		display: flex;
-		flex-direction: column;
+		font-size: 16px;
+		line-height: 1.5;
 	}
 
 	.bschool-1 h2,
@@ -321,7 +332,7 @@ h3 {
 	.bschool-3 h2,
 	.bschool-4 h2,
 	.bschool-5 h2 {
-		font-size: 25px;
+		font-size: 21px;
 		margin-left: -15px;
 		position: relative;
 		z-index: 2;
@@ -342,24 +353,30 @@ h3 {
 	}
 
 	/*Hoofdstedelijke Academie*/
-	.hoofdst-1 h2 {
-		font-size: 25px;
+	.item-1 h2 {
+		font-size: 21px;
 		position: relative;
 		z-index: 2;
 	}
 
-	.hoofdstedelijk-button {
+	.h-button {
 		margin-top: 100px;
-		font-size: 24px;
+		font-size: 20px;
+	}
+
+	.item-1,
+	.item-2,
+	.pic {
+		max-width: 700px;
 	}
 
 	/*Buiteling*/
 	.bu-title h2 {
-		font-size: 30px;
+		font-size: 21px;
 	}
 
 	h3 {
-		font-size: 25px;
+		font-size: 18px;
 		position: relative;
 		z-index: 3;
 	}
@@ -402,7 +419,7 @@ h3 {
 	.buiteling-button {
 		position: relative;
 		z-index: 3;
-		font-size: 22px;
+		font-size: 20px;
 	}
 
 	/*Filmclub*/
@@ -419,30 +436,13 @@ h3 {
 	}
 
 	.filmcontainer p {
-		font-size: 20px;
+		font-size: 16px;
+		line-height: 1.2;
 		margin: 30px 25px 25px 30px;
 	}
 
 	.film-button {
 		margin-top: -20px;
 		font-size: 22px;
-	}
-}
-@media screen and (min-width: 1024px) {
-	.rectangle {
-		background-color: #e7b6e5;
-		max-width: 80%;
-	}
-	h1 {
-		font-size: 28px;
-	}
-	h2 {
-		font-size: 21px;
-	}
-	h3 {
-		font-size: 18px;
-	}
-	p {
-		font-size: 16px;
 	}
 }

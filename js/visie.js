@@ -2,8 +2,30 @@ function init() {
 	filter();
 }
 
+function setActiveButton(clickedButton) {
+	const allButtons = document.querySelectorAll('.button-1, .button-2, .button-3');
+	allButtons.forEach(button => button.classList.remove('active-button'));
+	clickedButton.classList.add('active-button');
+}
+// const composition = document.getElementById('imageComposition');
+// if (composition) {
+//     composition.classList.add(randomStyle);
+//     const images = composition.querySelectorAll('img');
+
+//     images.forEach((img, index) => {
+//         setTimeout(() => {
+//             img.classList.add('show');
+//             img.classList.add('animate-in');
+//         }, 250 * index);
+
+//     });
+// }
+
 function filter() {
+
+
 	document.querySelector(".button-1").addEventListener("click", function () {
+		setActiveButton(this);
 		document.getElementById("content").innerHTML = `
 	         <div class="container">
 	         <div class="container">
@@ -109,6 +131,7 @@ function filter() {
 	});
 
 	document.querySelector(".button-2").addEventListener("click", function () {
+		setActiveButton(this);
 		document.getElementById("content").innerHTML = `
 	<div id="content">
     <div class="container">
@@ -193,6 +216,7 @@ function filter() {
 	});
 
 	document.querySelector(".button-3").addEventListener("click", function () {
+		setActiveButton(this);
 		document.getElementById("content").innerHTML = `
         		<div class="container">
 

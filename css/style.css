@@ -188,12 +188,6 @@ h1 {
 	margin-bottom: 20px;
 }
 
-.navigation {
-	padding: 8px 8px 40px 8px;
-	display: flex;
-	justify-content: space-between;
-}
-
 .Nieuws,
 .Contact {
 	text-decoration: none;
@@ -518,12 +512,61 @@ h1 {
 	/*TODO*/
 
 	/*navigation*/
-	.navWrapper {
+
+	.active {
+		border-bottom: 2px solid black;
+	}
+
+	.dropbtn_1.active {
+		border-bottom: 2px solid black;
+	}
+
+	.dropbtn_2.active {
+		border-bottom: 2px solid black;
+	}
+	.navigation {
+		padding: 8px 8px 40px 8px;
 		display: flex;
 		justify-content: space-between;
+		gap: 10%;
+		margin-right: 20%;
+	}
+
+	.navWrapper {
+		align-items: center;
+		display: flex;
+		justify-content: space-between;
+		gap: 2rem;
 	}
 	.logo {
 		height: 60px;
+	}
+
+	.navigation a,
+	.navigation button {
+		padding: 10px 20px;
+		font-size: 12px;
+		display: inline-block;
+		line-height: 1; /* tighter text alignment */
+	}
+
+	.Nieuws,
+	.contact {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+	}
+
+	.dropbtn_1,
+	.dropbtn_2 {
+		display: inline-flex;
+		justify-content: center;
+		align-items: center;
+		padding: 10px 16px; /* Only horizontal padding, no fixed width */
+		font-size: 10px;
+		border: none;
+		white-space: nowrap; /* Prevent text from breaking into multiple lines */
 	}
 
 	/*footer*/

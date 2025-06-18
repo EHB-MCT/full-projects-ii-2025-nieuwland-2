@@ -216,7 +216,7 @@ h2 {
 	}
 
 	.PIalg1 {
-		height: 600px; 
+		height: 600px;
 		padding: 40px;
 		position: relative;
 	}
@@ -233,7 +233,7 @@ h2 {
 	}
 
 	.PIoverlaytext2 > div {
-		flex: 1 1 20%; 
+		flex: 1 1 20%;
 		padding: 20px;
 		margin: 0 10px;
 		background-position: center;
@@ -262,8 +262,8 @@ h2 {
 	}
 
 	.PISU2 img.note {
-		margin: 0 auto 30px auto; 
-		width: 100%; 
+		margin: 0 auto 30px auto;
+		width: 100%;
 	}
 
 	.links-footer {
@@ -271,12 +271,6 @@ h2 {
 		justify-content: space-between;
 		flex-wrap: nowrap;
 		gap: 40px;
-	}
-
-	.navigation {
-		display: flex;
-		gap: 30px;
-		align-items: center;
 	}
 
 	.PIbook-icon,

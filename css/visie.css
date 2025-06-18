@@ -47,13 +47,15 @@ h1 {
 	border: 0px;
 	padding: 10px;
 }
+
 .button-4 {
 	font-family: "Plus Jakarta Sans";
+	font-weight: bold;
 	font-size: 12px;
-	background-color: #fa5139;
+	background-color: #cee8ed;
 	color: #000;
 	border: 0px;
-	padding: 10px;
+	padding: 15px;
 	text-decoration: none;
 	margin-bottom: 200px;
 }
@@ -65,7 +67,7 @@ h1 {
 }
 
 .button-4:hover {
-	background-color: #b73625;
+	background-color: #b1cbce;
 }
 .button-1:hover,
 .button-2:hover,
@@ -77,6 +79,7 @@ h1 {
 	margin: 20px 20px 50px 20px;
 	padding: 5px;
 }
+
 header {
 	background-image: url("/images/ripped_paper_up.png");
 	background-repeat: no-repeat;
@@ -112,6 +115,7 @@ h2 {
 	align-items: center;
 	gap: 5px;
 }
+
 .e-block-1,
 .e-block-2,
 .e-block-3,
@@ -157,6 +161,7 @@ h2 {
 .educational-7 h2 {
 	background-color: #f7ebc4;
 }
+
 .e-block-1,
 .e-block-2,
 .e-block-3,
@@ -177,8 +182,10 @@ h2 {
 .l-block-4,
 .l-block-5,
 .l-block-6 {
-	background-color: #b6cde4;
+	padding: 3rem;
+	background-color: white;
 	max-width: 100%;
+	border-radius: 10px;
 }
 
 .educational-6 {
@@ -260,6 +267,7 @@ h2 {
 .orientation-8 h2 {
 	background-color: #c0b6ee;
 }
+
 .orientation-1 {
 	display: inline-flex;
 	flex-direction: column;
@@ -426,7 +434,13 @@ p {
 }
 
 /*Computer version*/
-@media (min-width: 480px) {
+@media (min-width: 1024px) {
+	header {
+		background-image: url("/images/ripped_paper_up.png");
+		background-repeat: no-repeat;
+		background-size: 180%;
+	}
+
 	/*filter*/
 	.button-1,
 	.button-2,
@@ -436,7 +450,7 @@ p {
 	}
 	/*general*/
 	h1 {
-		font-size: 45px;
+		font-size: 28px;
 	}
 
 	.container {
@@ -444,12 +458,38 @@ p {
 	}
 
 	h2 {
-		font-size: 25px;
+		font-size: 21px;
+	}
+
+	h3 {
+		font-size: 18px;
 	}
 
 	.container p {
-		font-size: 20px;
-		line-height: 35px;
+		font-size: 16px;
+		line-height: 1.5;
+	}
+
+	.e-block-1,
+	.e-block-2,
+	.e-block-3,
+	.e-block-4,
+	.e-block-5,
+	.e-block-7,
+	.o-block-1,
+	.o-block-3,
+	.o-block-4,
+	.o-block-5,
+	.o-block-6,
+	.o-block-7,
+	.o-block-8,
+	.l-block-1,
+	.l-block-2,
+	.l-block-3,
+	.l-block-4,
+	.l-block-5,
+	.l-block-6 {
+		max-width: 50%;
 	}
 
 	/*Pedagogisch Project*/
@@ -467,6 +507,9 @@ p {
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
+		background-image: url("../images/Blue_butterfly.png");
+		background-repeat: no-repeat;
+		background-position: right;
 	}
 
 	.educational-1 img {
@@ -480,7 +523,7 @@ p {
 	}
 
 	.e-block-1 {
-		max-width: 800px;
+		max-width: 500px;
 	}
 
 	.educational-2 {
@@ -498,6 +541,10 @@ p {
 		flex-direction: column;
 		align-items: flex-start;
 		max-width: 1500px;
+		background-image: url("../images/rose.png");
+		background-repeat: no-repeat;
+		background-position: right;
+		background-size: 20%;
 	}
 
 	.educational-3 img {
@@ -666,7 +713,7 @@ p {
 	}
 
 	.l-block-1 {
-		max-width: 1000px;
+		max-width: 700px;
 	}
 
 	.l-title-2,
@@ -735,75 +782,24 @@ p {
 }
 
 @media screen and (min-width: 1024px) {
-	header {
-		background-image: url("/images/ripped_paper_up.png");
-		background-repeat: no-repeat;
-		background-size: 180%;
-	}
-
-	h1 {
-		font-size: 28px;
-	}
-
-	h2 {
-		font-size: 21px;
-	}
-
-	h3 {
-		font-size: 18px;
-	}
-
-	p {
-		font-size: 16px;
-	}
-
-	.e-block-1,
-	.e-block-2,
-	.e-block-3,
-	.e-block-4,
-	.e-block-5,
-	.e-block-7,
-	.o-block-1,
-	.o-block-3,
-	.o-block-4,
-	.o-block-5,
-	.o-block-6,
-	.o-block-7,
-	.o-block-8,
-	.l-block-1,
-	.l-block-2,
-	.l-block-3,
-	.l-block-4,
-	.l-block-5,
-	.l-block-6 {
-		background-color: #b6cde4;
-		max-width: 50%;
-	}
-
-	.button-1,
-	.button-2,
-	.button-3,
-	.button-4 {
-		font-size: 20px;
-	}
-
 	/*Pedagogisch Project*/
-	.educational-1 {
+
+	/* .educational-1 {
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
 		background-image: url("../images/Blue_butterfly.png");
 		background-repeat: no-repeat;
 		background-position: right;
-	}
+	} */
 
-	.educational-1 img {
+	/* .educational-1 img {
 		width: 30%;
 		margin-top: 10px;
 		padding-left: 20px;
-	}
+	} */
 
-	.educational-3 {
+	/* .educational-3 {
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
@@ -812,13 +808,13 @@ p {
 		background-repeat: no-repeat;
 		background-position: right;
 		background-size: 20%;
-	}
+	} */
 
-	.educational-3 img {
+	/* .educational-3 img {
 		width: 30%;
 		margin-top: 10px;
 		padding-left: 20px;
-	}
+	} */
 
 	.educational-6 img {
 		width: 40%;

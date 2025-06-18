@@ -19,7 +19,7 @@
 }
 
 .PIalgTitle {
-	/* background-image: url("../images/Blue_band.png"); */
+	background-color: #489ad3;
 	background-repeat: no-repeat;
 	padding: 20px;
 	z-index: 2;
@@ -150,7 +150,7 @@ h2 {
 	display: flex;
 	align-items: center;
 	gap: 15px;
-	background-image: url("../images/Purple_band.png");
+	background-color: #c0b6ee;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;

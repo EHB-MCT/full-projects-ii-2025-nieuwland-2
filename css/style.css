@@ -382,15 +382,6 @@ h1 {
 	display: block;
 }
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown_1:hover .dropbtn_1 {
-	background-color: #3e8e41;
-}
-
-.dropdown_2:hover .dropbtn_2 {
-	background-color: #3e8e41;
-}
-
 /*navigatie einde*/
 
 /*footer begin*/

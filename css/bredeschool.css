@@ -65,6 +65,8 @@ h1 {
 /*Wat*/
 
 .bschool-container {
+	display: flex;
+	flex-direction: column;
 }
 
 .bschool-1,
@@ -72,6 +74,8 @@ h1 {
 .bschool-3,
 .bschool-4,
 .bschool-5 {
+	align-self: center;
+	max-width: 900px;
 }
 
 .bschool-1 h2,
@@ -109,19 +113,25 @@ h1 {
 
 p,
 ol {
-	line-height: 20px;
+	line-height: 1.5;
 	font-size: 12px;
 	font-family: "Plus Jakarta Sans";
 	margin: 0px;
 }
+
+.s-rectangle {
+	margin: 0px 0px 50px 0px;
+	padding: 3rem;
+	background-color: #e7b6e5;
+}
+
+/*Hoofdstedelijke Academie*/
 
 .rectangle {
 	background-color: #e7b6e5;
 	margin: 0px 0px 50px 0px;
 	padding: 12px;
 }
-
-/*Hoofdstedelijke Academie*/
 
 .hcontainer {
 	margin: 70px 20px 100px 20px;
@@ -289,10 +299,6 @@ h3 {
 	}
 
 	/*general*/
-	.title {
-		display: flex;
-		flex-direction: column;
-	}
 
 	h1 {
 		font-size: 28px;
@@ -317,16 +323,7 @@ h3 {
 	.container p,
 	ol {
 		font-size: 16px;
-		line-height: 35px;
-	}
-
-	.bschool-1,
-	.bschool-2,
-	.bschool-3,
-	.bschool-4,
-	.bschool-5 {
-		/* display: flex;
-		flex-direction: column; */
+		line-height: 1.5;
 	}
 
 	.bschool-1 h2,

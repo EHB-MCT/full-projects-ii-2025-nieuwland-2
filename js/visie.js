@@ -3,6 +3,12 @@ function init() {
 	filterContent();
 }
 
+function setActiveButton(clickedButton) {
+	const allButtons = document.querySelectorAll('.button-1, .button-2, .button-3');
+	allButtons.forEach(button => button.classList.remove('active-button'));
+	clickedButton.classList.add('active-button');
+}
+
 function filterTitle() {
 	document.querySelector(".button-1").addEventListener("click", function () {
 		document.getElementById("content-title").innerHTML = `	<div class="title">
@@ -25,6 +31,7 @@ function filterTitle() {
 
 function filterContent() {
 	document.querySelector(".button-1").addEventListener("click", function () {
+		setActiveButton(this);
 		document.getElementById("content").innerHTML = `
 	         <div class="container">
 
@@ -90,6 +97,7 @@ function filterContent() {
 	});
 
 	document.querySelector(".button-2").addEventListener("click", function () {
+		setActiveButton(this);
 		document.getElementById("content").innerHTML = `
 <div class="container">
 
@@ -171,6 +179,7 @@ function filterContent() {
 	});
 
 	document.querySelector(".button-3").addEventListener("click", function () {
+		setActiveButton(this);
 		document.getElementById("content").innerHTML = `
 		<div class="container">
 

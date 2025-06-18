@@ -211,6 +211,18 @@ h2 {
 	align-items: flex-start;
 }
 
+a:link,
+a:visited {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+	font-family: Lexend;
+	font-size: 12px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 @media screen and (min-width: 900px) {
 	.PISU {
 		margin-top: 60px;
@@ -335,5 +347,10 @@ h2 {
 		align-items: center;
 		position: relative;
 		font-family: "Plus Jakarta Sans";
+	}
+
+	a:link,
+	a:visited {
+		font-size: 18px;
 	}
 }

@@ -460,7 +460,7 @@ h1 {
 	flex-direction: column;
 }
 
-/*Computer version*/
+/*tablet version*/
 @media (min-width: 480px) {
 	/*navigation*/
 
@@ -477,20 +477,7 @@ h1 {
 	.dropbtn_2.active {
 		border-bottom: 2px solid black;
 	}
-	.navigation {
-		padding: 8px 8px 40px 8px;
-		display: flex;
-		justify-content: space-between;
-		gap: 10%;
-		margin-right: 20%;
-	}
 
-	.navWrapper {
-		align-items: center;
-		display: flex;
-		justify-content: space-between;
-		gap: 2rem;
-	}
 	.logo {
 		height: 60px;
 	}
@@ -555,5 +542,24 @@ h1 {
 
 	.wrapper {
 		margin: 0px 50px 0px 50px;
+	}
+}
+
+/* desktop */
+@media (min-width: 768px) {
+
+	.navigation {
+		padding: 8px 8px 40px 8px;
+		display: flex;
+		justify-content: space-between;
+		gap: 10%;
+		margin-right: 20%;
+	}
+
+	.navWrapper {
+		align-items: center;
+		display: flex;
+		justify-content: space-between;
+		gap: 2rem;
 	}
 }

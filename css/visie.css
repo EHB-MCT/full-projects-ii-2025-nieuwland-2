@@ -4,7 +4,7 @@
 
 body {
 	margin: 0;
-	background-image: url("../images/wallpaper.png");
+	background-image: url("./../images/wallpaper.png");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -81,7 +81,7 @@ h1 {
 }
 
 header {
-	background-image: url("/images/ripped_paper_up.png");
+	background-image: url("./../images/ripped_paper_up.png");
 	background-repeat: no-repeat;
 	background-size: 280%;
 }
@@ -456,7 +456,7 @@ p {
 /*Computer version*/
 @media (min-width: 480px) {
 	header {
-		background-image: url("/images/ripped_paper_up.png");
+		background-image: url("./../images/ripped_paper_up.png");
 		background-repeat: no-repeat;
 		background-size: 180%;
 	}
@@ -527,7 +527,7 @@ p {
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
-		background-image: url("../images/Blue_butterfly.png");
+		background-image: url("./../images/Blue_butterfly.png");
 		background-repeat: no-repeat;
 		background-position: right;
 	}
@@ -561,7 +561,7 @@ p {
 		flex-direction: column;
 		align-items: flex-start;
 		max-width: 1500px;
-		background-image: url("../images/rose.png");
+		background-image: url("./../images/rose.png");
 		background-repeat: no-repeat;
 		background-position: right;
 		background-size: 20%;
@@ -617,7 +617,7 @@ p {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		background-image: url("../images/Cloud.png");
+		background-image: url("./../images/Cloud.png");
 		background-repeat: no-repeat;
 		background-position: left;
 		background-size: 20%;
@@ -648,7 +648,7 @@ p {
 	}
 
 	.orientation-1 {
-		background-image: url("../images/flower_simple.png");
+		background-image: url("./../images/flower_simple.png");
 		background-repeat: no-repeat;
 		background-position: left;
 		background-size: 25%;
@@ -692,7 +692,7 @@ p {
 
 	.orientation-3 {
 		margin-bottom: 150px;
-		background-image: url("../images/bus_drawing.png");
+		background-image: url("./../images/bus_drawing.png");
 		background-repeat: no-repeat;
 		background-position: right;
 		background-size: 40%;
@@ -721,7 +721,7 @@ p {
 	}
 
 	.orientation-5 {
-		background-image: url("../images/tree_drawing.png");
+		background-image: url("./../images/tree_drawing.png");
 		background-repeat: no-repeat;
 		background-position: left;
 		background-size: 20%;
@@ -760,7 +760,7 @@ p {
 	}
 
 	.orientation-8 {
-		background-image: url("../images/flower-drowing.png");
+		background-image: url("./../images/flower-drowing.png");
 		background-repeat: no-repeat;
 		background-position: left;
 		background-size: 25%;
@@ -783,7 +783,7 @@ p {
 	}
 
 	.learn-1 {
-		background-image: url("../images/lil_kids.png");
+		background-image: url("./../images/lil_kids.png");
 		background-repeat: no-repeat;
 		background-position: right;
 		background-size: 20%;
@@ -817,7 +817,7 @@ p {
 	}
 
 	.learn-3 {
-		background-image: url("../images/holding_hands.png");
+		background-image: url("./../images/holding_hands.png");
 		background-repeat: no-repeat;
 		background-position: left;
 		background-size: 20%;
@@ -861,7 +861,7 @@ p {
 	}
 
 	.learn-6 {
-		background-image: url("../images/plant_pot.png");
+		background-image: url("./../images/plant_pot.png");
 		background-repeat: no-repeat;
 		background-position: right;
 		background-size: 20%;

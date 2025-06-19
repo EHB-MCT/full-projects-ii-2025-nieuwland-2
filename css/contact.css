@@ -4,7 +4,7 @@
 
 body {
 	margin: 0;
-	background-image: url("/images/contact_background.png");
+	background-image: url("./../images/contact_background.png");
 }
 
 .container {
@@ -20,13 +20,6 @@ body {
 .pic {
 	position: relative;
 	z-index: 1;
-}
-.tree-pic {
-	display: none;
-}
-
-.bee {
-	display: none;
 }
 
 .title {
@@ -60,7 +53,7 @@ h1 {
 	align-self: center;
 	display: flex;
 	flex-direction: column;
-	background-image: url("/images/orange_text.png");
+	background-image: url("./../images/orange_text.png");
 	padding: 30px;
 	max-width: 350px;
 	position: relative;
@@ -100,7 +93,7 @@ h2 {
 
 .map {
 	padding: 10px;
-	background-image: url("/images/blue_text.png");
+	background-image: url("./../images/blue_text.png");
 	display: flex;
 	justify-content: center;
 	width: 100%;
@@ -131,40 +124,12 @@ h2 {
 		margin-top: -200px;
 	}
 
-	.tree-pic {
-		display: block;
-		width: 20%;
-		margin-top: -200px;
-		margin-left: 1200px;
-	}
-
-	.bee {
-		display: block;
-		width: 30%;
-		margin-top: -200px;
-		margin-left: 50px;
-	}
-
-	.flower {
-		display: block;
-		width: 30%;
-		margin-top: -200px;
-		margin-left: 950px;
-	}
-
 	h1 {
 		font-size: 38px;
 	}
 
 	.contactinformation {
 		max-width: 1000px;
-	}
-
-	.map-container {
-		background-image: url("../images/branch.png");
-		background-repeat: no-repeat;
-		background-size: 35%;
-		background-position: right;
 	}
 
 	h2 {

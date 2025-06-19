@@ -323,7 +323,7 @@ h3 {
 	}
 
 	.bschool-container {
-		background-image: url("../images/butterfly.png");
+		background-image: url("./../images/butterfly.png");
 		background-repeat: no-repeat;
 		background-size: 30%;
 		background-position: left;
@@ -350,25 +350,25 @@ h3 {
 	}
 
 	.hcontainer {
-		background-image: url("../images/sun.png");
+		background-image: url("./../images/sun.png");
 		background-repeat: no-repeat;
 		background-position: left;
 	}
 
 	.bucontainer {
-		background-image: url("../images/branch.png");
+		background-image: url("./../images/branch.png");
 		background-repeat: no-repeat;
 		background-position: -10% 150%;
 	}
 
-	.main-filmcontainer{
-		background-image: url("../images/house.png");
+	.main-filmcontainer {
+		background-image: url("./../images/house.png");
 		background-repeat: no-repeat;
 		background-position: 0% 0%;
 	}
 
 	.filmcontainer {
-		background-image: url("../images/sun-2.png");
+		background-image: url("./../images/sun-2.png");
 		background-repeat: no-repeat;
 		background-position: 100% 100%;
 	}

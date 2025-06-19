@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+body {
+	margin: 0;
+	background-image: url("./../images/contact_background.png");
+}
+
+.container {
+	margin: 40px 20px 0px 20px;
+}
+
+/*contacts*/
+
+.pic img {
+	width: 100%;
+}
+
+.pic {
+	position: relative;
+	z-index: 1;
+}
+
+.title {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	z-index: 3;
+}
+
+h1 {
+	align-self: center;
+	font-family: "Lexend";
+	display: block;
+	margin-bottom: 50px;
+	max-width: 200px;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	padding: 10px 10px 10px 10px;
+	background-color: #e28fb2;
+	margin-top: -100px;
+}
+
+.main-contactinformation {
+	display: flex;
+	flex-direction: column;
+	margin-top: -80px;
+}
+
+.contactinformation {
+	align-self: center;
+	display: flex;
+	flex-direction: column;
+	background-image: url("./../images/orange_text.png");
+	padding: 30px;
+	max-width: 350px;
+	position: relative;
+	z-index: 2;
+}
+
+h2 {
+	font-family: "Plus Jakarta Sans";
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 13px;
+}
+
+.contactinformation p {
+	line-height: 13px;
+	font-size: 8px;
+}
+
+.contactinformation h2,
+.contactinformation p {
+	font-family: "Plus Jakarta Sans";
+	align-self: center;
+}
+
+/*map*/
+
+.map-container {
+	margin-top: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 500px;
+}
+
+.map {
+	padding: 10px;
+	background-image: url("./../images/blue_text.png");
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	margin-bottom: 40px;
+}
+
+.google-map {
+	align-self: center;
+	width: 80%;
+	height: 400px;
+	border: 0;
+}
+
+/*Computer /tablet version*/
+@media (min-width: 480px) {
+	/*Contacts*/
+	.contact-container {
+		margin-top: 200px;
+	}
+
+	.pic {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.pic img {
+		width: 50%;
+		align-self: center;
+	}
+
+	.title {
+		margin-top: -200px;
+	}
+
+	h1 {
+		font-size: 38px;
+	}
+
+	.contactinformation {
+		max-width: 1000px;
+	}
+
+	h2 {
+		font-size: 18px;
+		line-height: 20px;
+	}
+
+	.contactinformation p {
+		font-size: 12px;
+		line-height: 28px;
+	}
+
+	.main-contactinformation {
+		margin-top: -70px;
+	}
+
+	/*map*/
+	.map-container {
+		margin-top: 200px;
+		margin-bottom: 100px;
+	}
+
+	.map {
+		padding: 20px;
+		width: calc(100% + 20px);
+		margin: 20px;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.tree-pic {
+		display: block;
+		width: 20%;
+		margin-top: -200px;
+		margin-left: 1200px;
+	}
+
+	.bee {
+		display: block;
+		width: 30%;
+		margin-top: -200px;
+		margin-left: 50px;
+	}
+
+	.flower {
+		display: block;
+		width: 30%;
+		margin-top: -200px;
+		margin-left: 950px;
+	}
+
+	.map-container {
+		background-image: url("../images/branch.png");
+		background-repeat: no-repeat;
+		background-size: 35%;
+		background-position: right;
+	}
+}

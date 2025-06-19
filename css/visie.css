@@ -1,0 +1,890 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+body {
+	margin: 0;
+	background-image: url("./../images/wallpaper.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	min-height: 100vh;
+}
+
+.title {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+h1 {
+	font-family: "Lexend";
+	background-color: #f3c16d;
+	display: inline-block;
+	font-size: 18px;
+	margin: 50px 0px 50px 0px;
+	padding: 10px;
+	font-weight: bold;
+}
+
+#filter {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	gap: 30px;
+	margin: 0px 9px 30px 9px;
+}
+
+.button-1,
+.button-2,
+.button-3 {
+	font-family: "Plus Jakarta Sans";
+	font-size: 12px;
+	background-color: #44b3af;
+	color: #000;
+	border: 0px;
+	padding: 10px;
+}
+
+.button-4 {
+	font-family: "Plus Jakarta Sans";
+	font-weight: bold;
+	font-size: 12px;
+	background-color: #cee8ed;
+	color: #000;
+	border: 0px;
+	padding: 15px;
+	text-decoration: none;
+	margin-bottom: 200px;
+}
+
+.enrolment-wrapper {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.button-4:hover {
+	background-color: #b1cbce;
+}
+.button-1:hover,
+.button-2:hover,
+.button-3:hover {
+	background-color: #1d919b;
+}
+
+.container {
+	margin: 20px 20px 50px 20px;
+	padding: 5px;
+}
+
+header {
+	background-image: url("./../images/ripped_paper_up.png");
+	background-repeat: no-repeat;
+	background-size: 280%;
+}
+
+h2 {
+	position: relative;
+	z-index: 4;
+	font-weight: bold;
+	display: inline-block;
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: -10px;
+	font-size: 14px;
+}
+
+.container p {
+	position: relative;
+	z-index: 3;
+	padding: 15px;
+	line-height: 20px;
+	font-size: 12px;
+}
+
+.container img {
+	width: 80%;
+	position: relative;
+	z-index: 1;
+}
+
+.educational-1 {
+	align-items: center;
+	gap: 5px;
+}
+
+.e-block-1,
+.e-block-2,
+.e-block-3,
+.e-block-4,
+.e-block-5,
+.e-block-6,
+.e-block-7,
+.o-block-1,
+.o-block-3,
+.o-block-4,
+.o-block-5,
+.o-block-6,
+.o-block-7,
+.o-block-8,
+.l-block-1,
+.l-block-2,
+.l-block-3,
+.l-block-4,
+.l-block-5,
+.l-block-6 {
+	position: relative;
+	z-index: 2;
+}
+
+/*Pedagogisch Project*/
+
+.educational-1,
+.educational-2,
+.educational-3,
+.educational-4,
+.educational-5,
+.educational-6,
+.educational-7 {
+	margin-bottom: 50px;
+}
+
+.educational-1 h2,
+.educational-2 h2,
+.educational-3 h2,
+.educational-4 h2,
+.educational-5 h2,
+.educational-6 h2,
+.educational-7 h2 {
+	background-color: #f7ebc4;
+}
+
+.e-block-1,
+.e-block-2,
+.e-block-3,
+.e-block-4,
+.e-block-5,
+.e-block-7,
+.o-block-1,
+.o-block-3,
+.o-block-4,
+.o-block-5,
+.o-block-6,
+.o-block-7,
+.o-block-8,
+.l-block-1,
+.l-block-2,
+.l-block-3,
+.l-block-4,
+.l-block-5,
+.l-block-6 {
+	background-color: white;
+	border-radius: 10px;
+}
+
+.e-block-1,
+.e-block-2,
+.e-block-3,
+.e-block-4,
+.e-block-5,
+.e-block-7,
+.o-block-1,
+.o-block-3,
+.o-block-4,
+.o-block-5,
+.o-block-6,
+.o-block-7,
+.o-block-8,
+.l-block-1,
+.l-block-2,
+.l-block-3,
+.l-block-4,
+.l-block-5,
+.l-block-6 {
+	padding: 3rem;
+	max-width: 100%;
+}
+
+.educational-6 {
+	background-image: url("./../images/paper_visie_tekst.png");
+	background-repeat: no-repeat;
+	background-size: 280%;
+}
+
+.educational-1 h2 {
+	margin-left: -10px;
+}
+
+.educational-pic-1 {
+	width: 80%;
+	padding-left: 20px;
+}
+
+.e-block-1 {
+	margin: -35px 15px 0px 15px;
+}
+
+.educational-2 h2 {
+	margin-left: 30px;
+}
+
+.educational-3 h2 {
+	margin-left: 100px;
+}
+
+.educational-pic-2 {
+	margin-left: -10px;
+	margin-bottom: -100px;
+}
+
+.educational-4 h2 {
+	margin-left: -15px;
+}
+
+.educational-5 h2 {
+	margin-left: 200px;
+}
+
+.educational-6 h2 {
+	margin-left: 30px;
+}
+
+.educational-pic-3 {
+	display: block;
+	margin: 40px auto;
+}
+
+.educational-7 h2 {
+	margin-left: 70px;
+}
+
+.educational-pic-4 {
+	margin: -10px 50px -10px;
+}
+
+/*Oriëntatie op de wereld*/
+.orientation-1,
+.orientation-2,
+.orientation-3,
+.orientation-4,
+.orientation-5,
+.orientation-6,
+.orientation-7,
+.orientation-8 {
+	margin-bottom: 50px;
+}
+
+.orientation-1 h2,
+.orientation-2 h2,
+.orientation-3 h2,
+.orientation-4 h2,
+.orientation-5 h2,
+.orientation-6 h2,
+.orientation-7 h2,
+.orientation-8 h2 {
+	background-color: #c0b6ee;
+}
+
+.orientation-1 {
+	display: inline-flex;
+	flex-direction: column;
+}
+
+.orientation-1 h2 {
+	align-self: flex-end;
+}
+
+.orientation-1 img {
+	align-self: flex-end;
+}
+
+.orientation-2 {
+	padding: 10px;
+	background-image: url("./../images/paper_visie_tekst2.png");
+	background-repeat: no-repeat;
+	background-size: 520%;
+	display: flex;
+	flex-direction: column;
+}
+
+.orientation-2 h2,
+img,
+p {
+	align-self: center;
+}
+
+.orientation-2 img {
+	margin-top: -10px;
+}
+
+.orientation-3 h2 {
+	margin-left: -10px;
+}
+
+.orientation-4 {
+	display: flex;
+	flex-direction: column;
+}
+
+.o-title-4 {
+	display: inline-table;
+	margin-left: -5px;
+}
+
+.orientation-4 {
+	align-self: left;
+}
+
+.orientation-4 img {
+	margin-bottom: -35px;
+}
+
+.orientation-5 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.orientation-5 img {
+	margin-bottom: -50px;
+}
+
+.orientation-6 {
+	display: flex;
+	flex-direction: column;
+}
+
+.orientation-6 h2 {
+	margin-left: -5px;
+}
+
+.orientation-7 {
+	display: flex;
+	flex-direction: column;
+}
+
+.o-title-7 {
+	align-self: center;
+}
+
+.orientation-7 img {
+	align-self: left;
+	margin-bottom: -50px;
+}
+
+.orientation-8 {
+	display: flex;
+	flex-direction: column;
+}
+
+.o-title-8 {
+	align-self: flex-end;
+	margin-right: -5px;
+}
+
+/*Zin in leren! Zin in leven!*/
+
+.learn-1,
+.learn-2,
+.learn-3,
+.learn-4,
+.learn-5,
+.learn-6 {
+	margin-bottom: 50px;
+	display: flex;
+	flex-direction: column;
+}
+
+.learn-1 h2,
+.learn-2 h2,
+.learn-3 h2,
+.learn-4 h2,
+.learn-5 h2,
+.learn-6 h2 {
+	background-color: #eeb6db;
+}
+
+.l-title-1,
+.learn-1 img {
+	align-self: flex-start;
+}
+
+.l-block-1 {
+	margin-left: 5px;
+}
+
+.learn-1 img {
+	margin-bottom: -80px;
+}
+
+.l-title-2 {
+	margin-left: -5px;
+}
+
+.l-title-3 {
+	align-self: flex-end;
+	margin-right: -5px;
+}
+
+.learn-3 img {
+	align-self: flex-end;
+}
+
+.learn-4 img,
+.l-title-4 {
+	align-self: center;
+}
+
+.learn-5 img {
+	margin-bottom: -50px;
+	align-self: flex-end;
+}
+
+.l-title-5,
+.l-title-6 {
+	margin-left: -5px;
+}
+
+.learn-6 img {
+	margin-bottom: -60px;
+	align-self: flex-end;
+}
+
+/*Computer /tablet version*/
+@media (min-width: 480px) {
+	header {
+		background-image: url("./../images/ripped_paper_up.png");
+		background-repeat: no-repeat;
+		background-size: 180%;
+	}
+
+	/*filter*/
+	.button-1,
+	.button-2,
+	.button-3,
+	.button-4 {
+		font-size: 20px;
+	}
+	/*general*/
+	h1 {
+		font-size: 28px;
+	}
+
+	.container {
+		margin: 80px 50px 80px 50px;
+	}
+
+	h2 {
+		font-size: 21px;
+	}
+
+	h3 {
+		font-size: 18px;
+	}
+
+	.container p {
+		font-size: 16px;
+		line-height: 1.5;
+	}
+
+	.e-block-1,
+	.e-block-2,
+	.e-block-3,
+	.e-block-4,
+	.e-block-5,
+	.e-block-7,
+	.o-block-1,
+	.o-block-3,
+	.o-block-4,
+	.o-block-5,
+	.o-block-6,
+	.o-block-7,
+	.o-block-8,
+	.l-block-1,
+	.l-block-2,
+	.l-block-3,
+	.l-block-4,
+	.l-block-5,
+	.l-block-6 {
+		max-width: 50%;
+	}
+
+	/*Pedagogisch Project*/
+	.educational-1,
+	.educational-2,
+	.educational-3,
+	.educational-4,
+	.educational-5,
+	.educational-6,
+	.educational-7 {
+		margin-bottom: 150px;
+	}
+
+	.educational-1 img {
+		width: 60%;
+		margin-top: 10px;
+		padding-left: 20px;
+	}
+
+	.educational-1 h2 {
+		align-self: center;
+	}
+
+	.e-block-1 {
+		max-width: 500px;
+	}
+
+	.educational-2 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.e-block-2 {
+		max-width: 1000px;
+	}
+
+	.educational-3 img {
+		width: 60%;
+	}
+
+	.e-block-3 {
+		max-width: 700px;
+	}
+
+	.educational-4 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.e-block-4 {
+		max-width: 1000px;
+	}
+
+	.educational-5 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.e-block-5 {
+		max-width: 900px;
+	}
+
+	.educational-6 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+	.educational-6 img {
+		width: 60%;
+		margin-top: 10px;
+		padding-left: 20px;
+	}
+
+	.educational-6 p {
+		max-width: 1100px;
+	}
+
+	.educational-7 img {
+		width: 80%;
+		margin-top: 10px;
+		padding-left: 20px;
+	}
+
+	.e-block-7 {
+		max-width: 900px;
+	}
+
+	/*Oriëntatie op de wereld*/
+	.orientation-1,
+	.orientation-2,
+	.orientation-3,
+	.orientation-4,
+	.orientation-5,
+	.orientation-6,
+	.orientation-7,
+	.orientation-8 {
+		margin-bottom: 150px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.orientation-1 img {
+		align-self: flex-end;
+		width: 70%;
+		margin-top: 10px;
+		padding-left: 20px;
+	}
+
+	.o-block-1 {
+		max-width: 800px;
+		align-self: flex-end;
+	}
+
+	.orientation-2 img {
+		width: 70%;
+		margin-top: 10px;
+		padding-left: 20px;
+	}
+
+	.o-title-2 {
+		align-self: center;
+	}
+
+	.o-block-2 {
+		align-self: center;
+		max-width: 1000px;
+	}
+
+	.o-title-3,
+	.o-block-3 {
+		align-self: flex-start;
+	}
+
+	.o-block-3 {
+		max-width: 900px;
+	}
+
+	.o-block-4 {
+		max-width: 800px;
+	}
+
+	.o-title-4,
+	.o-block-4,
+	.orientation-4 img {
+		align-self: flex-start;
+	}
+
+	.orientation-4 img {
+		width: 70%;
+		margin-top: 10px;
+		padding-left: 20px;
+	}
+
+	.orientation-5 img {
+		width: 35%;
+		margin-top: 10px;
+		padding-left: 20px;
+	}
+
+	.o-block-5 {
+		max-width: 900px;
+	}
+
+	.o-block-6 {
+		max-width: 1000px;
+	}
+
+	.orientation-6 img {
+		width: 70%;
+		margin-top: 10px;
+		padding-left: 20px;
+	}
+
+	.o-block-7 {
+		max-width: 900px;
+		align-self: center;
+	}
+
+	.o-title-7 {
+		align-self: center;
+	}
+
+	.orientation-7 img {
+		width: 70%;
+	}
+
+	.o-block-8 {
+		max-width: 800px;
+		align-self: flex-end;
+	}
+
+	/*Zin in leren! Zin in leven!*/
+	.learn-1,
+	.learn-2,
+	.learn-3,
+	.learn-4,
+	.learn-5,
+	.learn-6 {
+		margin-bottom: 150px;
+	}
+
+	.learn-1 img {
+		width: 80%;
+		margin-top: 10px;
+		padding-left: 20px;
+	}
+
+
+	.l-block-1 {
+		max-width: 700px;
+	}
+
+	.learn-7 img {
+		width: 70%;
+		align-self: center;
+		margin-top: 10px;
+		padding-left: 20px;
+	}
+
+	.l-title-2,
+	.l-block-2 {
+		align-self: center;
+	}
+	.l-block-2 {
+		max-width: 1200px;
+	}
+
+	.l-title-3 {
+		align-self: center;
+	}
+
+	.learn-3 img {
+		width: 70%;
+		align-self: center;
+		margin-top: 10px;
+		padding-left: 20px;
+	}
+
+	.l-block-3 {
+		align-self: center;
+		max-width: 900px;
+		margin-top: -100px;
+	}
+
+	.l-title-4,
+	.l-block-4,
+	.learn-4 img {
+		align-self: flex-start;
+	}
+
+	.l-block-4 {
+		max-width: 1000px;
+	}
+
+	.learn-4 img {
+		width: 70%;
+		margin-top: 10px;
+		padding-left: 20px;
+	}
+
+	.learn-5 img {
+		width: 70%;
+		margin-top: 10px;
+		padding-left: 20px;
+	}
+
+	.l-block-5 {
+		max-width: 900px;
+	}
+
+	.l-block-5,
+	.l-title-5 {
+		align-self: flex-end;
+	}
+
+	.learn-6 img {
+		width: 70%;
+		margin-top: 10px;
+		padding-left: 20px;
+	}
+
+	.l-title-6,
+	.l-block-6,
+	.learn-6 img {
+		align-self: center;
+	}
+
+	.l-block-6 {
+		max-width: 800px;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	/*Pedagogisch Project*/
+	.educational-1 {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		background-image: url("../images/Blue_butterfly.png");
+		background-repeat: no-repeat;
+		background-position: right;
+	}
+
+	.educational-3 {
+		background-image: url("../images/rose.png");
+		background-repeat: no-repeat;
+		background-position: right;
+		background-size: 20%;
+	}
+
+	.educational-7 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background-image: url("../images/Cloud.png");
+		background-repeat: no-repeat;
+		background-position: left;
+		background-size: 20%;
+	}
+
+	/*Oriëntatie op de wereld*/
+	.orientation-1 {
+		background-image: url("../images/flower_simple.png");
+		background-repeat: no-repeat;
+		background-position: left;
+		background-size: 25%;
+	}
+
+	.orientation-3 {
+		margin-bottom: 150px;
+		background-image: url("../images/bus_drawing.png");
+		background-repeat: no-repeat;
+		background-position: right;
+		background-size: 40%;
+	}
+
+	.orientation-5 {
+		background-image: url("../images/tree_drawing.png");
+		background-repeat: no-repeat;
+		background-position: left;
+		background-size: 20%;
+	}
+
+	.orientation-8 {
+		background-image: url("../images/flower-drowing.png");
+		background-repeat: no-repeat;
+		background-position: left;
+		background-size: 25%;
+	}
+
+	/*Zin in leren! Zin in levent*/
+	.learn-1 {
+		background-image: url("../images/lil_kids.png");
+		background-repeat: no-repeat;
+		background-position: right;
+		background-size: 20%;
+	}
+
+	.learn-3 {
+		background-image: url("../images/holding_hands.png");
+		background-repeat: no-repeat;
+		background-position: left;
+		background-size: 20%;
+	}
+
+	.learn-6 {
+		background-image: url("../images/plant_pot.png");
+		background-repeat: no-repeat;
+		background-position: right;
+		background-size: 20%;
+	}
+}

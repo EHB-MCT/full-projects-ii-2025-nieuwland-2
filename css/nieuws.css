@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+body {
+    margin: 0;
+    background-image: url("../images/nieuws-ripped.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #ebe2de;
+}
+
+.container-ripped {
+	background-image: url("/images/ripped_paper_up.png");
+	background-repeat: no-repeat;
+	width: 100%;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+h1 {
+	font-size: 18px;
+	font-family: "Lexend";
+	font-weight: bold;
+	background-color: #ec9c4a;
+	padding: 10px 10px 10px 10px;
+	margin: 5px 5px 20px 5px;
+}
+
+h2,
+h3 {
+	font-size: 12px;
+	font-family: "Plus Jakarta Sans";
+}
+
+.container p {
+	font-size: 12px;
+	font-family: "Plus Jakarta Sans";
+	margin: -10px 70px 100px 70px;
+	line-height: 15px;
+}
+
+.blog p {
+	font-size: 12px;
+	line-height: 20px;
+}
+
+.blog {
+	margin: 20px 20px 20px 20px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background-image: url("/images/blog_background.png");
+}
+
+.blog img {
+	width: 100%;
+}
+
+.blog h2,
+h3,
+p {
+	margin-top: 10px 0px 10px 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.blog p {
+	margin-top: -5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.item-1,
+.item-2,
+.item-3 {
+	margin: 20px 20px 20px 20px;
+}
+
+.title {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.item-1 .title {
+	background-color: #c0b0e3;
+}
+
+.item-2 .title {
+	background-color: #62b7d9;
+}
+
+.item-3 .title {
+	background-color: #f6c995;
+}
+
+.item-1 p {
+	background-image: url("/images/purple_text.png");
+}
+
+.item-2 p {
+	background-image: url("/images/blue_text.png");
+}
+
+.item-3 p {
+	background-image: url("/images/orange_text.png");
+}
+
+.container-end {
+	padding-top: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-image: url("/images/ripped_paper_down.png");
+}
+
+.container-end h2 {
+	font-size: 14px;
+	margin: 20px 0px 20px 0px;
+	padding: 15px 15px 15px 15px;
+	background-color: #f4bcae;
+}
+
+.facebook {
+	height: 90px;
+	margin-bottom: 30px;
+	background-color: #7cc0ae;
+	padding: 15px 15px 15px 15px;
+}
+
+@media (min-width: 1020px) {
+	.container-ripped {
+		background-image: url("/images/ripped_paper_up_large.png");
+	}
+
+	.container-end {
+		background-image: url("/images/ripped_paper_down_large.png");
+	}
+
+	.blog img {
+    width: 50%;
+}
+
+.item-1, .item-2, .item-3, .item-4, .item-5, .item-6, .item-7, .item-8, .item-9 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    .title {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        width: 50%;
+    } 
+
+	.blog p {
+		display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        width: 50%;
+	}
+}

@@ -1,0 +1,570 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+body {
+	background-image: url("./../images/wat_background.png");
+	margin: 0;
+}
+
+/*general*/
+
+.bschool-title,
+.hoofdst-title,
+.buiteling-title {
+	display: flex;
+	flex-direction: column;
+}
+
+h1 {
+	font-family: "Lexend";
+	background-color: #f3c16d;
+	display: inline-block;
+	font-size: 18px;
+	margin: 50px 0px 50px 0px;
+	padding: 10px;
+	font-weight: bold;
+	align-self: center;
+}
+
+.bpic {
+	display: none;
+}
+
+.hpic {
+	display: none;
+}
+
+.bupic {
+	display: none;
+}
+
+/*filter*/
+
+#filter {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	gap: 30px;
+	margin: 0px 9px 30px 9px;
+}
+
+.button-1,
+.button-2,
+.button-3,
+.button-4 {
+	font-family: "Plus Jakarta Sans";
+	font-size: 12px;
+	background-color: #85dac4;
+	color: #000;
+	border: 0px;
+	padding: 10px;
+}
+
+.button-1:hover,
+.button-2:hover,
+.button-3:hover,
+.button-4:hover {
+	background-color: #73bda9;
+}
+
+.container {
+	margin: 10px 20px 50px 20px;
+	padding-bottom: 10px;
+}
+
+/*Wat*/
+
+.bschool-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.bschool-1,
+.bschool-2,
+.bschool-3,
+.bschool-4,
+.bschool-5 {
+	align-self: center;
+	max-width: 900px;
+}
+
+.bschool-1 h2,
+.bschool-2 h2,
+.bschool-3 h2,
+.bschool-4 h2,
+.bschool-5 h2 {
+	font-weight: bold;
+	margin-bottom: -10px;
+	padding: 10px;
+	margin-left: -8px;
+	font-size: 14px;
+	display: inline-block;
+}
+
+.bschool-1 h2 {
+	background-color: #fcdb5a;
+}
+
+.bschool-2 h2 {
+	background-color: #62b7da;
+}
+
+.bschool-3 h2 {
+	background-color: #41a9a9;
+}
+
+.bschool-4 h2 {
+	background-color: #f0b8aa;
+}
+
+.bschool-5 h2 {
+	background-color: #beade3;
+}
+
+p,
+ol {
+	line-height: 1.5;
+	font-size: 12px;
+	font-family: "Plus Jakarta Sans";
+	margin: 0px;
+}
+
+.s-rectangle {
+	margin: 0px 0px 50px 0px;
+	padding: 3rem;
+	background-color: #e7b6e5;
+}
+
+/*Hoofdstedelijke Academie*/
+
+.hcontainer {
+	margin: 70px 20px 100px 20px;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+}
+
+.item-1,
+.item-2,
+.pic {
+	align-self: center;
+}
+
+.h-rectangle {
+	background-color: #cbdaa9;
+	margin: 0px 0px 50px 0px;
+	padding: 1rem;
+}
+
+.item-1 h2 {
+	font-weight: bold;
+	padding: 10px;
+	margin-left: -20px;
+	margin-bottom: -10px;
+	font-size: 14px;
+	display: inline-block;
+	background-color: #fb9172;
+}
+
+.pic {
+	width: 100%;
+	margin-top: 10px;
+}
+
+.h-button {
+	display: flex;
+	justify-content: center;
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: -50px;
+}
+
+.h-button a {
+	font-family: "Plus Jakarta Sans";
+	color: black;
+	text-decoration: none;
+	background-color: #a8e8dc;
+	display: inline-block;
+	padding: 12px;
+	margin-bottom: 100px;
+}
+
+/*Buiteling*/
+
+.bu-title {
+	display: flex;
+	flex-direction: column;
+}
+
+.bu-title h2 {
+	font-family: "Lexend";
+	background-color: #6aabfb;
+	display: inline-block;
+	font-size: 18px;
+	margin: 30px 0px 50px 0px;
+	padding: 10px;
+	font-weight: bold;
+	align-self: center;
+}
+
+.bucontainer p {
+	background-color: #e7b6e5;
+	padding: 20px;
+}
+
+.bu-pic-1,
+.bu-pic-2,
+.bu-pic-3,
+.bu-pic-4 {
+	width: 100%;
+	margin-bottom: -20px;
+}
+
+.buiteling-1,
+.buiteling-2,
+.buiteling-3,
+.buiteling-4 {
+	margin: 20px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+.buiteling-button {
+	display: flex;
+	justify-content: center;
+}
+
+.buiteling-button a {
+	font-family: "Plus Jakarta Sans";
+	color: black;
+	text-decoration: none;
+	background-color: #85aed5;
+	display: inline-block;
+	padding: 12px;
+	margin-top: -10px;
+	font-weight: bold;
+}
+
+h3 {
+	background-color: #a8e8dc;
+	padding: 8px;
+	display: inline-block;
+	font-family: "Plus Jakarta Sans";
+	font-weight: bold;
+	margin-bottom: -10px;
+	margin-left: -10px;
+}
+
+/*Filmclub*/
+
+.film-title {
+	display: flex;
+	flex-direction: column;
+}
+
+.filmcontainer {
+	margin: 100px 20px 100px 20px;
+	padding: 10px 10px 10px 10px;
+	background-color: #b2c2ea;
+	display: flex;
+	flex-direction: column;
+}
+
+.film-icon {
+	max-width: 50px;
+	gap: 5px;
+}
+
+.filmcontainer p {
+	line-height: 30px;
+	text-align: left;
+}
+
+.sentence {
+	padding-bottom: 35px;
+}
+
+.film-button {
+	display: flex;
+	justify-content: center;
+}
+
+.film-button a {
+	font-family: "Plus Jakarta Sans";
+	color: black;
+	text-decoration: none;
+	background-color: #e1965b;
+	display: inline-block;
+	padding: 12px;
+	margin-bottom: -20px;
+}
+
+/*Computer /tablet version*/
+@media (min-width: 480px) {
+	/*filter*/
+	.button-1,
+	.button-2,
+	.button-3,
+	.button-4 {
+		font-size: 20px;
+	}
+
+	/*general*/
+
+	h1 {
+		font-size: 28px;
+		align-self: center;
+	}
+
+	.container {
+		margin: 80px 50px 80px 50px;
+	}
+
+	.bpic {
+		display: none;
+	}
+
+	.bpic2 {
+		display: none;
+	}
+
+	.bschool-container,
+	.hcontainer {
+		margin: 0 auto;
+		max-width: 1500px;
+	}
+
+	.hpic {
+		display: block;
+		width: 30%;
+		margin-top: -200px;
+		margin-left: 1000px;
+	}
+
+	.bupic {
+		display: block;
+		width: 20%;
+		margin-top: -400px;
+		margin-left: 1000px;
+	}
+
+	/*Wat*/
+	.rectangle {
+		max-width: 80%;
+	}
+
+	.container p,
+	ol {
+		font-size: 16px;
+		line-height: 1.5;
+	}
+
+	.bschool-1 h2,
+	.bschool-2 h2,
+	.bschool-3 h2,
+	.bschool-4 h2,
+	.bschool-5 h2 {
+		font-size: 21px;
+		margin-left: -15px;
+		position: relative;
+		z-index: 2;
+	}
+
+	.bschool-1 h2,
+	.bschool-2 h2,
+	.bschool-3 h2,
+	.bschool-4 h2,
+	.bschool-5 h2,
+	.rectangle {
+		align-self: flex-start;
+	}
+
+	.rectangle {
+		position: relative;
+		z-index: 1;
+	}
+
+	.bpic {
+		display: none;
+	}
+
+	.bpic2 {
+		display: none;
+	}
+
+	/*Hoofdstedelijke Academie*/
+	.item-1 h2 {
+		font-size: 21px;
+		position: relative;
+		z-index: 2;
+	}
+
+	.hpic {
+		display: none;
+	}
+
+	.h-button {
+		margin-top: 100px;
+		font-size: 20px;
+	}
+
+	.item-1,
+	.item-2,
+	.pic {
+		max-width: 700px;
+	}
+
+	/*Buiteling*/
+	.bu-title h2 {
+		font-size: 21px;
+	}
+
+	h3 {
+		font-size: 18px;
+		position: relative;
+		z-index: 3;
+	}
+
+	.buiteling-1 p,
+	.buiteling-2 p,
+	.buiteling-3 p,
+	.buiteling-4 p {
+		position: relative;
+		z-index: 2;
+	}
+
+	.buiteling-1,
+	.buiteling-2,
+	.buiteling-3,
+	.buiteling-4 {
+		display: flex;
+		flex-direction: column;
+		max-width: 800px;
+	}
+
+	.bu-pic-1,
+	.bu-pic-2,
+	.bu-pic-3,
+	.bu-pic-4 {
+		width: 110%;
+		position: relative;
+		z-index: 1;
+		margin-bottom: -50px;
+		align-self: center;
+	}
+
+	.bupic {
+		display: none;
+	}
+
+	.bu-row-1,
+	.bu-row-2 {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+
+	.buiteling-button {
+		position: relative;
+		z-index: 3;
+		font-size: 20px;
+	}
+
+	/*Filmclub*/
+
+	.main-filmcontainer {
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 100px;
+	}
+
+	.filmcontainer {
+		align-self: center;
+		max-width: 900px;
+	}
+
+	.filmcontainer p {
+		font-size: 16px;
+		line-height: 1.2;
+		margin: 30px 25px 25px 30px;
+	}
+
+	.film-button {
+		margin-top: -20px;
+		font-size: 22px;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	/*Wat*/
+	.bschool-container {
+		background-image: url("../images/butterfly.png");
+		background-repeat: no-repeat;
+		background-size: 30%;
+		background-position: left;
+	}
+
+	.bpic {
+		display: block;
+		position: relative;
+		z-index: -1;
+		width: 30%;
+		margin-top: -300px;
+		margin-left: 800px;
+	}
+
+	.bpic2 {
+		display: block;
+		position: relative;
+		z-index: -1;
+		width: 35%;
+		margin-top: -300px;
+		margin-left: 1000px;
+	}
+
+	/*Hoofdstedelijke academie*/
+
+	.hcontainer {
+		background-image: url("../images/sun.png");
+		background-repeat: no-repeat;
+		background-position: left;
+	}
+
+	.hpic {
+		display: block;
+		width: 30%;
+		margin-top: -200px;
+		margin-left: 1000px;
+	}
+
+	/*Buiteling*/
+
+	.bucontainer {
+		background-image: url("../images/branch.png");
+		background-repeat: no-repeat;
+		background-position: -10% 150%;
+	}
+
+	.bupic {
+		display: block;
+		width: 20%;
+		margin-top: -400px;
+		margin-left: 1000px;
+	}
+
+	/*Filmclub*/
+
+	.main-filmcontainer {
+		background-image: url("../images/house.png");
+		background-repeat: no-repeat;
+		background-position: 0% 0%;
+	}
+
+	.filmcontainer {
+		background-image: url("../images/sun-2.png");
+		background-repeat: no-repeat;
+		background-position: 100% 100%;
+	}
+}

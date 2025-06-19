@@ -542,4 +542,18 @@ h1 {
 	.praktischeinformatie-footer {
 		font-size: 20px;
 	}
+
+	.footer-logo {
+		height: 50px;
+	}
+
+	.phone-icon,
+	.mail-icon,
+	.facebook-icon {
+		height: 25px;
+	}
+
+	.wrapper {
+		margin: 0px 50px 0px 50px;
+	}
 }

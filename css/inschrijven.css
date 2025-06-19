@@ -140,13 +140,6 @@ ol {
 
 /*Computer version*/
 @media (min-width: 480px) {
-	.main-block {
-		margin-bottom: 200px;
-		background-image: url("../images/ladybug_and_bee.png");
-		background-repeat: no-repeat;
-		background-position: 120% 10%;
-	}
-
 	h1 {
 		font-size: 28px;
 	}
@@ -183,16 +176,11 @@ ol {
 		margin-bottom: -200px;
 	}
 
-	.pic2{
-		display: block;
-		width: 50%;
-		margin-top: -200px;
-		margin-left: -100px;
+	.pic2 {
+		display: none;
 	}
-	.flower{
-		display: block;
-		width: 15%;
-		margin-top: -450px;
+	.flower {
+		display: none;
 	}
 
 	.container-2 {
@@ -220,5 +208,27 @@ ol {
 		display: flex;
 		width: 100%;
 		padding: 20px;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.main-block {
+		margin-bottom: 200px;
+		background-image: url("../images/ladybug_and_bee.png");
+		background-repeat: no-repeat;
+		background-position: 120% 10%;
+	}
+
+	.pic2 {
+		display: block;
+		width: 50%;
+		margin-top: -200px;
+		margin-left: -100px;
+	}
+
+	.flower {
+		display: block;
+		width: 15%;
+		margin-top: -450px;
 	}
 }

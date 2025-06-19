@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"></html>
+<html lang="en">
 <head>
 	<link href="css/reset.css" rel="stylesheet" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,39 +10,33 @@
 <body>
 	<header>
         <div class="container-ripped">
-            <div class="wrapper">
+            <div class="Navwrapper">
                 <div class="nav-top">
                     <a href="index.html">
                         <img src="images/logo.png" class="logo" />
                     </a>
                 </div>
-                <!-- https://www.w3schools.com/howto/howto_css_dropdown.asp -->
                 <div class="navigation">
-                        <div class="dropdown_1">
+                    <div class="dropdown_1">
                         <button class="dropbtn_1">Onze Visies</button>
                         <div class="dropdown-content_1">
                             <a href="visie.html">Visie</a>
                             <a href="brede_school.html">Brede School</a>
                         </div>
                     </div>
-
                     <div class="dropdown_2">
-					<button class="dropbtn_2">Algemene Informatie</button>
-					<div class="dropdown-content_2">
-						<a href="praktische_informatie.html">Praktische Informatie</a>
-						<a href="inschrijven.html">Inschrijven</a>
-                        <a href="klassen.html">Klassen</a>
-					</div>
+						<button class="dropbtn_2">Algemene Informatie</button>
+						<div class="dropdown-content_2">
+							<a href="praktische_informatie.html">Praktische Informatie</a>
+							<a href="inschrijven.html">Inschrijven</a>
+                            <a href="klassen.html">Klassen</a>
+						</div>
 				    </div>
-                    
                     <a href="nieuws.html" class="Nieuws">Nieuws</a>
                     <a href="contact.html" class="Contact">Contact</a>
                 </div>
-
-               
-
             </div>
-
+        
 
             <div class="container">
                 <h1>Nieuws</h1>
@@ -50,85 +44,59 @@
             </div>
         </div>
 
+        <!-- Blog Post Submission Form -->
+        <div class="container" style="max-width: 600px; margin: 2rem auto;">
+            <h2>Voeg een nieuw bericht toe</h2>
+            <form id="post-form" style="display: flex; flex-direction: column; gap: 1em;">
+                <input type="text" id="title-input" placeholder="Titel..." required />
+                <textarea id="text-input" placeholder="Schrijf iets..." rows="4" required></textarea>
+                <input type="file" id="image-input" accept="image/*" />
+                <button type="submit" style="padding: 10px; background-color: #3273dc; color: white; border: none; border-radius: 6px;">Publiceer</button>
+            </form>
+        </div>
 
-        <div class="blog">
-            <div class="item-1">
-                <div class="title">
-                    <h2>Beestige avonturen in de zoo!</h2>
-                    <h3>23/05/2025</h3>
-                </div>
-                <img src="/images/blog_post_1.png" class="post_1">
-                <p>Wat een dag! 
-                Onze leerlingen keken hun ogen uit tussen de brullende leeuwen, nieuwsgierige apen en kleurrijke papegaaien. 
-                Van dichtbij leren over dieren én hun leefwereld?
-                Dat is pas leren met alle zintuigen!</p>
-            </div>
-
-            <div class="item-2">
-                <div class="title">
-                    <h2>Op ontdekking in het museum</h2>
-                    <h3>08/04/2025</h3>
-                </div>
-                <img src="/images/blog_post_2.png" class="post_2">
-                <p>Met verwonderde blikken stapten onze leerlingen de wereld van kunst en geschiedenis binnen.
-                Oude schilderijen, mysterieuze beelden en interactieve opstellingen brachten het verleden tot leven. 
-                “Wauw, dat is echt cool!” klonk het meer dan eens in de zalen.</p>
-            </div>
-
-            <div class="item-3">
-                <div class="title">
-                    <h2>Dagje bos: modder, zon en leren!</h2>
-                    <h3>17/03/2025</h3>
-                </div>
-                <img src="/images/blog_post_3.png" class="post_3">
-                <p>Blote voeten op het zachte mos, zonnestralen die door de bladeren dansen en de geur van dennen in de lucht. 
-                Onze dag in het bos zat vol leerplezier: sporen zoeken, bosdieren ontdekken en natuurlijk… een spannende huttenbouwwedstrijd! Een avontuurlijke dag om nooit te vergeten!</p>
-            </div>
+        <div class="blog" id="blog-container">
+            <!-- Blog posts dynamically inserted here -->
         </div>
 
         <div class="container-end">
             <h2>U mag ook terecht op onze facebook pagina:</h2>
             <a href="https://www.facebook.com/bsnieuwland/" target="_blank">
-            <img src="images/icon_facebook.png" class="facebook" />
+                <img src="images/icon_facebook.png" class="facebook" />
             </a>
         </div>
+	</header>
 
 	<div class="footer">
 		<div class="wrapper">
-			<div ><img src="images/logo.png" class="footer-logo" /></div>
-
-			<div class="icon-line-1"><img src="images/icon_phone.png" class="phone-icon" /><p >0498596556</p></div>
-
-			<div class="icon-line-1"><img src="images/icon_mail.png" class="mail-icon" /><p >directie@bsnieuwland.be</p></div>
-
+			<div><img src="images/logo.png" class="footer-logo" /></div>
+			<div class="icon-line-1"><img src="images/icon_phone.png" class="phone-icon" /><p>0498596556</p></div>
+			<div class="icon-line-1"><img src="images/icon_mail.png" class="mail-icon" /><p>directie@bsnieuwland.be</p></div>
             <div class="icon-line-1">
                 <a href="https://www.facebook.com/bsnieuwland/" target="_blank">
-                <img src="images/icon_facebook.png" class="facebook-icon" />
+                    <img src="images/icon_facebook.png" class="facebook-icon" />
                 </a>
                 <p>Basisschool Nieuwland</p>
             </div>
-
             <div class="links-footer">
-
 				<div class="item_row_1">
 					<a href="visie.html" class="visie-footer">Visie</a>
 					<a href="brede_school.html" class="bredeschool-footer">Brede School</a>
 					<a href="klassen.html" class="klassen-footer">Klassen</a>
 			    	<a href="inschrijven.html" class="inschrijven-footer">Inschrijven</a>
 				</div>
-
 			    <div class="item_row_2">
 					<a href="contact.html" class="contact-footer">Contact</a>
 			    	<a href="nieuws.html" class="nieuws-footer">Nieuws</a>
 					<a href="praktische_informatie.html" class="praktischeinformatie-footer">Praktische Informatie</a>
 				</div>				
             </div>
-
 			<div class="icon-line-2"><img src="images/icon_map_pin.png" class="map-icon" /><p>Nieuwland 194, 1000 Brussel</p></div>
 			<img src="images/map.png" class="kaart" />
 		</div>
 	</div>
 
 	<script src="js/index.js"></script>
+	<script src="js/nieuws.js"></script> 
 </body>
 </html>

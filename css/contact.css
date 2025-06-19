@@ -114,7 +114,7 @@ h2 {
 	border: 0;
 }
 
-/*Computer version*/
+/*Computer /tablet version*/
 @media (min-width: 480px) {
 	/*Contacts*/
 	.pic {
@@ -132,24 +132,15 @@ h2 {
 	}
 
 	.tree-pic {
-		display: block;
-		width: 20%;
-		margin-top: -200px;
-		margin-left: 1200px;
+		display: none;
 	}
 
 	.bee {
-		display: block;
-		width: 30%;
-		margin-top: -200px;
-		margin-left: 50px;
+		display: none;
 	}
 
 	.flower {
-		display: block;
-		width: 30%;
-		margin-top: -200px;
-		margin-left: 950px;
+		display: none;
 	}
 
 	h1 {
@@ -158,13 +149,6 @@ h2 {
 
 	.contactinformation {
 		max-width: 1000px;
-	}
-
-	.map-container {
-		background-image: url("../images/branch.png");
-		background-repeat: no-repeat;
-		background-size: 35%;
-		background-position: right;
 	}
 
 	h2 {
@@ -190,5 +174,35 @@ h2 {
 	.map {
 		padding: 100px;
 		width: calc(50% + 20px);
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.tree-pic {
+		display: block;
+		width: 20%;
+		margin-top: -200px;
+		margin-left: 1200px;
+	}
+
+	.bee {
+		display: block;
+		width: 30%;
+		margin-top: -200px;
+		margin-left: 50px;
+	}
+
+	.flower {
+		display: block;
+		width: 30%;
+		margin-top: -200px;
+		margin-left: 950px;
+	}
+
+	.map-container {
+		background-image: url("../images/branch.png");
+		background-repeat: no-repeat;
+		background-size: 35%;
+		background-position: right;
 	}
 }

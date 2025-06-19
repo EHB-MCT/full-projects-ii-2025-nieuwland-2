@@ -310,10 +310,9 @@ h1 {
 /*Dropdown button*/
 .dropbtn_1,
 .dropbtn_2 {
-	color: black;
+	color: white;
 	padding: 10px;
 	font-size: 10px;
-	font-family: "lexend";
 	border: none;
 }
 
@@ -327,9 +326,9 @@ h1 {
 /*Dropdown button*/
 .dropbtn_1,
 .dropbtn_2 {
-	color: black;
+	color: white;
 	padding: 10px;
-	font-size: 30px;
+	font-size: 10px;
 	border: none;
 }
 
@@ -568,63 +567,4 @@ h1 {
 		justify-content: space-between;
 		gap: 2rem;
 	}
-}
-
-.dropbtn_2 {
-    background-color: #489ad3;
-    color: black;
-    font-family: 'Lexend';
-}
-
-@media(min-width: 900px) {
-		element.style {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 60px;
-    margin-right: 60px;
-}
-
-    .navigation {
-        display: flex;
-        gap: 30px;
-        align-items: center;
-        margin-top: 35px;
-    }
-
-	.wrapper {
-
-		display: flex;
-		justify-content: space-between;
-		margin-top: 20px;
-		margin-left: 60px;
-		margin-right: 60px;
-		margin-bottom: 70px;
-	}
-
-	.dropbtn_2 {
-    background-color: #489ad3;
-    color: black;
-    font-family: 'Lexend';
-    padding: 18px;
-	}
-
-	.dropbtn_1 {
-    background-color: #f3c16d;
-    color: black;
-    font-family: 'Lexend';
-    padding: 18px;
-	}
-
-	a:link, a:visited {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-    font-family: Lexend;
-    font-size: 30px;
-    display: flex
-;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-}
 }

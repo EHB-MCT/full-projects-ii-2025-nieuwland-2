@@ -275,6 +275,11 @@ h1 {
 	margin: 30px;
 }
 
+.navWrapper{
+	position: relative;
+	z-index: 5;
+}
+
 .navigation {
 	padding: 8px 8px 40px 8px;
 	display: flex;

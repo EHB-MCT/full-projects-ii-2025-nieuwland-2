@@ -138,7 +138,7 @@ ol {
 	padding-bottom: 30px;
 }
 
-/*Computer version*/
+/*Computer /tablet version*/
 @media (min-width: 480px) {
 	h1 {
 		font-size: 28px;

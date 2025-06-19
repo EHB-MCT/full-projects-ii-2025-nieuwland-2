@@ -114,7 +114,7 @@ h2 {
 	border: 0;
 }
 
-/*Computer version*/
+/*Computer /tablet version*/
 @media (min-width: 480px) {
 	/*Contacts*/
 	.pic {

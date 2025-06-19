@@ -337,6 +337,11 @@ body {
 	left: 5%;
 }
 
+.tree-branch {
+	top: 56rem;
+	left: 65%;
+}
+
 @media screen and (max-width: 480px) {
 	.info-wrapper {
 		margin: -1rem 0 10rem;
@@ -595,6 +600,9 @@ body {
 	}
 
 	.flower {
+		display: none;
+	}
+	.tree-branch {
 		display: none;
 	}
 }

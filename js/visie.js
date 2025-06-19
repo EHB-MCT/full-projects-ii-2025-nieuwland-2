@@ -23,7 +23,7 @@ function filterTitle() {
 	});
 
 	document.querySelector(".button-3").addEventListener("click", function () {
-		document.getElementById("content-title").innerHTML = `<	<div class="title">
+		document.getElementById("content-title").innerHTML = `<div class="title">
 				<h1>Zin in leren! Zin in leven!</h1>
 			</div>`
 	});

@@ -322,10 +322,69 @@ h3 {
 		margin: 80px 50px 80px 50px;
 	}
 
+	.bschool-container {
+		background-image: url("./../images/butterfly.png");
+		background-repeat: no-repeat;
+		background-size: 30%;
+		background-position: left;
+	}
+
+	.bpic {
+		display: block;
+		width: 30%;
+		margin-top: -300px;
+		margin-left: 800px;
+	}
+
+	.bpic2 {
+		display: block;
+		width: 35%;
+		margin-top: -300px;
+		margin-left: 1000px;
+	}
+
 	.bschool-container,
 	.hcontainer {
 		margin: 0 auto;
 		max-width: 1500px;
+	}
+
+	.hcontainer {
+		background-image: url("./../images/sun.png");
+		background-repeat: no-repeat;
+		background-position: left;
+	}
+
+	.bucontainer {
+		background-image: url("./../images/branch.png");
+		background-repeat: no-repeat;
+		background-position: -10% 150%;
+	}
+
+	.main-filmcontainer {
+		background-image: url("./../images/house.png");
+		background-repeat: no-repeat;
+		background-position: 0% 0%;
+	}
+
+	.filmcontainer {
+		background-image: url("./../images/sun-2.png");
+		background-repeat: no-repeat;
+		background-position: 100% 100%;
+	}
+
+	.hpic {
+		display: block;
+		width: 30%;
+		margin-top: -200px;
+		margin-left: 1000px;
+	}
+
+	.bupic {
+		display: block;
+		width: 20%;
+		margin-top: -400px;
+		margin-left: 1000px;
 	}
 
 	/*Wat*/

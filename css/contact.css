@@ -4,7 +4,7 @@
 
 body {
 	margin: 0;
-	background-image: url("/images/contact_background.png");
+	background-image: url("./../images/contact_background.png");
 }
 
 .container {
@@ -20,13 +20,6 @@ body {
 .pic {
 	position: relative;
 	z-index: 1;
-}
-.tree-pic {
-	display: none;
-}
-
-.bee {
-	display: none;
 }
 
 .title {
@@ -60,7 +53,7 @@ h1 {
 	align-self: center;
 	display: flex;
 	flex-direction: column;
-	background-image: url("/images/orange_text.png");
+	background-image: url("./../images/orange_text.png");
 	padding: 30px;
 	max-width: 350px;
 	position: relative;
@@ -100,7 +93,7 @@ h2 {
 
 .map {
 	padding: 10px;
-	background-image: url("/images/blue_text.png");
+	background-image: url("./../images/blue_text.png");
 	display: flex;
 	justify-content: center;
 	width: 100%;
@@ -129,18 +122,6 @@ h2 {
 
 	.title {
 		margin-top: -200px;
-	}
-
-	.tree-pic {
-		display: none;
-	}
-
-	.bee {
-		display: none;
-	}
-
-	.flower {
-		display: none;
 	}
 
 	h1 {

@@ -21,7 +21,7 @@ p {
 }
 
 .bodyKlassen {
-	background-image: url("../images/wallpaper.png");
+	background-image: url("./../images/wallpaper.png");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -38,7 +38,7 @@ p {
 .TeacherPicture {
 	width: 100px;
 	height: auto;
-	object-fit: cover; /* https://www.w3schools.com/css/css3_object-fit.asp */
+	object-fit: cover;
 }
 
 .PeuterInfo {
@@ -176,8 +176,6 @@ p {
 
 	.classroom-info {
 		display: none;
-		/* margin-top: 20px; */
-		/* padding: 10px; */
 	}
 
 	.TeacherPicture {

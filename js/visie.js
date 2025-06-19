@@ -37,7 +37,7 @@ function filterContent() {
 
       	<div class="educational-1">
                 <h2>Pedagogisch Project</h2>
-                <img src="./images/pedagogisch_project.png" class="educational-pic-1">
+                <img src="./../images/pedagogisch_project.png" class="educational-pic-1">
                 <div class="e-block-1">
                     <p>Nergens voel je het kloppend hart van Brussel zo sterk als in de Marollen. Nieuwland ligt midden in deze bruisende volksbuurt en wil een plek bieden voor elke jongere tussen 2.5 en 12 jaar.</p>
                 </div>
@@ -52,7 +52,7 @@ function filterContent() {
             </div>
 
             <div class="educational-3">
-                <img src="./images/juffen_meesters.png" class="educational-pic-2">
+                <img src="./../images/juffen_meesters.png" class="educational-pic-2">
                 <h2>En wat met al die juffen en meesters?</h2>
 				
                 <div class="e-block-3">
@@ -79,7 +79,7 @@ function filterContent() {
             <div class="educational-6">
                 <h2>Maar toch niet elk kind kan dat?</h2>
 				
-                <img src="./images/kind_instrument.png" class="educational-pic-3">
+                <img src="./../images/kind_instrument.png" class="educational-pic-3">
                 <div class="e-block-6">
                     <p>Het open karakter van Nieuwland weerspiegelt zich in het laagdrempelig contact en  de open hand om ouders te verwelkomen in de klas. Ook vatten we ‘open’ heel ruim op: bestaande grenzen kunnen open gemaakt worden om ons onderwijs te optimaliseren. De grenzen tussen verschillende leergebieden vallen weg bij projectwerk, de grenzen tussen leerjaren gaan open bij klasoverschrijdende activiteiten. Grenzen tussen kleuter – en lagere school weerhouden er ons niet van intensief samen te werken. De Brede School Nieuwland breekt de grenzen van onze schoolmuren en – uren open en biedt voor kinderen een waaier aan kansen tot levensecht en levensbreed leren.</p>
                 </div>
@@ -88,7 +88,7 @@ function filterContent() {
             <div class="educational-7">
                 <h2>En zijn er dan geen regels meer op school?</h2>
 				
-                <img src="./images/kinderen_fluo_hesjes.png" class="educational-pic-4">
+                <img src="./../images/kinderen_fluo_hesjes.png" class="educational-pic-4">
                 <div class="e-block-7">
                     <p>Natuurlijk wel. Regels en structuur bieden veiligheid voor iedereen op Nieuwland. Ze zorgen ervoor dat iedereen zich goed voelt op school en klaaris om te leren. Samen nadenken over deze regels op school is een sterk signaal van het geloof in onze leerlingen. En loopt het eens fout? Geen paniek! Zolang we samen naar een geweldloze oplossing kunnen zoeken is er niets aan de hand.Op die  manier willen we samen op een creatieve en positieve manier de lat van elk kind hoog leggen in een open en veilige omgeving.</p>
                 </div>
@@ -103,7 +103,7 @@ function filterContent() {
 
 		<div class="orientation-1">
 				<h2>Mens</h2>
-			<img src="./images/mens.png" class="o-pic-1">
+			<img src="./../images/mens.png" class="o-pic-1">
 			<div class="o-block-1">
 				<p>Veel van onze kinderen groeien op in stressvolle omstandigheden en leren niet vanzelf hun emoties goed te uiten. Daarom investeren we als school extra in emotieregulatie en leren we kinderen de taal van emoties. Om schoolseachterstanden, demotivatie en uitval te voorkomen, versterken we het zelfbeeld en zelfvertrouwen van onze leerlingen. Via onze pedagogische en didactische keuzes willen we bovendien hun leerzin en motivatie blijven voeden.</p>
 			</div>
@@ -113,7 +113,7 @@ function filterContent() {
 			<div class="o-block-2">
 				<h2>Maatschappij</h2>
 			</div>
-			<img src="./images/maatschappij.png" class="o-pic-2">
+			<img src="./../images/maatschappij.png" class="o-pic-2">
 			<div class="o-block-2">
 				<p>Omdat veel kinderen opgroeien in een omgeving met weinig actieve rolmodellen, brengen we hen in contact met diverse beroepen en inspirerende voorbeelden.Sociaal-cultureel: In onze superdiverse samenleving leren we kinderen samenleven in verscheidenheid, met aandacht voor zowel verschillen als gelijkenissen. We zien die diversiteit als een meerwaarde</br> en benutten ze in ons aanbod.Politiek-juridisch: We geven kinderen inzicht in onze democratie en leren hen hoe ze kunnen deelnemen aan het maatschappelijk debat, zodat ze later actief kunnen opkomen voor hun rechten en belangen.</p>
 			</div>
@@ -129,7 +129,7 @@ function filterContent() {
 		</div>
 
 		<div class="orientation-4">
-			<img src="./images/tijd.png" class="o-pic-3">
+			<img src="./../images/tijd.png" class="o-pic-3">
 			<div class="o-title-4">
 				<h2>Tijd</h2>
 			</div>
@@ -139,7 +139,7 @@ function filterContent() {
 		</div>
 
 		<div class="orientation-5">
-			<img src="./images/levende_natuur.png" class="o-pic-4">
+			<img src="./../images/levende_natuur.png" class="o-pic-4">
 			<div class="o-title-5">
 				<h2>Natuur: levende natuur</h2>
 			</div>
@@ -158,7 +158,7 @@ function filterContent() {
 		</div>
 
 		<div class="orientation-7">
-			<img src="./images/natuur_milieu.png" class="o-pic-5">
+			<img src="./../images/natuur_milieu.png" class="o-pic-5">
 			<div class="o-title-7">
 				<h2>Natuur: Milieu</h2>
 			</div>
@@ -184,7 +184,7 @@ function filterContent() {
 		<div class="container">
 
 			<div class="learn-1">
-				<img src="./images/samen.png" class="samen">
+				<img src="./../images/samen.png" class="samen">
 				<div class="l-title-1">
 					<h2>Samen</h2>
 				</div>
@@ -208,7 +208,7 @@ function filterContent() {
 				<div class="l-title-3">
 					<h2>Positief</h2>
 				</div>
-				<img src="./images/positief.png" class="positief">
+				<img src="./../images/positief.png" class="positief">
 				<div class="l-block-3">
 					<p>We geloven oprecht in de leer – kracht van elke leerling op Nieuwland. Dit uit zich in de ontmoeting met inspirerende persoonlijkheden die voor elke betrokkene een voorbeeld kunnen zijn. Nadrukkelijk inzetten op veerkracht is voor ons een voorwaarde om de leer – kracht te stimuleren. Als school zijn wij ervan doordrongen dat we een cruciale bijdrage kunnen leveren in de ontwikkeling van onze leerlingen door via veerkracht naar leer – kracht te streven.</p>
 				</div>
@@ -218,14 +218,14 @@ function filterContent() {
 				<div class="l-title-4">
 					<h2>De lat van elk kind hoog</h2>
 				</div>
-				<img src="./images/lat_van_elk_kind.png" class="lat_kind">
+				<img src="./../images/lat_van_elk_kind.png" class="lat_kind">
 				<div class="l-block-4">
 					<p>Om het geloof in de leer – kracht van onze leerlingen vorm te geven, stellen we realistische én ambitieuze verwachtingen ten opzichte van de ontwikkeling van onze leerlingen. Door niet enkel te focussen op school – en klasniveau, maar ook op leerlingniveau, willen we gelijke onderwijskansen creëren voor elke leerling. Het unieke profiel van elke leerling vormt het uitgangspunt voor onze aanpak binnen ZILL, waarbij het verschillend ontwikkelingstempo van elke leerling gerespecteerd wordt. Ontwikkelingstrajecten op maat worden gecommuniceerd naar alle betrokkenen, zodat de verticale en horizontale samenhang bewaakt wordt.</p>
 				</div>
 			</div>
 
 			<div class="learn-5">
-				<img src="./images/open.png" class="open">
+				<img src="./../images/open.png" class="open">
 				<div class="l-title-5">
 					<h2>Open</h2>
 				</div>
@@ -235,7 +235,7 @@ function filterContent() {
 			</div>
 
 			<div class="learn-6">
-				<img src="./images/veilig.png" class="veilig">
+				<img src="./../images/veilig.png" class="veilig">
 				<div class="l-title-6">
 					<h2>Veilig</h2>
 				</div>

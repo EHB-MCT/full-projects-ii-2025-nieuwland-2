@@ -4,19 +4,23 @@
 	<link href="css/reset.css" rel="stylesheet" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>Basisschool Nieuwland</title>
+	<link
+			rel="icon"
+			type="image/x-icon"
+			href="./images/favicon-nieuwland.png"
+		/>
 	<link href="css/style.css" rel="stylesheet" />
 	<link href="css/Praktische Informatie.css" rel="stylesheet" />
 </head>
 <body class="bodyPU">
 	<header>
-		<div class="wrapper">
+		<div class="navWrapper">
 			<div class="nav-top">
 				<a href="index.html">
-					<img src="images/logo.png" class="logo" />
+					<img src="./../images/logo.png" class="logo" />
 				</a>
 			</div>
 
-			<!-- https://www.w3schools.com/howto/howto_css_dropdown.asp -->
             	<div class="navigation">
 					<div class="dropdown_1">
 					<button class="dropbtn_1">Onze Visies</button>
@@ -27,7 +31,7 @@
 				</div>
 
 				<div class="dropdown_2">
-					<button class="dropbtn_2">Algemene Informatie</button>
+					<button class="dropbtn_2 active">Algemene Informatie</button>
 					<div class="dropdown-content_2">
 						<a href="praktische_informatie.html">Praktische Informatie</a>
 						<a href="inschrijven.html">Inschrijven</a>
@@ -41,30 +45,32 @@
 		</header>
 
 		<div class="Praktische Algemeen">
-			<div class="PIalg">
-				<div class="PIalgTitle">
-					<h1>Praktische Informatie</h1>
-				</div>
-				<div class="PIalg1">
- 					<div class="PIoverlaytext2">
-						<div class="PIoverlaytext2-1">
-    						<h2>Schoolreglement</h2>
-							<img src="images/icon_book.png" class="PIbook-icon" alt="">
-						</div>
-					<div class="PIoverlaytext2-2">
-    					<h2>Jaarkalender</h2>
-						<img src="images/icon_callendar.png" class="PIcallendar-icon" alt="">
-					</div>							
-					<div class="PIoverlaytext2-3">
-						<h2>Schoolbrochure</h2>							<img src="images/icon_flyer.png" class="PIFlyer-icon" alt="">
-					</div>
-					<div class="PIoverlaytext2-4">
-   						<h2>Peutersbrochure</h2>	
-						<img src="images/icon_flyer.png" class="PIFlyer-icon" alt="">
-					</div>  					
-				</div>
-			</div>
-		</div>
+            <div class="PIalg">
+                <div class="PIalgTitle">
+                    <h1>Praktische Informatie</h1>
+                </div>
+                <div class="PIalg1">
+                     <div class="PIoverlaytext2">
+                        <div class="PIoverlaytext2-1">
+                            <a href="pdf's/Schoolreglement24-25.pdf" download="Schoolreglement24-25">School Reglement</a>
+                            <img src="./../images/icon_book.png" class="PIbook-icon" alt="">
+
+                        </div>
+                    <div class="PIoverlaytext2-2">
+                        <a href="pdf's/SchoolkalenderOUDERS2425.pdf" download="SchoolkalenderOUDERS2425">Jaarkalender</a>
+                        <img src="./../images/icon_callendar.png" class="PIcallendar-icon" alt="">
+                    </div>                            
+                    <div class="PIoverlaytext2-3">
+                        <a href="pdf's/Schoolbrochure.pdf" download="">SchoolBrochure</a>                        
+                        <img src="./../images/icon_flyer.png" class="PIFlyer-icon" alt="">
+                    </div>
+                    <div class="PIoverlaytext2-4">
+                           <a href="pdf's/Peuterbrochure-1.pdf" download="Peuterbrochure-1">Peuters Brochure</a>
+                        <img src="./../images/icon_flyer.png" class="PIFlyer-icon" alt="">
+                    </div>                      
+                </div>
+            </div>
+        </div>
 	
 
 		
@@ -73,10 +79,10 @@
 			<div class="PISU">
 				<div class="PISUtitle">
 					<h1>Schooluren</h1>
-					<img src="images/icon_clock.png"  class="PIclock-icon" alt="">
+					<img src="./../images/icon_clock.png"  class="PIclock-icon" alt="">
 				</div>
 				<div class="PISU2">
-					<img src="images/Background1.png" class = "note">
+					<img src="./../images/Background1.png" class = "note">
 					<div class="PIoverlaytext1">
 						<ul>
 							<li>Maandag: 8u40-15u30</li>
@@ -95,35 +101,36 @@
 
 
 	<div class="footer">
-        <div class="wrapper">
-            <div ><img src="images/logo.png" class="footer-logo" /></div>
- 
-            <div class="icon-line-1"><img src="images/icon_phone.png" class="phone-icon" /><p>0498596556</p></div>
- 
-            <div class="icon-line-1"><img src="images/icon_mail.png" class="mail-icon" /><p>directie@bsnieuwland.be</p></div>
- 
-            <div class="icon-line-1"><img src="images/icon_facebook.png" class="facebook-icon" /><p>Basisschool Nieuwland</p></div>
- 
-            <div class="links-footer">
- 
-                <div class="item_row_1">
-                    <a href="visie.html" class="visie-footer">Visie</a>
-                    <a href="brede_school.html" class="bredeschool-footer">Brede School</a>
-                    <a href="klassen.html" class="klassen-footer">Klassen</a>
-                    <a href="inschrijven.html" class="inschrijven-footer">Inschrijven</a>
-                </div>
- 
-                <div class="item_row_2">
-                    <a href="contact.html" class="contact-footer">Contact</a>
-                    <a href="nieuws.html" class="nieuws-footer">Nieuws</a>
-                    <a href="praktische_informatie.html" class="praktischeinformatie-footer">Praktische Informatie</a>
-                </div>              
+		<div class="wrapper">
+			<div ><img src="./../images/logo.png" class="footer-logo" /></div>
+
+			<div class="icon-line-1"><img src="./../images/icon_phone.png" class="phone-icon" /><p >0498596556</p></div>
+
+			<div class="icon-line-1"><img src="./../images/icon_mail.png" class="mail-icon" /><p >directie@bsnieuwland.be</p></div>
+
+			<div class="icon-line-1">
+                <a href="https://www.facebook.com/bsnieuwland/" target="_blank">
+                <img src="./../images/icon_facebook.png" class="facebook-icon" />
+                </a>
+                <p>Basisschool Nieuwland</p>
             </div>
- 
-            <div class="icon-line-2"><img src="images/icon_map_pin.png" class="map-icon" /><p>Nieuwland 194, 1000 Brussel</p></div>
-            <img src="images/map.png" class="kaart" />
-        </div>
-    </div>
+			
+            <div class="links-footer">
+
+				<div class="item_row_1">
+					<a href="visie.html" class="visie-footer">Visie</a>
+					<a href="brede_school.html" class="bredeschool-footer">Brede School</a>
+					<a href="klassen.html" class="klassen-footer">Klassen</a>
+			    	<a href="inschrijven.html" class="inschrijven-footer">Inschrijven</a>
+				</div>
+
+			    <div class="item_row_2">
+					<a href="contact.html" class="contact-footer">Contact</a>
+			    	<a href="nieuws.html" class="nieuws-footer">Nieuws</a>
+					<a href="praktische_informatie.html" class="praktischeinformatie-footer">Praktische Informatie</a>
+				</div>				
+            </div>
+	</div>
 	<script src="js/index.js"></script>
 </body>
 </html>

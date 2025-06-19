@@ -4,25 +4,28 @@
 	<link href="css/reset.css" rel="stylesheet" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>Basisschool Nieuwland</title>
+	<link
+			rel="icon"
+			type="image/x-icon"
+			href="./images/favicon-nieuwland.png"
+		/>
 	<link href="css/style.css" rel="stylesheet" />
 	<link href="css/visie.css" rel="stylesheet" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script type="module" src="./js/visie.js" defer></script>
 </head>
 <body class="start-body">
-	<!-- <canvas id="canvas"> </canvas> -->
-
 	<header>
-		<p style="background-image: url('images/ripped-paper-top_home.png');"></p>
-		<div class="wrapper">
+		<p style="background-image: url('./../images/ripped-paper-top_home.png');"></p>
+		<div class="navWrapper">
 			<div class="nav-top">
 				<a href="index.html">
-					<img src="images/logo.png" class="logo" />
+					<img src="./../images/logo.png" class="logo" />
 				</a>
 			</div>
-			<!-- https://www.w3schools.com/howto/howto_css_dropdown.asp -->
 			<div class="navigation">
 					<div class="dropdown_1">
-					<button class="dropbtn_1">Onze Visies</button>
+					<button class="dropbtn_1 active">Onze Visies</button>
 					<div class="dropdown-content_1">
 						<a href="visie.html">Visie</a>
 						<a href="brede_school.html">Brede School</a>
@@ -43,92 +46,100 @@
 
 		</div>
 
-		<div class="title">
-			<h1>Visie</h1>
+		<div id="content-title">
+			<div class="title">
+				<h1>Pedagogisch Project</h1>
+			</div>
 		</div>
 
 	<div id="filter">
-		<button class="button-1">Pedagogisch Project</button>
-		<button class="button-2">Oriëntatie op de wereld</button>
-		<button class="button-3">Zin in leren! Zin in leven!</button>
+		<button class="button-1" id="visie-1" >Pedagogisch Project</button>
+		<button class="button-2" id="visie-2">Oriëntatie op de wereld</button>
+		<button class="button-3" id="visie-3">Zin in leren! Zin in leven!</button>
 	</div>
 
 	<div id="content">
-		 <div class="container">
+		<div class="container">
 
-            <div class="pedagogisch-1">
+      	<div class="educational-1">
                 <h2>Pedagogisch Project</h2>
-                <img src="./images/pedagogisch_project.png" class="pedagogisch-pic-1">
-                <div class="p-vakje-1">
+                <img src="./../images/pedagogisch_project.png" class="educational-pic-1">
+                <div class="e-block-1">
                     <p>Nergens voel je het kloppend hart van Brussel zo sterk als in de Marollen. Nieuwland ligt midden in deze bruisende volksbuurt en wil een plek bieden voor elke jongere tussen 2.5 en 12 jaar.</p>
                 </div>
             </div>
 
-            <div class="pedagogisch-2">
+            <div class="educational-2">
                 <h2>Voel je het al kriebelen?</h2>
-                <div class="p-vakje-2">
+				
+                <div class="e-block-2">
                     <p>Dat komt doordat we hier aan de toekomst werken. En samen kunnen we dat veel beter dan alleen. In de klas leren we met elkaar en van elkaar, met respect voor de keuze en de identiteit van iedereen. Dat vraagt een flinke portie zelfkennis, waar we samen voor zorgen.</p>
                 </div>
             </div>
 
-            <div class="pedagogisch-3">
-                <img src="./images/juffen_meesters.png" class="pedagogisch-pic-2">
+            <div class="educational-3">
+                <img src="./../images/juffen_meesters.png" class="educational-pic-2">
                 <h2>En wat met al die juffen en meesters?</h2>
-                <div class="p-vakje-3">
+				
+                <div class="e-block-3">
                     <p>Die vinden ‘samen’ ook van groot belang! Samen voor de klas in co-teaching, samen zorg dragen voor alle leerlingen in team-teaching, samen werken aan een zachte overgang tussen kleuter en lager, samen met ouders en de buurt een netwerk creëren waarin kinderen alle kansen krijgen die ze verdienen. </p>
                 </div>
             </div>
 
-            <div class="pedagogisch-4">
+            <div class="educational-4">
                 <h2>Voorbereid op een complexe wereld?</h2>
-                <div class="p-vakje-4">
-                    <p>Creativiteit – in de meest brede zin van het woord - is hierop het antwoord. We willen oog hebben voor de talenten van alle leerlingen, hen helpen die te ontdekken en ten volle te ontplooien. Daarnaast stimuleren we hen om na te denken over complexe uitdagingen. De innovatieve ideeën die leerlingen opdoen zijn de motor om los te komen van stereotypen en om de wereld te bekijken vanuit verschillende perspectieven.</p>
+				
+                <div class="e-block-4">
+                    <p>Creativiteit – in de meest brede zin van het woord - is hierop het antwoord. We willen oog hebben voor de talenten van alle leerlingen, hen helpen die te ontdekken en ten volle te ontplooien. Daarnaast stimuleren we hen om na te denken over complexe uitdagingen. De innovatieve ideeën dieleerlingen opdoen zijn  de motor om los te komen van stereotypen en om de wereld te bekijken vanuit verschillende perspectieven.</p>
                 </div>
             </div>
 
-            <div class="pedagogisch-5">
+            <div class="educational-5">
                 <h2>Best uitdagend?</h2>
-                <div class="p-vakje-5">
-                    <p>Dat klopt! Maar we kijken positief naar de toekomst. We geloven oprecht in de leer – kracht van elk kind en vinden fouten maken noodzakelijk! De grootste uitvindingen zijn maar tot stand gekomen door veelvuldig experimenteren en fouten maken. Als school willen we hier positief op inspelen door kinderen in hun leer – kracht te begeleiden.</p>
+				
+                <div class="e-block-5">
+                    <p>Dat klopt! Maar we kijken positief naar de toekomst. We geloven oprecht in de leer – kracht van elk kind en vinden fouten maken noodzakelijk! De grootste uitvindingen zijn maar tot stand gekomen door veelvuldig experimenteren en fouten maken. Als school willen we hier positief op inspelen door kinderenin hun leer – kracht te begeleiden.</p>
                 </div>
             </div>
 
-            <div class="pedagogisch-6">
+            <div class="educational-6">
                 <h2>Maar toch niet elk kind kan dat?</h2>
-                <img src="./images/kind_instrument.png" class="pedagogisch-pic-3">
-                <div class="p-vakje-6">
-                    <p>Het open karakter van Nieuwland weerspiegelt zich in het laagdrempelig contact en de open hand om ouders te verwelkomen in de klas. Ook vatten we ‘open’ heel ruim op: bestaande grenzen kunnen open gemaakt worden om ons onderwijs te optimaliseren. De grenzen tussen verschillende leergebieden vallen weg bij projectwerk, de grenzen tussen leerjaren gaan open bij klasoverschrijdende activiteiten. Grenzen tussen kleuter – en lagere school weerhouden er ons niet van intensief samen te werken. De Brede School Nieuwland breekt de grenzen van onze schoolmuren en – uren open en biedt voor kinderen een waaier aan kansen tot levensecht en levensbreed leren.</p>
+				
+                <img src="./../images/kind_instrument.png" class="educational-pic-3">
+                <div class="e-block-6">
+                    <p>Het open karakter van Nieuwland weerspiegelt zich in het laagdrempelig contact en  de open hand om ouders te verwelkomen in de klas. Ook vatten we ‘open’ heel ruim op: bestaande grenzen kunnen open gemaakt worden om ons onderwijs te optimaliseren. De grenzen tussen verschillende leergebieden vallen weg bij projectwerk, de grenzen tussen leerjaren gaan open bij klasoverschrijdende activiteiten. Grenzen tussen kleuter – en lagere school weerhouden er ons niet van intensief samen te werken. De Brede School Nieuwland breekt de grenzen van onze schoolmuren en – uren open en biedt voor kinderen een waaier aan kansen tot levensecht en levensbreed leren.</p>
                 </div>
             </div>
 
-            <div class="pedagogisch-7">
+            <div class="educational-7">
                 <h2>En zijn er dan geen regels meer op school?</h2>
-                <img src="./images/kinderen_fluo_hesjes.png" class="pedagogisch-pic-4">
-                <div class="p-vakje-7">
-                    <p>Natuurlijk wel. Regels en structuur bieden veiligheid voor iedereen op Nieuwland. Ze zorgen ervoor dat iedereen zich goed voelt op school en klaar is om te leren. Samen nadenken over deze regels op school is een sterk signaal van het geloof in onze leerlingen. En loopt het eens fout? Geen paniek! Zolang we samen naar een geweldloze oplossing kunnen zoeken is er niets aan de hand.Op die manier willen we samen op een creatieve en positieve manier de lat van elk kind hoog leggen in een open en veilige omgeving.</p>
+				
+                <img src="./../images/kinderen_fluo_hesjes.png" class="educational-pic-4">
+                <div class="e-block-7">
+                    <p>Natuurlijk wel. Regels en structuur bieden veiligheid voor iedereen op Nieuwland. Ze zorgen ervoor dat iedereen zich goed voelt op school en klaaris om te leren. Samen nadenken over deze regels op school is een sterk signaal van het geloof in onze leerlingen. En loopt het eens fout? Geen paniek! Zolang we samen naar een geweldloze oplossing kunnen zoeken is er niets aan de hand.Op die  manier willen we samen op een creatieve en positieve manier de lat van elk kind hoog leggen in een open en veilige omgeving.</p>
                 </div>
             </div>
-
         </div>
+	</div>
+    
+
+	<div class="enrolment-wrapper">
+		<a href="inschrijven.html" class="button-4">Nu Inschrijven</a>
 	</div>
 
 	
 
-
-	<!-- hier moet call to action voor inschrijven -->
-	
-
 	<div class="footer">
 		<div class="wrapper">
-			<div ><img src="images/logo.png" class="footer-logo" /></div>
+			<div ><img src="./../images/logo.png" class="footer-logo" /></div>
 
-			<div class="icon-line-1"><img src="images/icon_phone.png" class="phone-icon" /><p >0498596556</p></div>
+			<div class="icon-line-1"><img src="./../images/icon_phone.png" class="phone-icon" /><p >0498596556</p></div>
 
-			<div class="icon-line-1"><img src="images/icon_mail.png" class="mail-icon" /><p >directie@bsnieuwland.be</p></div>
+			<div class="icon-line-1"><img src="./../images/icon_mail.png" class="mail-icon" /><p >directie@bsnieuwland.be</p></div>
 
             <div class="icon-line-1">
                 <a href="https://www.facebook.com/bsnieuwland/" target="_blank">
-                <img src="images/icon_facebook.png" class="facebook-icon" />
+                <img src="./../images/icon_facebook.png" class="facebook-icon" />
                 </a>
                 <p>Basisschool Nieuwland</p>
             </div>
@@ -147,12 +158,6 @@
 					<a href="praktische_informatie.html" class="praktischeinformatie-footer">Praktische Informatie</a>
 				</div>				
             </div>
-
-			<div class="icon-line-2"><img src="images/icon_map_pin.png" class="map-icon" /><p>Nieuwland 194, 1000 Brussel</p></div>
-			<img src="images/map.png" class="kaart" />
-		</div>
 	</div>
-
-	<!-- <script src="js/index.js"></script> -->
 </body>
 </html>

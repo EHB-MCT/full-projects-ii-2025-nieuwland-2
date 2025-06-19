@@ -4,6 +4,11 @@
 
 body {
 	margin: 0;
+	background-image: url("./../images/wallpaper.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	min-height: 100vh;
 }
 
 .title {
@@ -15,7 +20,7 @@ body {
 
 h1 {
 	font-family: "Lexend";
-	background-color: #ffd1ff;
+	background-color: #f3c16d;
 	display: inline-block;
 	font-size: 18px;
 	margin: 50px 0px 50px 0px;
@@ -43,6 +48,27 @@ h1 {
 	padding: 10px;
 }
 
+.button-4 {
+	font-family: "Plus Jakarta Sans";
+	font-weight: bold;
+	font-size: 12px;
+	background-color: #cee8ed;
+	color: #000;
+	border: 0px;
+	padding: 15px;
+	text-decoration: none;
+	margin-bottom: 200px;
+}
+
+.enrolment-wrapper {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.button-4:hover {
+	background-color: #b1cbce;
+}
 .button-1:hover,
 .button-2:hover,
 .button-3:hover {
@@ -52,7 +78,12 @@ h1 {
 .container {
 	margin: 20px 20px 50px 20px;
 	padding: 5px;
-	/* background-color: red; */
+}
+
+header {
+	background-image: url("./../images/ripped_paper_up.png");
+	background-repeat: no-repeat;
+	background-size: 280%;
 }
 
 h2 {
@@ -65,15 +96,6 @@ h2 {
 	margin-bottom: -10px;
 	font-size: 14px;
 }
-
-/* .p-h-vakje-1,
-.p-h-vakje-2,
-.p-h-vakje-3,
-.p-h-vakje-4,
-.p-h-vakje-5,
-.p-h-vakje-6,
-.p-h-vakje-7 {
-} */
 
 .container p {
 	position: relative;
@@ -89,196 +111,220 @@ h2 {
 	z-index: 1;
 }
 
-.p-vakje-1,
-.p-vakje-2,
-.p-vakje-3,
-.p-vakje-4,
-.p-vakje-5,
-.p-vakje-6,
-.p-vakje-7,
-.o-vakje-1,
-.o-vakje-3,
-.o-vakje-4,
-.o-vakje-5,
-.o-vakje-6,
-.o-vakje-7,
-.o-vakje-8,
-.l-vakje-1,
-.l-vakje-2,
-.l-vakje-3,
-.l-vakje-4,
-.l-vakje-5,
-.l-vakje-6 {
+.educational-1 {
+	align-items: center;
+	gap: 5px;
+}
+
+.e-block-1,
+.e-block-2,
+.e-block-3,
+.e-block-4,
+.e-block-5,
+.e-block-6,
+.e-block-7,
+.o-block-1,
+.o-block-3,
+.o-block-4,
+.o-block-5,
+.o-block-6,
+.o-block-7,
+.o-block-8,
+.l-block-1,
+.l-block-2,
+.l-block-3,
+.l-block-4,
+.l-block-5,
+.l-block-6 {
 	position: relative;
 	z-index: 2;
 }
 
 /*Pedagogisch Project*/
 
-.pedagogisch-1,
-.pedagogisch-2,
-.pedagogisch-3,
-.pedagogisch-4,
-.pedagogisch-5,
-.pedagogisch-6,
-.pedagogisch-7 {
+.educational-1,
+.educational-2,
+.educational-3,
+.educational-4,
+.educational-5,
+.educational-6,
+.educational-7 {
 	margin-bottom: 50px;
 }
 
-.pedagogisch-1 h2,
-.pedagogisch-2 h2,
-.pedagogisch-3 h2,
-.pedagogisch-4 h2,
-.pedagogisch-5 h2,
-.pedagogisch-6 h2,
-.pedagogisch-7 h2 {
+.educational-1 h2,
+.educational-2 h2,
+.educational-3 h2,
+.educational-4 h2,
+.educational-5 h2,
+.educational-6 h2,
+.educational-7 h2 {
 	background-color: #f7ebc4;
 }
 
-.p-vakje-1,
-.p-vakje-2,
-.p-vakje-3,
-.p-vakje-4,
-.p-vakje-5,
-.p-vakje-7 {
-	background-color: #b6cde4;
+.e-block-1,
+.e-block-2,
+.e-block-3,
+.e-block-4,
+.e-block-5,
+.e-block-7,
+.o-block-1,
+.o-block-3,
+.o-block-4,
+.o-block-5,
+.o-block-6,
+.o-block-7,
+.o-block-8,
+.l-block-1,
+.l-block-2,
+.l-block-3,
+.l-block-4,
+.l-block-5,
+.l-block-6 {
+	background-color: white;
+	border-radius: 10px;
 }
 
-.pedagogisch-6 {
-	/*TODO*/
-	/* background-image: url("./../images/pink_paper_background.png"); */
-	background-color: #f9c3cc;
+.e-block-1,
+.e-block-2,
+.e-block-3,
+.e-block-4,
+.e-block-5,
+.e-block-7,
+.o-block-1,
+.o-block-3,
+.o-block-4,
+.o-block-5,
+.o-block-6,
+.o-block-7,
+.o-block-8,
+.l-block-1,
+.l-block-2,
+.l-block-3,
+.l-block-4,
+.l-block-5,
+.l-block-6 {
+	padding: 3rem;
+	max-width: 100%;
 }
 
-.pedagogisch-pic-1,
-.pedagogisch-pic-2,
-.pedagogisch-pic-3,
-.pedagogisch-pic-4 {
-	/* position: relative;
-	z-index: 1; */
+.educational-6 {
+	background-image: url("./../images/paper_visie_tekst.png");
+	background-repeat: no-repeat;
+	background-size: 280%;
 }
 
-.pedagogisch-1 h2 {
+.educational-1 h2 {
 	margin-left: -10px;
 }
 
-.pedagogisch-pic-1 {
+.educational-pic-1 {
 	width: 80%;
 	padding-left: 20px;
 }
 
-.p-vakje-1 {
+.e-block-1 {
 	margin: -35px 15px 0px 15px;
 }
 
-.pedagogisch-2 h2 {
+.educational-2 h2 {
 	margin-left: 30px;
 }
 
-.pedagogisch-3 h2 {
+.educational-3 h2 {
 	margin-left: 100px;
 }
 
-.pedagogisch-pic-2 {
+.educational-pic-2 {
 	margin-left: -10px;
 	margin-bottom: -100px;
 }
 
-.pedagogisch-4 h2 {
+.educational-4 h2 {
 	margin-left: -15px;
 }
 
-.pedagogisch-5 h2 {
+.educational-5 h2 {
 	margin-left: 200px;
 }
 
-.pedagogisch-6 h2 {
+.educational-6 h2 {
 	margin-left: 30px;
 }
 
-.pedagogisch-pic-3 {
+.educational-pic-3 {
 	display: block;
 	margin: 40px auto;
 }
 
-.pedagogisch-7 h2 {
+.educational-7 h2 {
 	margin-left: 70px;
 }
 
-.pedagogisch-pic-4 {
+.educational-pic-4 {
 	margin: -10px 50px -10px;
 }
 
 /*Oriëntatie op de wereld*/
-.orientatie-1,
-.orientatie-2,
-.orientatie-3,
-.orientatie-4,
-.orientatie-5,
-.orientatie-6,
-.orientatie-7,
-.orientatie-8 {
+.orientation-1,
+.orientation-2,
+.orientation-3,
+.orientation-4,
+.orientation-5,
+.orientation-6,
+.orientation-7,
+.orientation-8 {
 	margin-bottom: 50px;
 }
 
-.orientatie-1 h2,
-.orientatie-2 h2,
-.orientatie-3 h2,
-.orientatie-4 h2,
-.orientatie-5 h2,
-.orientatie-6 h2,
-.orientatie-7 h2,
-.orientatie-8 h2 {
+.orientation-1 h2,
+.orientation-2 h2,
+.orientation-3 h2,
+.orientation-4 h2,
+.orientation-5 h2,
+.orientation-6 h2,
+.orientation-7 h2,
+.orientation-8 h2 {
 	background-color: #c0b6ee;
 }
 
-.o-vakje-1,
-.o-vakje-3,
-.o-vakje-4,
-.o-vakje-5,
-.o-vakje-6,
-.o-vakje-7,
-.o-vakje-8 {
-	background-color: #b6cde4;
-}
-
-.orientatie-1 {
+.orientation-1 {
 	display: inline-flex;
 	flex-direction: column;
 }
 
-.orientatie-1 h2 {
-	/*TODO: ask why not at end?*/
+.orientation-1 h2 {
 	align-self: flex-end;
 }
 
-.orientatie-1 img {
+.orientation-1 img {
 	align-self: flex-end;
 }
 
-.orientatie-2 {
-	/*TODO: background pic instead of color*/
+.orientation-2 {
 	padding: 10px;
-	background-color: #f8d3a9;
+	background-image: url("./../images/paper_visie_tekst2.png");
+	background-repeat: no-repeat;
+	background-size: 520%;
 	display: flex;
 	flex-direction: column;
 }
 
-.orientatie-2 h2,
+.orientation-2 h2,
 img,
 p {
 	align-self: center;
 }
 
-.orientatie-2 img {
+.orientation-2 img {
 	margin-top: -10px;
 }
 
-.orientatie-3 h2 {
+.orientation-3 h2 {
 	margin-left: -10px;
 }
 
-.orientatie-4 {
+.orientation-4 {
 	display: flex;
 	flex-direction: column;
 }
@@ -288,34 +334,34 @@ p {
 	margin-left: -5px;
 }
 
-.orientatie-4 {
+.orientation-4 {
 	align-self: left;
 }
 
-.orientatie-4 img {
+.orientation-4 img {
 	margin-bottom: -35px;
 }
 
-.orientatie-5 {
+.orientation-5 {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
-.orientatie-5 img {
+.orientation-5 img {
 	margin-bottom: -50px;
 }
 
-.orientatie-6 {
+.orientation-6 {
 	display: flex;
 	flex-direction: column;
 }
 
-.orientatie-6 h2 {
+.orientation-6 h2 {
 	margin-left: -5px;
 }
 
-.orientatie-7 {
+.orientation-7 {
 	display: flex;
 	flex-direction: column;
 }
@@ -324,12 +370,12 @@ p {
 	align-self: center;
 }
 
-.orientatie-7 img {
+.orientation-7 img {
 	align-self: left;
 	margin-bottom: -50px;
 }
 
-.orientatie-8 {
+.orientation-8 {
 	display: flex;
 	flex-direction: column;
 }
@@ -341,45 +387,36 @@ p {
 
 /*Zin in leren! Zin in leven!*/
 
-.lerlev-1,
-.lerlev-2,
-.lerlev-3,
-.lerlev-4,
-.lerlev-5,
-.lerlev-6 {
+.learn-1,
+.learn-2,
+.learn-3,
+.learn-4,
+.learn-5,
+.learn-6 {
 	margin-bottom: 50px;
 	display: flex;
 	flex-direction: column;
 }
 
-.lerlev-1 h2,
-.lerlev-2 h2,
-.lerlev-3 h2,
-.lerlev-4 h2,
-.lerlev-5 h2,
-.lerlev-6 h2 {
+.learn-1 h2,
+.learn-2 h2,
+.learn-3 h2,
+.learn-4 h2,
+.learn-5 h2,
+.learn-6 h2 {
 	background-color: #eeb6db;
 }
 
-.l-vakje-1,
-.l-vakje-2,
-.l-vakje-3,
-.l-vakje-4,
-.l-vakje-5,
-.l-vakje-6 {
-	background-color: #b6cde4;
-}
-
 .l-title-1,
-.lerlev-1 img {
+.learn-1 img {
 	align-self: flex-start;
 }
 
-.l-vakje-1 {
+.l-block-1 {
 	margin-left: 5px;
 }
 
-.lerlev-1 img {
+.learn-1 img {
 	margin-bottom: -80px;
 }
 
@@ -392,16 +429,16 @@ p {
 	margin-right: -5px;
 }
 
-.lerlev-3 img {
+.learn-3 img {
 	align-self: flex-end;
 }
 
-.lerlev-4 img,
+.learn-4 img,
 .l-title-4 {
 	align-self: center;
 }
 
-.lerlev-5 img {
+.learn-5 img {
 	margin-bottom: -50px;
 	align-self: flex-end;
 }
@@ -411,23 +448,29 @@ p {
 	margin-left: -5px;
 }
 
-.lerlev-6 img {
+.learn-6 img {
 	margin-bottom: -60px;
 	align-self: flex-end;
 }
 
-/*Computer version*/
+/*Computer /tablet version*/
 @media (min-width: 480px) {
+	header {
+		background-image: url("./../images/ripped_paper_up.png");
+		background-repeat: no-repeat;
+		background-size: 180%;
+	}
+
 	/*filter*/
 	.button-1,
 	.button-2,
-	.button-3 {
+	.button-3,
+	.button-4 {
 		font-size: 20px;
 	}
-
 	/*general*/
 	h1 {
-		font-size: 45px;
+		font-size: 28px;
 	}
 
 	.container {
@@ -435,99 +478,104 @@ p {
 	}
 
 	h2 {
-		font-size: 25px;
+		font-size: 21px;
+	}
+
+	h3 {
+		font-size: 18px;
 	}
 
 	.container p {
-		font-size: 20px;
-		line-height: 35px;
+		font-size: 16px;
+		line-height: 1.5;
+	}
+
+	.e-block-1,
+	.e-block-2,
+	.e-block-3,
+	.e-block-4,
+	.e-block-5,
+	.e-block-7,
+	.o-block-1,
+	.o-block-3,
+	.o-block-4,
+	.o-block-5,
+	.o-block-6,
+	.o-block-7,
+	.o-block-8,
+	.l-block-1,
+	.l-block-2,
+	.l-block-3,
+	.l-block-4,
+	.l-block-5,
+	.l-block-6 {
+		max-width: 50%;
 	}
 
 	/*Pedagogisch Project*/
-	.pedagogisch-1,
-	.pedagogisch-2,
-	.pedagogisch-3,
-	.pedagogisch-4,
-	.pedagogisch-5,
-	.pedagogisch-6,
-	.pedagogisch-7 {
+	.educational-1,
+	.educational-2,
+	.educational-3,
+	.educational-4,
+	.educational-5,
+	.educational-6,
+	.educational-7 {
 		margin-bottom: 150px;
 	}
 
-	.pedagogisch-1 {
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-	}
-
-	.pedagogisch-1 img {
-		width: 30%;
+	.educational-1 img {
+		width: 60%;
 		margin-top: 10px;
 		padding-left: 20px;
 	}
 
-	.pedagogisch-1 h2 {
+	.educational-1 h2 {
 		align-self: center;
 	}
 
-	.p-vakje-1 {
-		max-width: 800px;
+	.e-block-1 {
+		max-width: 500px;
 	}
 
-	.pedagogisch-2 {
+	.educational-2 {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 	}
 
-	.p-vakje-2 {
+	.e-block-2 {
 		max-width: 1000px;
 	}
 
-	.pedagogisch-3 {
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-		max-width: 1500px;
+	.educational-3 img {
+		width: 60%;
 	}
 
-	.pedagogisch-3 h2 {
-		/* align-self: flex-end; */
-	}
-
-	.pedagogisch-3 img {
-		width: 30%;
-	}
-
-	.p-vakje-3 {
+	.e-block-3 {
 		max-width: 700px;
 	}
 
-	.pedagogisch-4 {
+	.educational-4 {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 	}
 
-	.p-vakje-4 {
+	.e-block-4 {
 		max-width: 1000px;
 	}
 
-	.pedagogisch-5 {
+	.educational-5 {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 	}
 
-	.pedagogisch-5 h2 {
-		/* align-self: flex-start; */
-	}
-
-	.p-vakje-5 {
+	.e-block-5 {
 		max-width: 900px;
 	}
 
-	.pedagogisch-6 {
+	.educational-6 {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -535,113 +583,113 @@ p {
 		padding-bottom: 50px;
 	}
 
-	.pedagogisch-6 img {
-		width: 50%;
+	.educational-6 img {
+		width: 60%;
+		margin-top: 10px;
+		padding-left: 20px;
 	}
 
-	.pedagogisch-6 p {
+	.educational-6 p {
 		max-width: 1100px;
 	}
 
-	.pedagogisch-7 {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
+	.educational-7 img {
+		width: 80%;
+		margin-top: 10px;
+		padding-left: 20px;
 	}
 
-	.pedagogisch-7 img {
-		width: 50%;
-	}
-
-	.p-vakje-7 {
+	.e-block-7 {
 		max-width: 900px;
 	}
 
 	/*Oriëntatie op de wereld*/
-	.orientatie-1,
-	.orientatie-2,
-	.orientatie-3,
-	.orientatie-4,
-	.orientatie-5,
-	.orientatie-6,
-	.orientatie-7,
-	.orientatie-8 {
+	.orientation-1,
+	.orientation-2,
+	.orientation-3,
+	.orientation-4,
+	.orientation-5,
+	.orientation-6,
+	.orientation-7,
+	.orientation-8 {
 		margin-bottom: 150px;
-	}
-
-	.orientatie-1,
-	.orientatie-2,
-	.orientatie-3,
-	.orientatie-4,
-	.orientatie-5,
-	.orientatie-6,
-	.orientatie-7,
-	.orientatie-8 {
 		display: flex;
 		flex-direction: column;
 	}
 
-	.orientatie-1 img {
-		width: 40%;
+	.orientation-1 img {
+		align-self: flex-end;
+		width: 70%;
+		margin-top: 10px;
+		padding-left: 20px;
 	}
 
-	.o-vakje-1 {
+	.o-block-1 {
 		max-width: 800px;
 		align-self: flex-end;
 	}
 
-	.orientatie-2 img {
-		margin-top: -15px;
-		margin-bottom: 20px;
-		width: 50%;
+	.orientation-2 img {
+		width: 70%;
+		margin-top: 10px;
+		padding-left: 20px;
 	}
 
 	.o-title-2 {
 		align-self: center;
 	}
 
-	.o-vakje-2 {
+	.o-block-2 {
 		align-self: center;
 		max-width: 1000px;
 	}
 
 	.o-title-3,
-	.o-vakje-3 {
+	.o-block-3 {
 		align-self: flex-start;
 	}
 
-	.o-vakje-3 {
+	.o-block-3 {
 		max-width: 900px;
 	}
 
-	.orientatie-4 img {
-		margin-bottom: -100px;
-		width: 40%;
-	}
-
-	.o-vakje-4 {
+	.o-block-4 {
 		max-width: 800px;
 	}
 
 	.o-title-4,
-	.o-vakje-4,
-	.orientatie-4 img {
+	.o-block-4,
+	.orientation-4 img {
 		align-self: flex-start;
 	}
 
-	.orientatie-5 img {
-		width: 40%;
+	.orientation-4 img {
+		width: 70%;
+		margin-top: 10px;
+		padding-left: 20px;
 	}
 
-	.o-vakje-5 {
+	.orientation-5 img {
+		width: 35%;
+		margin-top: 10px;
+		padding-left: 20px;
+	}
+
+	.o-block-5 {
 		max-width: 900px;
 	}
 
-	.o-vakje-6 {
+	.o-block-6 {
 		max-width: 1000px;
 	}
 
-	.o-vakje-7 {
+	.orientation-6 img {
+		width: 70%;
+		margin-top: 10px;
+		padding-left: 20px;
+	}
+
+	.o-block-7 {
 		max-width: 900px;
 		align-self: center;
 	}
@@ -650,39 +698,48 @@ p {
 		align-self: center;
 	}
 
-	.orientatie-7 img {
-		width: 30%;
+	.orientation-7 img {
+		width: 70%;
 	}
 
-	.o-vakje-8 {
+	.o-block-8 {
 		max-width: 800px;
 		align-self: flex-end;
 	}
 
 	/*Zin in leren! Zin in leven!*/
-	.lerlev-1,
-	.lerlev-2,
-	.lerlev-3,
-	.lerlev-4,
-	.lerlev-5,
-	.lerlev-6 {
+	.learn-1,
+	.learn-2,
+	.learn-3,
+	.learn-4,
+	.learn-5,
+	.learn-6 {
 		margin-bottom: 150px;
 	}
 
-	.lerlev-1 img {
-		width: 30%;
-		margin-bottom: -150px;
+	.learn-1 img {
+		width: 80%;
+		margin-top: 10px;
+		padding-left: 20px;
 	}
 
-	.l-vakje-1 {
-		max-width: 1000px;
+
+	.l-block-1 {
+		max-width: 700px;
+	}
+
+	.learn-7 img {
+		width: 70%;
+		align-self: center;
+		margin-top: 10px;
+		padding-left: 20px;
 	}
 
 	.l-title-2,
-	.l-vakje-2 {
+	.l-block-2 {
 		align-self: center;
 	}
-	.l-vakje-2 {
+	.l-block-2 {
 		max-width: 1200px;
 	}
 
@@ -690,55 +747,144 @@ p {
 		align-self: center;
 	}
 
-	.lerlev-3 img {
-		width: 40%;
+	.learn-3 img {
+		width: 70%;
 		align-self: center;
+		margin-top: 10px;
+		padding-left: 20px;
 	}
 
-	.l-vakje-3 {
+	.l-block-3 {
 		align-self: center;
 		max-width: 900px;
 		margin-top: -100px;
 	}
 
 	.l-title-4,
-	.l-vakje-4,
-	.lerlev-4 img {
+	.l-block-4,
+	.learn-4 img {
 		align-self: flex-start;
 	}
 
-	.l-vakje-4 {
+	.l-block-4 {
 		max-width: 1000px;
 	}
 
-	.lerlev-4 img {
-		width: 35%;
+	.learn-4 img {
+		width: 70%;
+		margin-top: 10px;
+		padding-left: 20px;
 	}
 
-	.lerlev-5 img {
-		width: 40%;
+	.learn-5 img {
+		width: 70%;
+		margin-top: 10px;
+		padding-left: 20px;
 	}
 
-	.l-vakje-5 {
+	.l-block-5 {
 		max-width: 900px;
 	}
 
-	.l-vakje-5,
+	.l-block-5,
 	.l-title-5 {
 		align-self: flex-end;
 	}
 
+	.learn-6 img {
+		width: 70%;
+		margin-top: 10px;
+		padding-left: 20px;
+	}
+
 	.l-title-6,
-	.l-vakje-6,
-	.lerlev-6 img {
+	.l-block-6,
+	.learn-6 img {
 		align-self: center;
 	}
 
-	.l-vakje-6 {
+	.l-block-6 {
 		max-width: 800px;
 	}
+}
 
-	.lerlev-6 img {
-		width: 40%;
+@media screen and (min-width: 1024px) {
+	/*Pedagogisch Project*/
+	.educational-1 {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		background-image: url("../images/Blue_butterfly.png");
+		background-repeat: no-repeat;
+		background-position: right;
+	}
+
+	.educational-3 {
+		background-image: url("../images/rose.png");
+		background-repeat: no-repeat;
+		background-position: right;
+		background-size: 20%;
+	}
+
+	.educational-7 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background-image: url("../images/Cloud.png");
+		background-repeat: no-repeat;
+		background-position: left;
+		background-size: 20%;
+	}
+
+	/*Oriëntatie op de wereld*/
+	.orientation-1 {
+		background-image: url("../images/flower_simple.png");
+		background-repeat: no-repeat;
+		background-position: left;
+		background-size: 25%;
+	}
+
+	.orientation-3 {
+		margin-bottom: 150px;
+		background-image: url("../images/bus_drawing.png");
+		background-repeat: no-repeat;
+		background-position: right;
+		background-size: 40%;
+	}
+
+	.orientation-5 {
+		background-image: url("../images/tree_drawing.png");
+		background-repeat: no-repeat;
+		background-position: left;
+		background-size: 20%;
+	}
+
+	.orientation-8 {
+		background-image: url("../images/flower-drowing.png");
+		background-repeat: no-repeat;
+		background-position: left;
+		background-size: 25%;
+	}
+
+	/*Zin in leren! Zin in levent*/
+	.learn-1 {
+		background-image: url("../images/lil_kids.png");
+		background-repeat: no-repeat;
+		background-position: right;
+		background-size: 20%;
+	}
+
+	.learn-3 {
+		background-image: url("../images/holding_hands.png");
+		background-repeat: no-repeat;
+		background-position: left;
+		background-size: 20%;
+	}
+
+	.learn-6 {
+		background-image: url("../images/plant_pot.png");
+		background-repeat: no-repeat;
+		background-position: right;
+		background-size: 20%;
 	}
 }

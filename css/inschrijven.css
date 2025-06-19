@@ -140,13 +140,6 @@ ol {
 
 /*Computer /tablet version*/
 @media (min-width: 480px) {
-	.main-block {
-		margin-bottom: 200px;
-		background-image: url("./../images/ladybug_and_bee.png");
-		background-repeat: no-repeat;
-		background-position: 120% 10%;
-	}
-
 	h1 {
 		font-size: 28px;
 	}

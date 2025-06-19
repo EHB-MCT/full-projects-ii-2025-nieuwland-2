@@ -45,7 +45,7 @@ function filterContent() {
 					<div class="s-rectangle">
 					<p>Brede Scholen zijn scholen die alles inzetten op maximale ontwikkelingskansen voor kinderen en jongeren. Hoe ze dat voor elkaar krijgen? Door samen te werken met de buurt, ouders en organisaties – een écht geïntegreerde aanpak dus. </p>
 					</div>
-					<img src="./../images/rose.png" class="bpic">
+					<img src="./images/rose.png" class="bpic">
 				</div>
 
 				<div class="bschool-2">
@@ -85,7 +85,7 @@ function filterContent() {
 					</div>
 				</div>
 			</div>
-			<img src="./../images/tree_drawing.png" class="bpic2">
+			<img src="./images/tree_drawing.png" class="bpic2">
 		</div>
 	</div>`;
 	});
@@ -103,7 +103,7 @@ function filterContent() {
 					</div>
 				</div>
 
-				<img src="./../images/hoofdstedelijk_pic.png" class="pic">
+				<img src="./images/hoofdstedelijk_pic.png" class="pic">
 
 				<div class="item-2">
 					<div class="h-rectangle">
@@ -115,7 +115,7 @@ function filterContent() {
 			<div class="h-button">
 					<a href="https://www.hoofdstedelijkeacademie.be/" target="_blank">Ontdek hier meer</a>
 			</div>
-			<div><img src="./../images/muchroom.png" class="hpic"></div>
+			<div><img src="./images/muchroom.png" class="hpic"></div>
 		</div>
 	</div>`;
 	});
@@ -128,12 +128,12 @@ function filterContent() {
 
 	<div class="container">
 		<div>
-			<img src="./../images/Blue_butterfly.png" class="bupic">
+			<img src="./images/Blue_butterfly.png" class="bupic">
 		</div>
 		<div class="bucontainer">
 			<div class="bu-row-1">
 				<div class="buiteling-1">
-					<img src="./../images/ons_brussel.png" class="bu-pic-1">
+					<img src="./images/ons_brussel.png" class="bu-pic-1">
 					<div class="bu-h3">
 						<h3>Ons Brussel</h3>
 					</div>
@@ -141,7 +141,7 @@ function filterContent() {
 				</div>
 
 				<div class="buiteling-2">
-					<img src="./../images/allerlei_ateliers.png" class="bu-pic-2">
+					<img src="./images/allerlei_ateliers.png" class="bu-pic-2">
 					<div class="bu-h3">
 						<h3>Allerlei Ateliers</h3>
 					</div>
@@ -151,7 +151,7 @@ function filterContent() {
 
 			<div class="bu-row-2">
 				<div class="buiteling-3">
-					<img src="./../images/vrij_spel.png" class="bu-pic-3">
+					<img src="./images/vrij_spel.png" class="bu-pic-3">
 					<div class="bu-h3">
 						<h3>Vrij Spel</h3>
 					</div>
@@ -159,7 +159,7 @@ function filterContent() {
 				</div>
 
 				<div class="buiteling-4">
-					<img src="./../images/samen_leren.png" class="bu-pic-4">
+					<img src="./images/samen_leren.png" class="bu-pic-4">
 					<div class="bu-h3">
 						<h3>Samen Leren</h3>
 					</div>
@@ -179,7 +179,7 @@ function filterContent() {
 		document.getElementById("content").innerHTML = `
 	<div class="main-filmcontainer">
 		<div class="filmcontainer">
-			<img src="./../images/Icon_film.png" class="film-icon">
+			<img src="./images/Icon_film.png" class="film-icon">
 				<p>De OFFICIAL Filmclub toont kwaliteitsfilm op donderdagavond voor kinderen van het derde leerjaar tot het zesde leerjaar</p>
 				<p>...met een hart voor cinema.</p>
 				<p>Inschrijven kan bij meester Brian.</p>

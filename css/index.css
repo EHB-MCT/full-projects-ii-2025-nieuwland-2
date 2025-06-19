@@ -4,7 +4,7 @@
 
 body {
 	margin: 0;
-	background-image: url("/images/start_background.png");
+	background-image: url("../images/start_background.png");
 	background-repeat: no-repeat;
 	background-size: 100%;
 	background-color: #ebe2de;

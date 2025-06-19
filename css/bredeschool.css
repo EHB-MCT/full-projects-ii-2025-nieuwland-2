@@ -322,25 +322,12 @@ h3 {
 		margin: 80px 50px 80px 50px;
 	}
 
-	.bschool-container {
-		background-image: url("../images/butterfly.png");
-		background-repeat: no-repeat;
-		background-size: 30%;
-		background-position: left;
-	}
-
 	.bpic {
-		display: block;
-		width: 30%;
-		margin-top: -300px;
-		margin-left: 800px;
+		display: none;
 	}
 
 	.bpic2 {
-		display: block;
-		width: 35%;
-		margin-top: -300px;
-		margin-left: 1000px;
+		display: none;
 	}
 
 	.bschool-container,
@@ -349,42 +336,12 @@ h3 {
 		max-width: 1500px;
 	}
 
-	.hcontainer {
-		background-image: url("../images/sun.png");
-		background-repeat: no-repeat;
-		background-position: left;
-	}
-
-	.bucontainer {
-		background-image: url("../images/branch.png");
-		background-repeat: no-repeat;
-		background-position: -10% 150%;
-	}
-
-	.main-filmcontainer{
-		background-image: url("../images/house.png");
-		background-repeat: no-repeat;
-		background-position: 0% 0%;
-	}
-
-	.filmcontainer {
-		background-image: url("../images/sun-2.png");
-		background-repeat: no-repeat;
-		background-position: 100% 100%;
-	}
-
 	.hpic {
-		display: block;
-		width: 30%;
-		margin-top: -200px;
-		margin-left: 1000px;
+		display: none;
 	}
 
 	.bupic {
-		display: block;
-		width: 20%;
-		margin-top: -400px;
-		margin-left: 1000px;
+		display: none;
 	}
 
 	/*Wat*/
@@ -473,7 +430,7 @@ h3 {
 	.bu-pic-2,
 	.bu-pic-3,
 	.bu-pic-4 {
-		width: 60%;
+		width: 110%;
 		position: relative;
 		z-index: 1;
 		margin-bottom: -50px;
@@ -515,5 +472,76 @@ h3 {
 	.film-button {
 		margin-top: -20px;
 		font-size: 22px;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.bschool-container {
+		background-image: url("../images/butterfly.png");
+		background-repeat: no-repeat;
+		background-size: 30%;
+		background-position: left;
+	}
+
+	.bpic {
+		display: block;
+		position: relative;
+		z-index: -1;
+		width: 30%;
+		margin-top: -300px;
+		margin-left: 800px;
+	}
+
+	.bpic2 {
+		display: block;
+		position: relative;
+		z-index: -1;
+		width: 35%;
+		margin-top: -300px;
+		margin-left: 1000px;
+	}
+
+	/*Hoofdstedelijke academie*/
+
+	.hcontainer {
+		background-image: url("../images/sun.png");
+		background-repeat: no-repeat;
+		background-position: left;
+	}
+
+	.hpic {
+		display: block;
+		width: 30%;
+		margin-top: -200px;
+		margin-left: 1000px;
+	}
+
+	/*Buiteling*/
+
+	.bucontainer {
+		background-image: url("../images/branch.png");
+		background-repeat: no-repeat;
+		background-position: -10% 150%;
+	}
+
+	.bupic {
+		display: block;
+		width: 20%;
+		margin-top: -400px;
+		margin-left: 1000px;
+	}
+
+	/*Filmclub*/
+
+	.main-filmcontainer {
+		background-image: url("../images/house.png");
+		background-repeat: no-repeat;
+		background-position: 0% 0%;
+	}
+
+	.filmcontainer {
+		background-image: url("../images/sun-2.png");
+		background-repeat: no-repeat;
+		background-position: 100% 100%;
 	}
 }

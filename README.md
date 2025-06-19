@@ -52,5 +52,5 @@ Inschrijvingsknop plaatsing probleem opgelost dankzij ChatGPT (OpenAI)
 Code gebaseerd op de tutorial "Insert a Google Map to Your Website" door Geek Tutorials.
 URL: https://www.youtube.com/watch?v=KIC0OK9nKXY (Geraadpleegd op 23 juni 2025)
 
-Home page -> staggered animation in javascript.
-https://stackoverflow.com/questions/33895884/staggered-animation-using-settimeout-is-choppy
+code voor het staggeren van de beelden aan de hand van een combinatie van js en css. (stack overflow)
+10/06/2025: https://stackoverflow.com/questions/33895884/staggered-animation-using-settimeout-is-choppy
